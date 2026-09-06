@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to replicate the Claude Code attack with artef'
 authors: [ian]
 date: 2025-11-17

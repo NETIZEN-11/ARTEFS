@@ -1,4 +1,4 @@
-﻿# config-pdf-variables (PDF Variables)
+# config-pdf-variables (PDF Variables)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { shouldAttemptRemoteBlobUpload, uploadBlobRemote } from '../../src/blobs/remoteUpload';
 import { getEnvBool } from '../../src/envars';
 import { isLoggedIntoCloud } from '../../src/globalConfig/accounts';

@@ -1,4 +1,4 @@
-﻿# openai-video (OpenAI Sora Video Generation)
+# openai-video (OpenAI Sora Video Generation)
 
 This example demonstrates how to use OpenAI's Sora video generation models with artef.
 

@@ -1,4 +1,4 @@
-﻿# provider-http/tls (HTTP Provider with TLS Certificates)
+# provider-http/tls (HTTP Provider with TLS Certificates)
 
 You can run this example with:
 

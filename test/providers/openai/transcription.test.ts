@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 
 import { afterAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { fetchWithCache } from '../../../src/cache';

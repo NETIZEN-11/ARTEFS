@@ -1,4 +1,4 @@
-﻿# openai-responses (OpenAI Responses API Examples)
+# openai-responses (OpenAI Responses API Examples)
 
 This directory contains examples for testing OpenAI's Responses API with artef.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Preventing Bias & Toxicity in Generative AI'
 sidebar_label: Preventing bias & toxicity
 description: 'Biased AI outputs can destroy trust and violate regulations. Discover practical methods to detect, measure, and prevent bias in your generative AI applications.'

@@ -1,4 +1,4 @@
-﻿# CLI Commands
+# CLI Commands
 
 Commander.js-based CLI commands registered in `src/main.ts`.
 

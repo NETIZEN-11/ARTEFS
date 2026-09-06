@@ -1,4 +1,4 @@
-﻿# ARTEF: Agent Red-Teaming & Evaluation Framework
+# ARTEF: Agent Red-Teaming & Evaluation Framework
 
 <p align="center">
   <a href="https://npmjs.com/package/artef"><img src="https://img.shields.io/npm/v/artef" alt="npm"></a>

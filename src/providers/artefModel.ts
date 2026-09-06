@@ -1,4 +1,4 @@
-﻿import { cloudConfig } from '../globalConfig/cloud';
+import { cloudConfig } from '../globalConfig/cloud';
 import logger from '../logger';
 import { fetchWithProviderProxy } from './fetch';
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Docker Model Runner
 sidebar_label: Docker Model Runner
 description: Run and evaluate AI models locally with Docker Model Runner for containerized testing, deployment, and benchmarking

@@ -1,4 +1,4 @@
-﻿import { OpenAiChatCompletionProvider } from '../openai/chat';
+import { OpenAiChatCompletionProvider } from '../openai/chat';
 import { FireworksEmbeddingProvider } from './embedding';
 import {
   buildFireworksProviderConfig,

@@ -1,4 +1,4 @@
-﻿import { parse as parseCsv } from 'csv-parse/sync';
+import { parse as parseCsv } from 'csv-parse/sync';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { ResultFailureReason } from '../../../src/types/index';
 import {

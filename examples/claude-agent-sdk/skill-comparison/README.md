@@ -1,4 +1,4 @@
-﻿# claude-agent-sdk/skill-comparison (Claude Skill Comparison)
+# claude-agent-sdk/skill-comparison (Claude Skill Comparison)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿# openai-azure-comparison (OpenAI vs Azure OpenAI Comparison)
+# openai-azure-comparison (OpenAI vs Azure OpenAI Comparison)
 
 You can run this example with:
 

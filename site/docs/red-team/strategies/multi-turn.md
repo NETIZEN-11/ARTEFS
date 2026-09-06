@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Multi-turn Jailbreaks
 title: Multi-turn Jailbreaks Strategy
 description: Execute multi-turn attack sequences that gradually escalate harmful content to bypass conversation-level safety mechanisms

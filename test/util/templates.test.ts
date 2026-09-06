@@ -1,4 +1,4 @@
-﻿import nunjucks from 'nunjucks';
+import nunjucks from 'nunjucks';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import cliState from '../../src/cliState';
 import {

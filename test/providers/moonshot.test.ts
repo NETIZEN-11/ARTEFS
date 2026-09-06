@@ -1,4 +1,4 @@
-﻿import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { fetchWithCache } from '../../src/cache';
 import { calculateMoonshotCost, createMoonshotProvider } from '../../src/providers/moonshot';
 import { mockProcessEnv } from '../util/utils';

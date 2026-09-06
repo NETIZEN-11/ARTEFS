@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Transformers.js
 description: Run local LLM inference with Transformers.js for embeddings and text generation without external APIs
 ---

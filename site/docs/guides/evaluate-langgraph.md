@@ -1,4 +1,4 @@
-﻿---
+---
 title: Evaluate LangGraph
 sidebar_label: Evaluate LangGraph
 description: Hands-on tutorial (July 2025) on evaluating and red-teaming LangGraph agents with artef—includes setup, YAML tests, and security scans.

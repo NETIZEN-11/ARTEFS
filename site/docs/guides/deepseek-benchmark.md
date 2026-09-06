@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: DeepSeek Benchmark
 description: Compare DeepSeek V3.2 vs GPT-5 vs Llama 4 Maverick performance with custom benchmarks to evaluate code tasks and choose the optimal model for your needs
 ---

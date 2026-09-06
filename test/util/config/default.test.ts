@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { configCache, loadDefaultConfig } from '../../../src/util/config/default';

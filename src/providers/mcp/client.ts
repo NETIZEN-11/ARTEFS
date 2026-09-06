@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import cliState from '../../cliState';
 import { getEnvBool, getEnvInt } from '../../envars';

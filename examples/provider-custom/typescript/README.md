@@ -1,4 +1,4 @@
-﻿# provider-custom/typescript (Custom Provider Typescript)
+# provider-custom/typescript (Custom Provider Typescript)
 
 You can run this example with:
 

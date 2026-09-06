@@ -1,4 +1,4 @@
-﻿# integration-vercel (Vercel)
+# integration-vercel (Vercel)
 
 Examples for using artef with Vercel AI services.
 

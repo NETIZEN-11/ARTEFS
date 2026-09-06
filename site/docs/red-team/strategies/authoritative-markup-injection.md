@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Authoritative Markup Injection
 title: Authoritative Markup Injection Strategy
 description: Test LLM vulnerability to authoritative formatting by embedding prompts in structured markup that exploits trust in formatted content

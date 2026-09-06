@@ -1,4 +1,4 @@
-﻿# openai-codex-sdk/skill-comparison (Codex Skill Comparison)
+# openai-codex-sdk/skill-comparison (Codex Skill Comparison)
 
 You can run this example with:
 

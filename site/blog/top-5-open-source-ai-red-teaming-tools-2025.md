@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Top Open Source AI Red-Teaming and Fuzzing Tools in 2025'
 description: 'Compare the top open source AI red teaming tools in 2025. See features, use cases, and real differences across artef, PyRIT, Garak, FuzzyAI, and promptmap2.'
 image: /img/blog/top-5-open-source-ai-red-teaming-tools-2025.jpg
@@ -256,7 +256,7 @@ _Links: [GitHub](https://github.com/utkusen/promptmap), [Blog Post](https://utku
 
 | Tool           | Focus Area                | Attack Coverage                                 | Multi-turn        | Reports & Export            | CI Support          | Maintenance | License    |
 | -------------- | ------------------------- | ----------------------------------------------- | ----------------- | --------------------------- | ------------------- | ----------- | ---------- |
-| **artef**  | Red-teaming plus evals    | Jailbreaks, injection, policy violations, MCP   | ✅ Via plugins    | HTML, policy-mapped reports | GitHub Actions, CLI | Active      | MIT/Apache |
+| **artef**      | Red-teaming plus evals    | Jailbreaks, injection, policy violations, MCP   | ✅ Via plugins    | HTML, policy-mapped reports | GitHub Actions, CLI | Active      | MIT/Apache |
 | **PyRIT**      | Orchestration and scoring | Custom scenarios, multi-turn chains             | ✅ Built-in       | JSON logs, programmatic     | Scripts, notebooks  | Active      | MIT        |
 | **Garak**      | Probe scanning            | Jailbreaks, injection, toxicity, hallucinations | ✅ Conversational | HTML with z-scores, AVID    | CLI                 | Active      | Apache 2.0 |
 | **FuzzyAI**    | Fuzzing                   | Mutation, generation-based attacks              | ✅ Multi-strategy | CLI, experimental web UI    | CLI                 | Active      | Apache 2.0 |

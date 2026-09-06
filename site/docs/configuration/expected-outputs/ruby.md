@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 52
 sidebar_label: Ruby
 description: Create advanced Ruby validation scripts with complex logic, external APIs, and custom libraries for sophisticated output grading

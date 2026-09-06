@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'The artef MCP Proxy: Enterprise MCP Security'
 description: 'Learn about the security risks introduced by MCP servers and how to mitigate them using the artef MCP Proxy, an enterprise solution for MCP security.'
 authors: [steve]

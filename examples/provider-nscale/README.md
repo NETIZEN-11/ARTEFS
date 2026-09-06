@@ -1,4 +1,4 @@
-﻿# provider-nscale (Nscale Example (Cost-Effective AI Inference))
+# provider-nscale (Nscale Example (Cost-Effective AI Inference))
 
 This example demonstrates how to use the Nscale provider with artef to evaluate Nscale Serverless Inference API models, which offer cost-effective, high-performance AI inference with zero rate limits.
 

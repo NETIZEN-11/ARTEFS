@@ -1,4 +1,4 @@
-﻿import { SpanStatusCode, trace } from '@opentelemetry/api';
+import { SpanStatusCode, trace } from '@opentelemetry/api';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { getCache, isCacheEnabled } from '../../../src/cache';
 import logger from '../../../src/logger';

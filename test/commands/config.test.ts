@@ -1,4 +1,4 @@
-﻿import confirm from '@inquirer/confirm';
+import confirm from '@inquirer/confirm';
 import { Command } from 'commander';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { configCommand } from '../../src/commands/config';

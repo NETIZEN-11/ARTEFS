@@ -1,4 +1,4 @@
-﻿---
+---
 title: Best Practices for Configuring AI Red Teaming
 description: Improve red team success by enriching context, combining strategies, enabling multi-turn attacks and calibrating graders
 sidebar_label: Best Practices
@@ -75,9 +75,9 @@ Let's say you're building an e-commerce application. An example intent would be 
 
 Put on your thinking cap and try to make these _as specific as possible_ to your application.
 
-| Plugin                                                    | Purpose                                                                             |
-| --------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Intent (Custom Prompts)](/docs/red-team/plugins/intent/) | Supply known "danger phrases" to test. Great for compliance checklists              |
+| Plugin                                                    | Purpose                                                                         |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [Intent (Custom Prompts)](/docs/red-team/plugins/intent/) | Supply known "danger phrases" to test. Great for compliance checklists          |
 | [Policy](/docs/red-team/plugins/policy/)                  | Encode organization‑specific rules; artef crafts attacks that try to break them |
 
 Declare them under [`plugins:`](/docs/red-team/plugins/) and pair with your high‑ASR strategies so the artef attacker can mutate your seed inputs or policy text into sophisticated exploits.

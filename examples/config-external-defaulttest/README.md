@@ -1,4 +1,4 @@
-﻿# config-external-defaulttest (External Default Test Configuration)
+# config-external-defaulttest (External Default Test Configuration)
 
 This example demonstrates how to use the `file://` syntax to load `defaultTest` configuration from an external file.
 

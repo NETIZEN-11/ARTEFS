@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Run Command Registration
  *
  * Registers the 'run' subcommand with Commander.

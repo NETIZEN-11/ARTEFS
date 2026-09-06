@@ -1,4 +1,4 @@
-﻿import { type ChildProcess, spawn } from 'child_process';
+import { type ChildProcess, spawn } from 'child_process';
 import { writeFileSync } from 'fs';
 
 import { Command } from 'commander';

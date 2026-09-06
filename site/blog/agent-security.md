@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Understanding AI Agent Security'
 description: 'AI agents are powerful but vulnerable. Discover the biggest security risks and how to protect your agentic systems from hijacking, excessive access, and multi-turn attacks.'
 image: /img/blog/agent-security/panda_tools.png

@@ -1,4 +1,4 @@
-﻿# amazon-bedrock/agents (AWS Bedrock Agents Example)
+# amazon-bedrock/agents (AWS Bedrock Agents Example)
 
 This example demonstrates how to use AWS Bedrock Agents with artef to test and evaluate deployed AI agents, including both single-agent and multi-agent scenarios.
 

@@ -1,4 +1,4 @@
-﻿import { SpanKind, SpanStatusCode } from '@opentelemetry/api';
+import { SpanKind, SpanStatusCode } from '@opentelemetry/api';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { artefAttributes } from '../../src/tracing/genaiTracer';
 import { TargetAttributes, withTargetSpan } from '../../src/tracing/targetTracer';

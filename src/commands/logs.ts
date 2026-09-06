@@ -1,4 +1,4 @@
-﻿import fsSync from 'fs';
+import fsSync from 'fs';
 import fs from 'fs/promises';
 import path from 'path';
 

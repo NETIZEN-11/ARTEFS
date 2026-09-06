@@ -1,4 +1,4 @@
-﻿import { OpenAiChatCompletionProvider } from '../openai/chat';
+import { OpenAiChatCompletionProvider } from '../openai/chat';
 import {
   getBedrockMantleOrigin,
   isBedrockGrokModel,

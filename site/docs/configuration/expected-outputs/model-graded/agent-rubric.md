@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Agent Rubric
 description: 'Use coding-agent graders to verify outputs against files, tools, and other runtime evidence'
 ---

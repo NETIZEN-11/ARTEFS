@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Guardrails
 sidebar_position: 55
 title: Adaptive Guardrails in artef Enterprise

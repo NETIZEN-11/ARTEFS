@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rate Limits
 description: Configure automatic rate limit handling with exponential backoff, header-aware delays, and adaptive concurrency for LLM provider APIs.
 sidebar_label: Rate Limits
@@ -112,16 +112,16 @@ providers:
 
 Environment variables for the scheduler:
 
-| Environment Variable                   | Description                                | Default  |
-| -------------------------------------- | ------------------------------------------ | -------- |
+| Environment Variable               | Description                                | Default  |
+| ---------------------------------- | ------------------------------------------ | -------- |
 | `artef_DISABLE_ADAPTIVE_SCHEDULER` | Disable adaptive concurrency (use fixed)   | false    |
 | `artef_MIN_CONCURRENCY`            | Minimum concurrency (floor for adaptive)   | 1        |
 | `artef_SCHEDULER_QUEUE_TIMEOUT_MS` | Timeout for queued requests (0 to disable) | 300000ms |
 
 Environment variables for HTTP-level retry:
 
-| Environment Variable           | Description                       | Default |
-| ------------------------------ | --------------------------------- | ------- |
+| Environment Variable       | Description                       | Default |
+| -------------------------- | --------------------------------- | ------- |
 | `artef_REQUEST_BACKOFF_MS` | Base delay for HTTP retry backoff | 5000ms  |
 | `artef_RETRY_5XX`          | Retry on HTTP 500 errors          | false   |
 

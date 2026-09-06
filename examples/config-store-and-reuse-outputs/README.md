@@ -1,4 +1,4 @@
-﻿# config-store-and-reuse-outputs (Store And Reuse Outputs)
+# config-store-and-reuse-outputs (Store And Reuse Outputs)
 
 You can run this example with:
 

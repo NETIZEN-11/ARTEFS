@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Development CLI entrypoint used by `npm run local`.
  *
  * Keep the local TypeScript execution path aligned with the shipped entrypoint for

@@ -1,4 +1,4 @@
-﻿import logger from '../logger';
+import logger from '../logger';
 import { readGlobalConfig, writeGlobalConfigPartial } from './globalConfig';
 
 export const CLOUD_API_HOST = 'https://api.artef.app';

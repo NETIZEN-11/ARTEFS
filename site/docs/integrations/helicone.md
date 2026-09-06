@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Helicone
 description: Monitor and optimize LLM testing with Helicone integration in artef. Track usage, costs, and latency while managing prompts through an open-source observability platform.
 ---

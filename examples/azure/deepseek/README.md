@@ -1,4 +1,4 @@
-﻿# azure/deepseek (Azure DeepSeek Models)
+# azure/deepseek (Azure DeepSeek Models)
 
 This example demonstrates how to use DeepSeek models on Azure AI Foundry with artef, including the DeepSeek-R1 reasoning model.
 

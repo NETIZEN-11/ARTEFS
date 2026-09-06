@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import logger from '../../logger';
 import { extractJsonObjects } from '../../util/json';
 import { getNunjucksEngine } from '../../util/templates';

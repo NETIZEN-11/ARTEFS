@@ -1,4 +1,4 @@
-﻿import { PostHog } from 'posthog-node';
+import { PostHog } from 'posthog-node';
 import { CONSENT_ENDPOINT, EVENTS_ENDPOINT, R_ENDPOINT, VERSION } from './constants';
 import { POSTHOG_KEY } from './constants/build';
 import { getEnvBool, getEnvString, isCI } from './envars';

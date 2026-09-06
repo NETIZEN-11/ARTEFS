@@ -1,4 +1,4 @@
-﻿# openai-codex-sdk/bedrock (Codex SDK on Amazon Bedrock)
+# openai-codex-sdk/bedrock (Codex SDK on Amazon Bedrock)
 
 Runs OpenAI's Codex coding agent against OpenAI frontier models hosted on **Amazon Bedrock**
 (`openai.gpt-5.6-sol`, `openai.gpt-5.6-terra`, and `openai.gpt-5.6-luna`) instead of the OpenAI Platform.

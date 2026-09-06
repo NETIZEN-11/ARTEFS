@@ -1,4 +1,4 @@
-﻿# integration-opentelemetry/python (Python OpenTelemetry Tracing Example)
+# integration-opentelemetry/python (Python OpenTelemetry Tracing Example)
 
 This example demonstrates how to use OpenTelemetry with Python to trace the internal operations of your LLM providers during artef evaluations. It uses the **protobuf format** for trace export, which is the default and most efficient format for the Python OpenTelemetry SDK.
 
@@ -44,11 +44,11 @@ This example showcases:
 
 ## Files in This Example
 
-| File                   | Description                                        |
-| ---------------------- | -------------------------------------------------- |
+| File               | Description                                        |
+| ------------------ | -------------------------------------------------- |
 | `artefconfig.yaml` | Evaluation config with tracing enabled             |
-| `provider.py`          | Python provider with OpenTelemetry instrumentation |
-| `requirements.txt`     | Python dependencies (OpenTelemetry SDK)            |
+| `provider.py`      | Python provider with OpenTelemetry instrumentation |
+| `requirements.txt` | Python dependencies (OpenTelemetry SDK)            |
 
 ## Protobuf vs JSON
 

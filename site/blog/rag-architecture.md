@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How Do You Secure RAG Applications?'
 description: 'RAG systems add retrieval, authorization, and data-poisoning risks beyond the base model. Learn the failure modes and controls that matter.'
 image: /img/blog/rag-architecture/artef_panda_rag.png

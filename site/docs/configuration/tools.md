@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 7
 title: Tool Calling
 description: Configure tool definitions that work across OpenAI, Anthropic, AWS Bedrock, Google, and other LLM providers

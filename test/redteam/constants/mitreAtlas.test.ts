@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import {
   ALIASED_PLUGIN_MAPPINGS,
   ALIASED_PLUGINS,

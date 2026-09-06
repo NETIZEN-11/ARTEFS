@@ -1,4 +1,4 @@
-﻿# redteam-minimal (Redteam: Minimal)
+# redteam-minimal (Redteam: Minimal)
 
 You can run this example with:
 

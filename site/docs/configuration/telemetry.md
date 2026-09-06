@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 42
 sidebar_label: Telemetry
 title: Telemetry Configuration - Usage Analytics and Monitoring

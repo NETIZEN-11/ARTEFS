@@ -1,4 +1,4 @@
-﻿# redteam-intent-sequence (Redteam Intent Sequence)
+# redteam-intent-sequence (Redteam Intent Sequence)
 
 You can run this example with:
 

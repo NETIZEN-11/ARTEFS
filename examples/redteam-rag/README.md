@@ -1,4 +1,4 @@
-﻿# redteam-rag (Redteam Rag)
+# redteam-rag (Redteam Rag)
 
 You can run this example with:
 

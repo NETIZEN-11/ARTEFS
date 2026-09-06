@@ -1,4 +1,4 @@
-﻿# policy evals
+# policy evals
 
 This suite evaluates the `PolicyPlugin` test generator itself.
 

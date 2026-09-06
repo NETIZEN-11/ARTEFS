@@ -1,4 +1,4 @@
-﻿# redteam-mcp-agent (Red Team MCP Agent)
+# redteam-mcp-agent (Red Team MCP Agent)
 
 This example demonstrates how to red team test AI agents that integrate with Model Context Protocol (MCP) servers. It creates a custom OpenAI-based ReAct agent provider that can interact with MCP servers, allowing you to test agent behavior when given access to potentially malicious tools.
 

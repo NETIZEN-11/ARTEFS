@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Cerebras
 description: Configure Cerebras' Llama 4 Scout and Llama 3 models through their OpenAI-compatible API for enterprise-grade inference with advanced MoE architecture support
 ---

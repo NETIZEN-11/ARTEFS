@@ -1,4 +1,4 @@
-﻿# provider-watsonx (IBM WatsonX Model Comparison)
+# provider-watsonx (IBM WatsonX Model Comparison)
 
 This example compares IBM Granite, Meta Llama, and Mistral models available through IBM watsonx.ai.
 

@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 
 const libsqlPlatformPackagePattern = /@libsql\/(?<target>(?:darwin|linux|win32)-[a-z0-9-]+)/i;
 const moduleNotFoundCodes = new Set(['MODULE_NOT_FOUND', 'ERR_MODULE_NOT_FOUND']);

@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { BIAS_PLUGINS } from '../../../src/redteam/constants';
 import { BiasGrader } from '../../../src/redteam/plugins/bias';
 import { Plugins } from '../../../src/redteam/plugins/index';

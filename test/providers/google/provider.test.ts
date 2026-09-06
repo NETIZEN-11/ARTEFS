@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import * as cache from '../../../src/cache';

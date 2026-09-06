@@ -1,4 +1,4 @@
-﻿---
+---
 displayed_sidebar: artef
 sidebar_label: Overview
 title: Configuration Overview - Prompts, Tests, and Outputs

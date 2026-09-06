@@ -1,4 +1,4 @@
-﻿---
+---
 slug: agents
 sidebar_position: 10001
 description: Red team LLM agent security by testing privilege escalation, context poisoning, and memory manipulation to protect AI systems from unauthorized access and data breaches

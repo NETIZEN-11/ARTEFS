@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { z } from 'zod';
 import logger from '../../../logger';
 import { doEval } from '../../../node/doEval';

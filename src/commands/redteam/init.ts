@@ -1,4 +1,4 @@
-﻿import { AbortPromptError, ExitPromptError } from '@inquirer/core';
+import { AbortPromptError, ExitPromptError } from '@inquirer/core';
 import chalk from 'chalk';
 import { getDefaultPort } from '../../constants';
 import { getEnvString } from '../../envars';

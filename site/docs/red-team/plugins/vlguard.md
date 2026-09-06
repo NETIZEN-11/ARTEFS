@@ -1,4 +1,4 @@
-﻿---
+---
 title: VLGuard
 description: Test multi-modal models with potentially unsafe imagery from the VLGuard dataset to evaluate content moderation capabilities
 keywords: [red team, multi-modal, image, safety, content moderation, unsafe content, vlguard]

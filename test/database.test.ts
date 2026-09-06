@@ -1,4 +1,4 @@
-﻿import { pathToFileURL } from 'node:url';
+import { pathToFileURL } from 'node:url';
 import fs from 'fs';
 import * as os from 'os';
 import * as path from 'path';

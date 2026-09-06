@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: CI/CD
 description: Integrate ModelAudit into GitHub Actions, GitLab CI, Jenkins, and CircleCI pipelines for automated ML model security scanning with SARIF output and deployment gates
 keywords:

@@ -1,4 +1,4 @@
-﻿import { APIError } from '@anthropic-ai/sdk';
+import { APIError } from '@anthropic-ai/sdk';
 import dedent from 'dedent';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import {

@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs/alignment (ElevenLabs Forced Alignment)
+# provider-elevenlabs/alignment (ElevenLabs Forced Alignment)
 
 Generate time-aligned subtitles (SRT/VTT) from audio and transcripts using ElevenLabs forced alignment.
 

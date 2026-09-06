@@ -1,4 +1,4 @@
-﻿import {
+import {
   context,
   propagation,
   ROOT_CONTEXT,

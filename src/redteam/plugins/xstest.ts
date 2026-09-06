@@ -1,4 +1,4 @@
-﻿import fs from 'fs/promises';
+import fs from 'fs/promises';
 
 import { parse } from 'csv-parse/sync';
 import logger from '../../logger';

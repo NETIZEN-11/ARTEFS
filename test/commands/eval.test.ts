@@ -1,4 +1,4 @@
-﻿import { readFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import fsPromises from 'fs/promises';
 import * as path from 'path';
 

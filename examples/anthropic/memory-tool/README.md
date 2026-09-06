@@ -1,4 +1,4 @@
-﻿# anthropic/memory-tool (Anthropic Memory Tool)
+# anthropic/memory-tool (Anthropic Memory Tool)
 
 This example shows how to include Anthropic's native `memory_20250818` tool in a artef eval.
 

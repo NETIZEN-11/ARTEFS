@@ -1,4 +1,4 @@
-﻿# provider-opencode-sdk (OpenCode SDK Examples)
+# provider-opencode-sdk (OpenCode SDK Examples)
 
 The OpenCode SDK provider runs agentic evals through OpenCode, an open-source coding agent with support for hosted and local model providers.
 

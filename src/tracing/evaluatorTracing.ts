@@ -1,4 +1,4 @@
-﻿import { randomBytes } from 'crypto';
+import { randomBytes } from 'crypto';
 
 import { ROOT_CONTEXT, type Span, SpanKind, TraceFlags, trace } from '@opentelemetry/api';
 import cliState from '../cliState';

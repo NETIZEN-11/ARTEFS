@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 43
 sidebar_label: Codex Security SDK
 title: OpenAI Codex Security SDK

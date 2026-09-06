@@ -1,4 +1,4 @@
-﻿# eval-f-score (F-Score HuggingFace Dataset Sentiment Analysis Eval)
+# eval-f-score (F-Score HuggingFace Dataset Sentiment Analysis Eval)
 
 You can run this example with:
 

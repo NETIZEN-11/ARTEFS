@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Node API Reference
 sidebar_position: 21
 title: Node API reference

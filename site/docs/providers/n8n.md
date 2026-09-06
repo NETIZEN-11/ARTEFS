@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: n8n
 sidebar_position: 42
 title: n8n Provider
@@ -137,10 +137,10 @@ retry budget.
 
 ## n8n Variable Conversion
 
-| n8n Format              | artef Format |
-| ----------------------- | ---------------- |
-| `{{ $json.query }}`     | `{{query}}`      |
-| `{{ $json.user.name }}` | `{{user.name}}`  |
+| n8n Format              | artef Format    |
+| ----------------------- | --------------- |
+| `{{ $json.query }}`     | `{{query}}`     |
+| `{{ $json.user.name }}` | `{{user.name}}` |
 
 ## See Also
 

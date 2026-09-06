@@ -1,4 +1,4 @@
-﻿---
+---
 title: Getting started
 description: Learn how to set up your first artef config file, create prompts, configure providers, and run your first LLM evaluation.
 keywords: [getting started, setup, configuration, prompts, providers, evaluation, llm testing]

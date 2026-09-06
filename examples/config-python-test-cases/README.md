@@ -1,4 +1,4 @@
-﻿# config-python-test-cases (Python Test Cases with Configuration)
+# config-python-test-cases (Python Test Cases with Configuration)
 
 You can run this example with:
 

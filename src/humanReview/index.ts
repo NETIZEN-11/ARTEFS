@@ -80,7 +80,9 @@ export class HumanReviewQueue {
         const review = (reviewMetadata.humanReviews as HumanReviewItem[]).find(
           (r) => r.id === reviewId,
         );
-        if (review) return review;
+        if (review) {
+          return review;
+        }
       }
     }
 
@@ -146,7 +148,9 @@ export class HumanReviewQueue {
   private async shouldRouteForReview(result: any): Promise<boolean> {
     if (this.options.autoRouteCriticalFindings) {
       const severity = result.metadata?.severity || result.gradingResult?.metadata?.severity;
-      if (severity === 'critical') return true;
+      if (severity === 'critical') {
+        return true;
+      }
     }
 
     if (this.options.autoRouteLowConfidence) {

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Image Inputs
 title: Image Jailbreaking Strategy
 description: Probe vision-language model security with image-encoded text attacks targeting content filter and safety mechanism bypasses

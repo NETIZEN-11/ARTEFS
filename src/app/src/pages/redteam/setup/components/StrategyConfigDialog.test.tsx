@@ -318,7 +318,7 @@ describe('StrategyConfigDialog', () => {
     );
 
     const numTestsInput = screen.getByLabelText('Maximum Tests Per Plugin');
-    // Bypass browser type="number" validation via the native setter — userEvent
+    // Bypass browser type="number" validation via the native setter Â— userEvent
     // correctly rejects non-numeric input, but we need to test defensive handling.
     act(() => {
       Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value')?.set?.call(

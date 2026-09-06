@@ -1,4 +1,4 @@
-﻿# eval-javascript-assert-external (Javascript Assert External)
+# eval-javascript-assert-external (Javascript Assert External)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { addRetryTestCases, deduplicateTests } from '../../../src/redteam/strategies/retry';
 
 import type { TestCase, TestCaseWithPlugin } from '../../../src/types/index';

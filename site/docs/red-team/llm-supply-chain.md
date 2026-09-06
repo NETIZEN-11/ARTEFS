@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 10002
 description: Secure your LLM supply chain with static model scanning and dynamic behavioral testing to detect trojans, backdoors, model drift, and safety regressions
 keywords:

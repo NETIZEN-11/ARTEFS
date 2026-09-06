@@ -1,4 +1,4 @@
-﻿# redteam-indirect-web-pwn (Red Team Data Exfiltration via Indirect Web Prompt Injection)
+# redteam-indirect-web-pwn (Red Team Data Exfiltration via Indirect Web Prompt Injection)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { handleConversationRelevance } from '../../src/external/assertions/deepeval';
 import { createMockProvider as createFactoryProvider } from '../factories/provider';
 

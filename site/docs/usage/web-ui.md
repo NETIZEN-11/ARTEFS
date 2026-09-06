@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using the web viewer
 sidebar_position: 30
 sidebar_label: Web viewer

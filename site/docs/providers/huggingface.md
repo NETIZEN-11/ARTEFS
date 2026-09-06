@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: HuggingFace
 description: Use HuggingFace chat models, text classification, embeddings, and NER with artef via the OpenAI-compatible chat API and Inference Providers
 ---

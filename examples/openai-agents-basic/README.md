@@ -1,4 +1,4 @@
-﻿# openai-agents-basic (D&D Adventure with AI Dungeon Master)
+# openai-agents-basic (D&D Adventure with AI Dungeon Master)
 
 This example demonstrates how to use the OpenAI Agents SDK with artef to create an interactive D&D adventure game powered by an AI Dungeon Master.
 

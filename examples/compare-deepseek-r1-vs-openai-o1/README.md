@@ -1,4 +1,4 @@
-﻿# compare-deepseek-r1-vs-openai-o1 (DeepSeek-R1 vs OpenAI o1 Comparison)
+# compare-deepseek-r1-vs-openai-o1 (DeepSeek-R1 vs OpenAI o1 Comparison)
 
 You can run this example with:
 

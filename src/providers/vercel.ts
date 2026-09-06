@@ -1,4 +1,4 @@
-﻿import { createHmac } from 'crypto';
+import { createHmac } from 'crypto';
 
 import { context as otelContext, propagation, ROOT_CONTEXT, trace } from '@opentelemetry/api';
 import { getCache, isCacheEnabled } from '../cache';

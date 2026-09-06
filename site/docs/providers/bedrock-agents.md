@@ -1,4 +1,4 @@
-﻿---
+---
 title: AWS Bedrock Agents
 description: Configure and test Amazon Bedrock Agents in artef, including setup, authentication, session management, knowledge bases, and tracing options.
 sidebar_label: AWS Bedrock Agents

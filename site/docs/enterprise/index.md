@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Overview
 title: artef Enterprise - Secure LLM Application Testing
 description: 'Deploy artef Enterprise for scalable LLM security testing with cloud hosting, on-premises options, and team collaboration'
@@ -46,10 +46,10 @@ We offer two deployment models:
 
 ## Product Comparison
 
-| Feature                                             | Community                       | artef Enterprise                         | artef Enterprise On-Prem                 |
+| Feature                                             | Community                       | artef Enterprise                             | artef Enterprise On-Prem                     |
 | --------------------------------------------------- | ------------------------------- | -------------------------------------------- | -------------------------------------------- |
 | Deployment                                          | Command line tool               | Fully-managed SaaS                           | Self-hosted, on-premises                     |
-| Infrastructure                                      | Local                           | Managed by artef                         | Managed by your team                         |
+| Infrastructure                                      | Local                           | Managed by artef                             | Managed by your team                         |
 | Dedicated Runner                                    | ❌                              | ❌                                           | ✅                                           |
 | Network Isolation                                   | ❌                              | ❌                                           | ✅                                           |
 | Model & Application Evals                           | ✅                              | ✅                                           | ✅                                           |

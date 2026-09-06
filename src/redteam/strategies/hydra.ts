@@ -1,4 +1,4 @@
-﻿import type { TestCase } from '../../types/index';
+import type { TestCase } from '../../types/index';
 import type { Inputs } from '../../types/shared';
 
 interface AdaptiveMultiTurnStrategyDefinition {

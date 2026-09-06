@@ -1,4 +1,4 @@
-﻿# integration-strands-agents (Strands Agents SDK example)
+# integration-strands-agents (Strands Agents SDK example)
 
 This example demonstrates how to evaluate [Strands Agents SDK](https://github.com/strands-agents/sdk-python) with [artef](https://artef.dev).
 

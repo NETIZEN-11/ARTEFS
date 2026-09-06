@@ -1,4 +1,4 @@
-﻿---
+---
 title: MLflow AI Gateway
 sidebar_label: MLflow Gateway
 sidebar_position: 56

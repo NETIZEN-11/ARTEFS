@@ -1,4 +1,4 @@
-﻿# provider-replicate/llama4-scout (Replicate Llama 4 Scout)
+# provider-replicate/llama4-scout (Replicate Llama 4 Scout)
 
 You can run this example with:
 

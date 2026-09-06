@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Tool annotation hints per MCP spec 2025-03-26
  * These help AI agents understand tool behavior for better decision making
  */

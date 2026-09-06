@@ -1,4 +1,4 @@
-﻿import logger, { isDebugEnabled } from '../logger';
+import logger, { isDebugEnabled } from '../logger';
 import { getSessionId } from '../redteam/util';
 import { maybeLoadConfigFromExternalFile } from '../util/file';
 import invariant from '../util/invariant';

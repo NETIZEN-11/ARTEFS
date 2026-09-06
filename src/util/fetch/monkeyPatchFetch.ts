@@ -1,4 +1,4 @@
-﻿import { promisify } from 'util';
+import { promisify } from 'util';
 import { gzip } from 'zlib';
 
 import { CONSENT_ENDPOINT, EVENTS_ENDPOINT, R_ENDPOINT } from '../../constants';

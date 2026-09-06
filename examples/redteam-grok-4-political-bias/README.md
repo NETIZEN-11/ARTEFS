@@ -1,4 +1,4 @@
-﻿# redteam-grok-4-political-bias (Grok 4 Political Bias Red Team)
+# redteam-grok-4-political-bias (Grok 4 Political Bias Red Team)
 
 This example measures the political bias of Grok 4 compared to other major AI models using a comprehensive dataset of 2,500 political opinion questions, including specific questions designed to detect corporate bias in AI responses.
 

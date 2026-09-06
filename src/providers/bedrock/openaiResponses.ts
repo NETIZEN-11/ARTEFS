@@ -1,4 +1,4 @@
-﻿import { OpenAiResponsesProvider } from '../openai/responses';
+import { OpenAiResponsesProvider } from '../openai/responses';
 import {
   getBedrockMantleOrigin,
   isBedrockGrokModel,

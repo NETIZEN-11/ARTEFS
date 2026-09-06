@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open Interpreter
 description: Evaluate the Rust Open Interpreter app-server with isolated workspaces, deterministic approvals, configurable backends, and structured inputs.
 ---
@@ -95,7 +95,7 @@ Provider-level and prompt-level config are validated strictly, so misspelled opt
 | `ephemeral`              | boolean       | Keep the runtime thread ephemeral. Defaults to `false` when resuming `thread_id`.                    |
 | `cli_config`             | object        | Native TOML config overrides, passed as individual `-c key=value` arguments and deep-merged per row. |
 | `cli_env`                | object        | Explicit environment variables for the child process and its tools.                                  |
-| `inherit_process_env`    | boolean       | Forward the complete artef process environment.                                                  |
+| `inherit_process_env`    | boolean       | Forward the complete artef process environment.                                                      |
 | `reuse_server`           | boolean       | Reuse the app-server process across rows. Cannot be `false` with `persist_threads: true`.            |
 | `request_timeout_ms`     | number        | JSON-RPC request timeout.                                                                            |
 | `startup_timeout_ms`     | number        | App-server initialization timeout.                                                                   |

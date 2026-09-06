@@ -1,4 +1,4 @@
-﻿# eval-select-best (Select Best Example)
+# eval-select-best (Select Best Example)
 
 You can run this example with:
 

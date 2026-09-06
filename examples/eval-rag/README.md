@@ -1,4 +1,4 @@
-﻿# eval-rag (Rag Eval)
+# eval-rag (Rag Eval)
 
 You can run this example with:
 

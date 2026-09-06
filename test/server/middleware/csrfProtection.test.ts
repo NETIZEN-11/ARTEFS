@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { csrfProtection } from '../../../src/server/middleware/csrfProtection';
 import type { NextFunction, Request, Response } from 'express';
 

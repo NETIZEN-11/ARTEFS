@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 66
 title: Test Agent Skills
 description: Compare Claude, Codex, and other skill versions with artef evals that measure invocation, task quality, cost, latency, and trace evidence.

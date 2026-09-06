@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: TrueFoundry
 description: Configure TrueFoundry's enterprise-grade AI Gateway (LLM, MCP, and Agent Gateway) to connect, observe, and govern agentic AI applications from a single control plane
 ---

@@ -1,4 +1,4 @@
-﻿// These are exposed on the frontend under the framework compliance section
+// These are exposed on the frontend under the framework compliance section
 export const FRAMEWORK_COMPLIANCE_IDS = [
   'mitre:atlas',
   'nist:ai:measure',

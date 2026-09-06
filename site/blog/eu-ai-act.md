@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Leveraging artef for EU AI Act Compliance'
 sidebar_label: Leveraging artef for EU AI Act Compliance
 description: 'The EU AI Act bans specific AI behaviors starting February 2025. Discover which systems are prohibited and how to test for compliance before you deploy.'

@@ -1,4 +1,4 @@
-﻿# integration-opentelemetry/javascript (OpenTelemetry Tracing Example)
+# integration-opentelemetry/javascript (OpenTelemetry Tracing Example)
 
 This example demonstrates how to use OpenTelemetry to trace the internal operations of your LLM providers during artef evaluations.
 
@@ -44,7 +44,7 @@ artef's OpenTelemetry integration allows you to:
 
 | File                        | Description                                           |
 | --------------------------- | ----------------------------------------------------- |
-| `artefconfig.yaml`      | Evaluation config with tracing enabled and assertions |
+| `artefconfig.yaml`          | Evaluation config with tracing enabled and assertions |
 | `provider-simple-traced.js` | Simulated RAG provider with comprehensive tracing     |
 | `trace-assertions.js`       | Custom JavaScript assertion for trace validation      |
 | `package.json`              | OpenTelemetry dependencies (v2.x API)                 |

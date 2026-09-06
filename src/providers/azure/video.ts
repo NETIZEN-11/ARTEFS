@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Azure AI Foundry Video Provider for Sora video generation.
  *
  * This provider enables text-to-video and image-to-video generation

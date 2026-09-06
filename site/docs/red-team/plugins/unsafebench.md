@@ -1,4 +1,4 @@
-﻿---
+---
 title: UnsafeBench
 description: Evaluate multimodal AI safety using UnsafeBench's curated unsafe images across violence, hate, and explicit content categories
 keywords: [red team, multi-modal, image, safety, content moderation, unsafe content]

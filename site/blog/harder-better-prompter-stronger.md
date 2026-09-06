@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Harder, Better, Prompter, Stronger: AI system prompt hardening'
 description: 'Learn techniques for hardening AI prompts against injection attacks and security vulnerabilities with artef examples'
 image: /img/blog/harder-better-prompter-stronger/header.jpg

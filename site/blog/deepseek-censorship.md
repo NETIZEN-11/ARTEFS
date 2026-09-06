@@ -1,4 +1,4 @@
-﻿---
+---
 title: '1,156 Questions Censored by DeepSeek'
 description: 'Analysis of DeepSeek-R1 censorship using 1,156 political prompts exposing CCP content filtering and bias detection patterns'
 image: /img/blog/deepseek/deepseek_panda.png

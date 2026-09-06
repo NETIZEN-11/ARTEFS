@@ -1,4 +1,4 @@
-﻿# provider-atlascloud (Atlas Cloud Example)
+# provider-atlascloud (Atlas Cloud Example)
 
 This directory contains an example configuration for using [Atlas Cloud](https://www.atlascloud.ai/) with artef.
 

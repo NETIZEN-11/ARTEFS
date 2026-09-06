@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: HTTP API
 description: Configure HTTP/HTTPS endpoints for custom LLM integrations with dynamic request transforms, variable substitution, and multi-provider API compatibility
 ---
@@ -746,10 +746,10 @@ Use `openai` or omit for OpenAI-compatible APIs where no conversion is needed.
 **Why tool_choice needs transformation:** Each provider represents tool choice differently:
 
 | OpenAI (artef default) | Anthropic          | Bedrock        | Google                                        |
-| -------------------------- | ------------------ | -------------- | --------------------------------------------- |
-| `"auto"`                   | `{ type: "auto" }` | `{ auto: {} }` | `{ functionCallingConfig: { mode: "AUTO" } }` |
-| `"required"`               | `{ type: "any" }`  | `{ any: {} }`  | `{ functionCallingConfig: { mode: "ANY" } }`  |
-| `"none"`                   | —                  | —              | `{ functionCallingConfig: { mode: "NONE" } }` |
+| ---------------------- | ------------------ | -------------- | --------------------------------------------- |
+| `"auto"`               | `{ type: "auto" }` | `{ auto: {} }` | `{ functionCallingConfig: { mode: "AUTO" } }` |
+| `"required"`           | `{ type: "any" }`  | `{ any: {} }`  | `{ functionCallingConfig: { mode: "ANY" } }`  |
+| `"none"`               | —                  | —              | `{ functionCallingConfig: { mode: "NONE" } }` |
 
 ### Template Variables
 
@@ -1555,25 +1555,25 @@ providers:
 
 #### Digital Signature Options
 
-| Option                   | Type   | Required | Default                    | Description                                            |
-| ------------------------ | ------ | -------- | -------------------------- | ------------------------------------------------------ |
-| type                     | string | No       | `'pem'`                    | Certificate type: `'pem'`, `'jks'`, or `'pfx'`         |
-| privateKeyPath           | string | No\*     | -                          | Path to PEM private key file (PEM only)                |
-| privateKey               | string | No\*     | -                          | Inline PEM private key string (PEM only)               |
-| keystorePath             | string | No\*     | -                          | Path to JKS keystore file (JKS only)                   |
-| keystoreContent          | string | No\*     | -                          | Base64-encoded JKS keystore content (JKS only)         |
-| keystorePassword         | string | No       | -                          | JKS password (or use `artef_JKS_PASSWORD` env var) |
-| keyAlias                 | string | No       | First available            | JKS key alias (JKS only)                               |
-| pfxPath                  | string | No\*     | -                          | Path to PFX certificate file (PFX only)                |
-| pfxPassword              | string | No       | -                          | PFX password (or use `artef_PFX_PASSWORD` env var) |
-| certPath                 | string | No\*     | -                          | Path to certificate file (PFX alternative)             |
-| keyPath                  | string | No\*     | -                          | Path to private key file (PFX alternative)             |
-| certContent              | string | No\*     | -                          | Base64-encoded certificate content (PFX alternative)   |
-| keyContent               | string | No\*     | -                          | Base64-encoded private key content (PFX alternative)   |
-| signatureValidityMs      | number | No       | 300000                     | Signature validity period in milliseconds              |
-| signatureAlgorithm       | string | No       | `'SHA256'`                 | Signature algorithm (any Node.js crypto supported)     |
-| signatureDataTemplate    | string | No       | `'{{signatureTimestamp}}'` | Template for data to sign (`\n` = newline)             |
-| signatureRefreshBufferMs | number | No       | 10% of validityMs          | Buffer time before expiry to refresh                   |
+| Option                   | Type   | Required | Default                    | Description                                          |
+| ------------------------ | ------ | -------- | -------------------------- | ---------------------------------------------------- |
+| type                     | string | No       | `'pem'`                    | Certificate type: `'pem'`, `'jks'`, or `'pfx'`       |
+| privateKeyPath           | string | No\*     | -                          | Path to PEM private key file (PEM only)              |
+| privateKey               | string | No\*     | -                          | Inline PEM private key string (PEM only)             |
+| keystorePath             | string | No\*     | -                          | Path to JKS keystore file (JKS only)                 |
+| keystoreContent          | string | No\*     | -                          | Base64-encoded JKS keystore content (JKS only)       |
+| keystorePassword         | string | No       | -                          | JKS password (or use `artef_JKS_PASSWORD` env var)   |
+| keyAlias                 | string | No       | First available            | JKS key alias (JKS only)                             |
+| pfxPath                  | string | No\*     | -                          | Path to PFX certificate file (PFX only)              |
+| pfxPassword              | string | No       | -                          | PFX password (or use `artef_PFX_PASSWORD` env var)   |
+| certPath                 | string | No\*     | -                          | Path to certificate file (PFX alternative)           |
+| keyPath                  | string | No\*     | -                          | Path to private key file (PFX alternative)           |
+| certContent              | string | No\*     | -                          | Base64-encoded certificate content (PFX alternative) |
+| keyContent               | string | No\*     | -                          | Base64-encoded private key content (PFX alternative) |
+| signatureValidityMs      | number | No       | 300000                     | Signature validity period in milliseconds            |
+| signatureAlgorithm       | string | No       | `'SHA256'`                 | Signature algorithm (any Node.js crypto supported)   |
+| signatureDataTemplate    | string | No       | `'{{signatureTimestamp}}'` | Template for data to sign (`\n` = newline)           |
+| signatureRefreshBufferMs | number | No       | 10% of validityMs          | Buffer time before expiry to refresh                 |
 
 \* Requirements by certificate type:
 

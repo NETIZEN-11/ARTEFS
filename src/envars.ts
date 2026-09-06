@@ -1,4 +1,4 @@
-﻿import dotenv from 'dotenv';
+import dotenv from 'dotenv';
 import { getEnvOverrides } from './envOverrides';
 
 import type { EnvOverrides } from './types/env';

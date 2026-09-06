@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Automated Jailbreaking Techniques with DALL-E: Complete Red Team Guide'
 description: 'We automated DALL-E jailbreaking and generated disturbing images that bypass safety filters. See the techniques and why image model security matters.'
 image: https://storage.googleapis.com/artef-public-1/artef.dev/blog/jailbreak-dalle/gallery-blurred.png

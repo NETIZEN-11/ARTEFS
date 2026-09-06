@@ -1,4 +1,4 @@
-﻿# eval-python-assert (Python Assertions)
+# eval-python-assert (Python Assertions)
 
 Example configurations for testing LLM outputs using Python assertions with artef.
 

@@ -1,4 +1,4 @@
-﻿import { EventEmitter } from 'events';
+import { EventEmitter } from 'events';
 import { PassThrough } from 'stream';
 
 import { trace } from '@opentelemetry/api';

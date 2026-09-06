@@ -1,4 +1,4 @@
-﻿# ollama (Ollama Examples)
+# ollama (Ollama Examples)
 
 This directory contains examples demonstrating different capabilities of Ollama with artef.
 

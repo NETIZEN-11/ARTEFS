@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Testing Model Armor
 title: Testing Google Cloud Model Armor with artef
 description: Learn how to evaluate and tune Google Cloud Model Armor templates and floor settings for LLM safety using artef's red teaming and guardrail testing.

@@ -1,4 +1,4 @@
-﻿# redteam-multi-input (Redteam: Multi-Input)
+# redteam-multi-input (Redteam: Multi-Input)
 
 You can run this example with:
 

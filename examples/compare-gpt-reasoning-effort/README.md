@@ -1,4 +1,4 @@
-﻿# compare-gpt-reasoning-effort (GPT Reasoning Effort Comparison)
+# compare-gpt-reasoning-effort (GPT Reasoning Effort Comparison)
 
 You can run this example with:
 

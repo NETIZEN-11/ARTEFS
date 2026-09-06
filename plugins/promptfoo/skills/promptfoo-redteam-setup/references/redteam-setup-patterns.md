@@ -1,4 +1,4 @@
-﻿# Redteam Setup Patterns
+# Redteam Setup Patterns
 
 Use these as starting points. Keep initial scans small enough that generated
 cases can be reviewed by a human.

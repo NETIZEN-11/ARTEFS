@@ -1,4 +1,4 @@
-﻿# integration-github-action (GitHub Action)
+# integration-github-action (GitHub Action)
 
 You can run this example with:
 

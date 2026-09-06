@@ -72,7 +72,9 @@ export class ReleaseReadinessCalculator {
 
     for (const result of results) {
       const severity = result.metadata?.severity || result.gradingResult?.metadata?.severity;
-      if (severity === 'critical') count++;
+      if (severity === 'critical') {
+        count++;
+      }
     }
 
     return count;

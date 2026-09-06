@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../envars';
+import { getEnvString } from '../envars';
 import { createNscaleImageProvider } from './nscale/image';
 import { OpenAiChatCompletionProvider } from './openai/chat';
 import { OpenAiCompletionProvider } from './openai/completion';

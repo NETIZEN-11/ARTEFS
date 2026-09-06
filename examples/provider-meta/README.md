@@ -1,4 +1,4 @@
-﻿# provider-meta (Meta Model API)
+# provider-meta (Meta Model API)
 
 You can run this example with:
 

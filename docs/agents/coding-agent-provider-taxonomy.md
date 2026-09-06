@@ -1,4 +1,4 @@
-﻿# Coding Agent Provider Taxonomy
+# Coding Agent Provider Taxonomy
 
 This document summarizes how artef should think about coding-agent providers,
 what has been implemented so far, and what should come next. It is intentionally
@@ -37,13 +37,13 @@ stateful coding-agent runtime.
 
 The first question is where artef stops and the agent runtime starts.
 
-| Boundary                 | Meaning                                                       | Current examples                         |
-| ------------------------ | ------------------------------------------------------------- | ---------------------------------------- |
+| Boundary                 | Meaning                                                   | Current examples                         |
+| ------------------------ | --------------------------------------------------------- | ---------------------------------------- |
 | In-process SDK           | artef calls a package API directly.                       | Codex SDK, Claude Agent SDK              |
 | Managed local server     | artef starts a server, then talks to it through a client. | OpenCode when `baseUrl` is unset         |
 | Existing server          | artef connects to a runtime it does not configure.        | OpenCode with `baseUrl`                  |
 | Local app-server process | artef starts a rich-client protocol server over stdio.    | Codex app-server                         |
-| Desktop UI process       | Human-facing native app process.                              | Codex Desktop app, not directly attached |
+| Desktop UI process       | Human-facing native app process.                          | Codex Desktop app, not directly attached |
 
 This distinction matters because it controls what artef can guarantee. If
 artef starts the runtime, it can set env vars, working directories, sandbox

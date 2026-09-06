@@ -1,4 +1,4 @@
-﻿# integration-sharepoint (SharePoint Integration Example)
+# integration-sharepoint (SharePoint Integration Example)
 
 This example demonstrates how to use artef with Microsoft SharePoint to import test cases from CSV files stored in SharePoint.
 

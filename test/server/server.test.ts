@@ -1,4 +1,4 @@
-﻿import { EventEmitter } from 'node:events';
+import { EventEmitter } from 'node:events';
 import http from 'node:http';
 
 import { Server as SocketIOServer } from 'socket.io';

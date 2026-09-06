@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 1
 sidebar_label: Overview
 title: Configuration Overview - Getting Started with artef

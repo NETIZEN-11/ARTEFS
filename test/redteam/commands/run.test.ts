@@ -1,4 +1,4 @@
-﻿import { Command } from 'commander';
+import { Command } from 'commander';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { EmailValidationError } from '../../../src/globalConfig/accounts';
 import logger from '../../../src/logger';

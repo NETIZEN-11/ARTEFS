@@ -1,4 +1,4 @@
-﻿# provider-cohere (Cohere)
+# provider-cohere (Cohere)
 
 You can run this example with:
 

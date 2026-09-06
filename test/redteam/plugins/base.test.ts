@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { afterEach, beforeEach, describe, expect, it, Mock, MockInstance, vi } from 'vitest';
 import cliState from '../../../src/cliState';
 import { matchesLlmRubric } from '../../../src/matchers/llmGrading';

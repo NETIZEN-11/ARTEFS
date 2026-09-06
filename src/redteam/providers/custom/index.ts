@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { renderPrompt } from '../../../evaluatorHelpers';
 import { isLoggedIntoCloud } from '../../../globalConfig/accounts';
 import logger from '../../../logger';

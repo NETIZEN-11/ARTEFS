@@ -1,4 +1,4 @@
-﻿import { InvalidArgumentError } from 'commander';
+import { InvalidArgumentError } from 'commander';
 import { describe, expect, it } from 'vitest';
 import { collectKeyValueOption, normalizeTagOption } from '../../src/util/cliOptions';
 

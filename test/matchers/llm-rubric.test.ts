@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { loadFromJavaScriptFile } from '../../src/assertions/utils';

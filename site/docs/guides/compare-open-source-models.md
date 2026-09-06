@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: 'Comparing open-source models'
 description: 'Compare DeepSeek, Mistral, Qwen, and Llama performance on your custom datasets using automated benchmarks to select the best open-source model for your use case'
 ---

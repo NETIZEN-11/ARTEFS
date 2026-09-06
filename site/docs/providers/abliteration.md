@@ -1,4 +1,4 @@
-﻿---
+---
 title: Abliteration Provider
 sidebar_label: Abliteration
 description: "Configure Abliteration's OpenAI-compatible chat completions API in artef for text and multimodal evals."

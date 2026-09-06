@@ -1,4 +1,4 @@
-﻿# integration-google-sheets (Google Sheets)
+# integration-google-sheets (Google Sheets)
 
 You can run this example with:
 

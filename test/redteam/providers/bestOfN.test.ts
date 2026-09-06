@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { sanitizeProvider } from '../../../src/models/evalResult';
 import { neverGenerateRemote } from '../../../src/redteam/remoteGeneration';
 import {

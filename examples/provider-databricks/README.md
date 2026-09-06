@@ -1,4 +1,4 @@
-﻿# provider-databricks (Databricks Provider)
+# provider-databricks (Databricks Provider)
 
 Test Databricks Foundation Model APIs with artef.
 

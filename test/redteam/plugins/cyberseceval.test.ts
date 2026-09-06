@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { CyberSecEvalPlugin } from '../../../src/redteam/plugins/cyberseceval';
 import { fetchWithTimeout } from '../../../src/util/fetch/index';
 import { createMockProvider, type MockApiProvider } from '../../factories/provider';

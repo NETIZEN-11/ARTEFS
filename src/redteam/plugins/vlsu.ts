@@ -1,4 +1,4 @@
-﻿import { parse as csvParse } from 'csv-parse/sync';
+import { parse as csvParse } from 'csv-parse/sync';
 import dedent from 'dedent';
 import { fetchWithCache } from '../../cache';
 import logger from '../../logger';

@@ -1,4 +1,4 @@
-﻿import { fetchHuggingFaceDataset } from '../../integrations/huggingfaceDatasets';
+import { fetchHuggingFaceDataset } from '../../integrations/huggingfaceDatasets';
 import logger from '../../logger';
 import { isBasicRefusal } from '../util';
 import { RedteamGraderBase, RedteamPluginBase } from './base';

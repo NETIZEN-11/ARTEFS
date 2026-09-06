@@ -1,4 +1,4 @@
-﻿import crypto from 'crypto';
+import crypto from 'crypto';
 import fs from 'fs';
 import { createServer, type Server } from 'http';
 import { AddressInfo } from 'net';

@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import logger from '../../logger';
 import { isBasicRefusal, isEmptyResponse } from '../util';
 import { RedteamGraderBase } from './base';

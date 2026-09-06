@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 10
 sidebar_label: Target Discovery
 title: Target Discovery Agent

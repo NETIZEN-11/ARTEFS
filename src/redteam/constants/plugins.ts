@@ -1,4 +1,4 @@
-﻿import { CODING_AGENT_COLLECTIONS, CODING_AGENT_PLUGINS } from './codingAgents';
+import { CODING_AGENT_COLLECTIONS, CODING_AGENT_PLUGINS } from './codingAgents';
 
 import type { CodingAgentPlugin } from './codingAgents';
 

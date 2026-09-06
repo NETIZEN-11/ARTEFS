@@ -1,4 +1,4 @@
-﻿import { trace } from '@opentelemetry/api';
+import { trace } from '@opentelemetry/api';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { fetchWithCache } from '../../src/cache';
 import {

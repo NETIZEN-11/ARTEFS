@@ -86,5 +86,5 @@ export function generateOrderedYaml(config: Config): string {
     return line;
   });
 
-  return `# yaml-language-server: $schema=https://github.com/NETIZEN-11/ARTF/blob/main/README.md'\n')}`;
+  return `# yaml-language-server: $schema=https://artef.dev/config-schema.json\n${updatedLines.join('\n')}`;
 }

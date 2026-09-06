@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Link to Cloud Targets
 description: Link local custom providers to cloud targets in artef Cloud using linkedTargetId to consolidate findings and track performance over time
 ---

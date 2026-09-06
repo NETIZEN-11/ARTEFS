@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ElevenLabs Conversational Agents Provider
  *
  * Test and evaluate voice AI agents with LLM backends

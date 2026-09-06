@@ -1,4 +1,4 @@
-﻿import type { OpenAiSharedOptions } from './types';
+import type { OpenAiSharedOptions } from './types';
 
 /**
  * Configuration options for the OpenAI ChatKit Provider

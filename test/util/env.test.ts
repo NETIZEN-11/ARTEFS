@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 
 import dotenv from 'dotenv';
 import { afterEach, beforeEach, describe, expect, it, type MockInstance, vi } from 'vitest';

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Code scan authentication utilities.
  *
  * Wraps the shared agent auth resolution and adds code-scan-specific

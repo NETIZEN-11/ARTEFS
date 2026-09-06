@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { addGoblin } from '../../../src/redteam/strategies/goblin';
 
 import type { TestCase } from '../../../src/types/index';

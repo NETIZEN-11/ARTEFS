@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Hydra Multi-turn
 title: Hydra Multi-turn Strategy
 description: Adaptive multi-turn jailbreak agent that pivots across branches to uncover hidden vulnerabilities

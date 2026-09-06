@@ -1,4 +1,4 @@
-﻿# Internal Package Boundaries
+# Internal Package Boundaries
 
 artef still publishes one package today, but the repository is beginning to
 model the internal boundaries that would support a future multi-package split.

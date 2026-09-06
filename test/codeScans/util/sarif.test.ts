@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { hasSarifReportableFindings, scanResponseToSarif } from '../../../src/codeScan/util/sarif';
 import { CodeScanSeverity, type Comment, type ScanResponse } from '../../../src/types/codeScan';
 

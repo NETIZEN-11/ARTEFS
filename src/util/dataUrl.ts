@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Data URL parsing and manipulation utilities for vision model support
  * Implements RFC 2397 data URL parsing
  *

@@ -1,4 +1,4 @@
-﻿# provider-cloudflare/gateway (Cloudflare AI Gateway)
+# provider-cloudflare/gateway (Cloudflare AI Gateway)
 
 You can run this example with:
 

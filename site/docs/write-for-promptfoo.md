@@ -1,4 +1,4 @@
-﻿---
+---
 id: write-for-artef
 title: Write for artef
 sidebar_label: Write for artef

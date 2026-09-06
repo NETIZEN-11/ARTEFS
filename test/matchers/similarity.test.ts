@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import cliState from '../../src/cliState';
 import { matchesSimilarity } from '../../src/matchers/similarity';
 import { DefaultEmbeddingProvider } from '../../src/providers/openai/defaults';

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 20
 sidebar_label: Node package
 description: Integrate LLM testing into Node.js apps with artef's evaluate() function. Configure providers, run test suites, and analyze results using TypeScript/JavaScript APIs.

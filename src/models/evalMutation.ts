@@ -1,4 +1,4 @@
-﻿import { updateSignalFile, updateSignalFileForDeletedEvals } from '../database/signal';
+import { updateSignalFile, updateSignalFileForDeletedEvals } from '../database/signal';
 import { clearStandaloneEvalCache } from '../util/standaloneEvalCache';
 import { clearCountCache } from './evalPerformance';
 

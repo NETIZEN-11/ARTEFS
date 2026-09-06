@@ -1,4 +1,4 @@
-﻿# Database Migrations
+# Database Migrations
 
 **What this is:** Drizzle ORM migration files for SQLite database. Auto-generated SQL that applies schema changes.
 

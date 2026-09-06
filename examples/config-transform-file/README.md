@@ -1,4 +1,4 @@
-﻿# config-transform-file (Transform File)
+# config-transform-file (Transform File)
 
 You can run this example with:
 

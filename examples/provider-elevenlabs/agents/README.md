@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs/agents (ElevenLabs Conversational Agents)
+# provider-elevenlabs/agents (ElevenLabs Conversational Agents)
 
 You can run this example with:
 

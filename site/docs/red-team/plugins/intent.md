@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Prompts
 description: Red team LLM applications with custom intent prompts, batch uploads, multi-step sequences, and jailbreak strategies.
 ---

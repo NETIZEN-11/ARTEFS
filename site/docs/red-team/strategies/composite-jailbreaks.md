@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Single Turn Composite
 title: Composite Jailbreaks Strategy
 description: Stack multiple research-proven jailbreak methods including DAN, AIM, and role-play for compound attack effectiveness

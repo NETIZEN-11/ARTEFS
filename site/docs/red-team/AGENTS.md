@@ -1,4 +1,4 @@
-﻿# Documentation Writing Guidelines for Red Team Docs
+# Documentation Writing Guidelines for Red Team Docs
 
 This file provides guidance for writing and maintaining documentation in the site/docs/red-team directory.
 

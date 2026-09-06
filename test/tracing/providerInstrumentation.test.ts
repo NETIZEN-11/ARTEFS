@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Phase 5: Comprehensive provider instrumentation validation tests.
  *
  * These tests verify that OTEL tracing is correctly implemented across

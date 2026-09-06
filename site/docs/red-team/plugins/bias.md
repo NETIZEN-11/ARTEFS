@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Bias Overview
 description: Red team AI systems for harmful bias and discrimination across protected characteristics to prevent discriminatory outputs and ensure ethical AI deployment
 ---

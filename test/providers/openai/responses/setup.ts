@@ -1,4 +1,4 @@
-﻿// Shared harness for the split OpenAI responses provider tests.
+// Shared harness for the split OpenAI responses provider tests.
 //
 // Each split test file must import this module with a bare side-effect
 // import (`import './setup';`) BEFORE importing the modules under test, so

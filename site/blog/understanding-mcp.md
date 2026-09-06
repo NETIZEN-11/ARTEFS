@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Understanding MCP
 title: 'Inside MCP: A Protocol for AI Integration'
 description: 'A hands-on exploration of Model Context Protocol - the standard that connects AI systems with real-world tools and data'

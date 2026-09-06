@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs (ElevenLabs)
+# provider-elevenlabs (ElevenLabs)
 
 Examples for using artef with [ElevenLabs](https://elevenlabs.io/) audio APIs.
 

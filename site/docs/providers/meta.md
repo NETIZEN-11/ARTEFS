@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Meta Model API
 description: Configure Meta's Model API to evaluate Muse Spark reasoning models with reasoning effort, multimodal input, tool calling, and search grounding in artef
 ---

@@ -1,4 +1,4 @@
-﻿import { CodeScanSeverity, type Comment, type ScanResponse } from '../../types/codeScan';
+import { CodeScanSeverity, type Comment, type ScanResponse } from '../../types/codeScan';
 import { sha256 } from '../../util/createHash';
 import { VERSION } from '../../version';
 

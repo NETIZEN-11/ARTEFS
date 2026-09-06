@@ -1,4 +1,4 @@
-﻿# eval-context-relevance-grader-output (Context Relevance Grader Output)
+# eval-context-relevance-grader-output (Context Relevance Grader Output)
 
 This example shows how `context-relevance` stores the raw judge response in
 assertion metadata so it can be inspected in View.

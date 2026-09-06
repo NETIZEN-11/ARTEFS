@@ -1,4 +1,4 @@
-﻿# provider-modelslab (ModelsLab Image Generation)
+# provider-modelslab (ModelsLab Image Generation)
 
 Compare text-to-image generation models using the [ModelsLab API](https://docs.modelslab.com).
 

@@ -1,4 +1,4 @@
-﻿import { propagation } from '@opentelemetry/api';
+import { propagation } from '@opentelemetry/api';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import cliState from '../../src/cliState';
 import { getEnvBool, getEnvString } from '../../src/envars';

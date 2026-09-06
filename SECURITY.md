@@ -1,4 +1,4 @@
-﻿# Security Policy
+# Security Policy
 
 artef takes security seriously. We appreciate responsible disclosure and will work with you to address valid issues.
 

@@ -1,4 +1,4 @@
-﻿# provider-replicate/comprehensive (Comprehensive Replicate Testing)
+# provider-replicate/comprehensive (Comprehensive Replicate Testing)
 
 You can run this example with:
 

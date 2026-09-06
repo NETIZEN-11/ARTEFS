@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { getRemoteHealthUrl } from '../../src/redteam/remoteGeneration';
 import { checkRemoteHealth } from '../../src/util/apiHealth';
 import { fetchWithTimeout } from '../../src/util/fetch/index';

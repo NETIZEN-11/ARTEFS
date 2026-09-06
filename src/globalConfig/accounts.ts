@@ -1,4 +1,4 @@
-﻿import input from '@inquirer/input';
+import input from '@inquirer/input';
 import chalk from 'chalk';
 import { z } from 'zod';
 import { TERMINAL_MAX_WIDTH } from '../constants';

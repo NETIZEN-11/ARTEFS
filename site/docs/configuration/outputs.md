@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 31
 sidebar_label: Output Formats
 title: Output Formats - Results Export and Analysis

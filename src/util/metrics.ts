@@ -1,4 +1,4 @@
-import { avg, count, eq, gte, lte, sql } from 'drizzle-orm';
+import { avg, count, sql } from 'drizzle-orm';
 import { getDb } from '../database/index';
 import { evalResultsTable, evalsTable } from '../database/tables';
 import logger from '../logger';

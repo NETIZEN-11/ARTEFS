@@ -1,4 +1,4 @@
-﻿import { createHash, randomUUID } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 
 import { getUserEmail } from '../../globalConfig/accounts';
 import logger from '../../logger';

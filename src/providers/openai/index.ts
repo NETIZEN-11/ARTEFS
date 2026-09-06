@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../../envars';
+import { getEnvString } from '../../envars';
 
 import type { EnvVarKey } from '../../envars';
 import type { EnvOverrides } from '../../types/env';

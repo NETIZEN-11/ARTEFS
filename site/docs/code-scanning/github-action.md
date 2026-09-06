@@ -1,4 +1,4 @@
-﻿---
+---
 title: GitHub Action
 sidebar_label: GitHub Action
 sidebar_position: 2
@@ -40,17 +40,17 @@ When using the GitHub App:
 
 Most CLI options from [`artef code-scans run`](/docs/code-scanning/cli) can be used as action inputs:
 
-| Input               | Description                                                                                                                              | Default                     |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| `api-host`          | artef API host URL                                                                                                                   | `https://api.artef.app` |
-| `min-severity`      | Minimum severity to report (`low`, `medium`, `high`, `critical`)                                                                         | `medium`                    |
-| `minimum-severity`  | Alias for `min-severity`. Takes effect only when `min-severity` is unset; if both are set, `min-severity` wins and a warning is emitted. | None                        |
-| `config-path`       | Path to `.artef-code-scan.yaml` config file                                                                                          | Auto-detected               |
-| `guidance`          | Custom guidance to tailor the scan (see [CLI docs][1])                                                                                   | None                        |
-| `guidance-file`     | Path to file containing custom guidance (see [CLI docs][1])                                                                              | None                        |
-| `enable-fork-prs`   | Enable scanning PRs from forked repositories                                                                                             | `false`                     |
-| `artef-version` | Exact `artef` CLI version to install for scanning (e.g. `0.121.0`). Ranges and dist-tags are rejected.                               | Version pinned at release   |
-| `sarif-output-path` | Optional path to write SARIF output for GitHub Code Scanning                                                                             | None                        |
+| Input               | Description                                                                                                                              | Default                   |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| `api-host`          | artef API host URL                                                                                                                       | `https://api.artef.app`   |
+| `min-severity`      | Minimum severity to report (`low`, `medium`, `high`, `critical`)                                                                         | `medium`                  |
+| `minimum-severity`  | Alias for `min-severity`. Takes effect only when `min-severity` is unset; if both are set, `min-severity` wins and a warning is emitted. | None                      |
+| `config-path`       | Path to `.artef-code-scan.yaml` config file                                                                                              | Auto-detected             |
+| `guidance`          | Custom guidance to tailor the scan (see [CLI docs][1])                                                                                   | None                      |
+| `guidance-file`     | Path to file containing custom guidance (see [CLI docs][1])                                                                              | None                      |
+| `enable-fork-prs`   | Enable scanning PRs from forked repositories                                                                                             | `false`                   |
+| `artef-version`     | Exact `artef` CLI version to install for scanning (e.g. `0.121.0`). Ranges and dist-tags are rejected.                                   | Version pinned at release |
+| `sarif-output-path` | Optional path to write SARIF output for GitHub Code Scanning                                                                             | None                      |
 
 [1]: [More on custom guidance](/docs/code-scanning/cli#custom-guidance)
 

@@ -1,4 +1,4 @@
-﻿# openai-codex-security (OpenAI Codex Security Scan Comparison)
+# openai-codex-security (OpenAI Codex Security Scan Comparison)
 
 Compare Codex Security standard and deep scans across models and reasoning settings using the same intentionally vulnerable repository fixture.
 

@@ -1,4 +1,4 @@
-﻿import { type ZodType, z } from 'zod';
+import { type ZodType, z } from 'zod';
 import { UnifiedConfigSchema } from '../src/types';
 import { TRANSFORM_KEYS } from '../src/util/transform';
 import { StringOrFunctionSchema } from '../src/validators/shared';

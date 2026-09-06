@@ -1,4 +1,4 @@
-﻿---
+---
 title: Novita Provider
 sidebar_label: Novita
 sidebar_position: 57

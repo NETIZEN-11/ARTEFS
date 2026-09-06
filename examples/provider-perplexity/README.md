@@ -1,4 +1,4 @@
-﻿# provider-perplexity (Perplexity API Examples)
+# provider-perplexity (Perplexity API Examples)
 
 This example demonstrates how to use Perplexity's search-augmented chat models to get up-to-date answers with citations, structured outputs, and specialized reasoning.
 

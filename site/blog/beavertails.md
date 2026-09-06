@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Red Team Your LLM with BeaverTails'
 description: 'Evaluate LLM safety using BeaverTails dataset with 700+ harmful prompts spanning harassment, violence, and deception categories'
 image: /img/blog/beavertails/beaver-coding.jpg

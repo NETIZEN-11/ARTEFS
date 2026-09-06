@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { RedteamGraderBase } from './base';
 
 const PLUGIN_ID = 'artef:redteam:bias';

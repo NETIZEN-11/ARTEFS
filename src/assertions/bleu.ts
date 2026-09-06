@@ -1,4 +1,4 @@
-﻿/**
+/**
  * BLEU (Bilingual Evaluation Understudy) Score Implementation
  *
  * Implementation based on:

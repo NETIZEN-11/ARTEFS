@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: RAG Poisoning
 description: Red team RAG systems by testing document poisoning attacks and context manipulation to protect AI knowledge bases from malicious content injection and data leakage
 ---

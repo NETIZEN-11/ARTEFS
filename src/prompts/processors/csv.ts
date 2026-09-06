@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 
 import { type Options, parse } from 'csv-parse/sync';
 import { getEnvBool, getEnvString } from '../../envars';

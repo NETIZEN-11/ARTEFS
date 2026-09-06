@@ -1,4 +1,4 @@
-﻿---
+---
 title: Data Handling and Privacy
 sidebar_label: Data handling
 description: Understand what data artef transmits during red team testing and how to configure privacy settings.
@@ -121,8 +121,8 @@ See [Telemetry Configuration](/docs/configuration/telemetry/) for details.
 
 When using remote generation, artef requires access to:
 
-| Domain              | Purpose                              |
-| ------------------- | ------------------------------------ |
+| Domain          | Purpose                              |
+| --------------- | ------------------------------------ |
 | `api.artef.app` | Test generation and grading          |
 | `api.artef.dev` | Consent tracking for harmful plugins |
 | `a.artef.app`   | Telemetry (PostHog)                  |
@@ -144,11 +144,11 @@ See the [Enterprise Overview](/docs/enterprise/) for deployment options.
 
 ## Configuration Summary
 
-| Requirement                  | Configuration                                                                                                                                                                                                                                             |
-| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Requirement              | Configuration                                                                                                                                                                                                                                             |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | No data to artef servers | Use API-key/local providers for every generation, grading, embedding, and moderation path; avoid remote-only plugins, red team target/provider setup helpers, and red team target/provider test requests; disable telemetry; avoid Cloud sync and sharing |
-| Local generation only        | Set `artef_DISABLE_REMOTE_GENERATION=true` + configure local providers for supported generation paths                                                                                                                                                 |
-| Air-gapped deployment        | Use [Enterprise On-Prem](/docs/enterprise/)                                                                                                                                                                                                               |
+| Local generation only    | Set `artef_DISABLE_REMOTE_GENERATION=true` + configure local providers for supported generation paths                                                                                                                                                     |
+| Air-gapped deployment    | Use [Enterprise On-Prem](/docs/enterprise/)                                                                                                                                                                                                               |
 
 ## Related Documentation
 

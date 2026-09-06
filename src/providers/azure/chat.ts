@@ -1,4 +1,4 @@
-﻿import { fetchWithCache } from '../../cache';
+import { fetchWithCache } from '../../cache';
 import { getEnvFloat, getEnvInt, getEnvString } from '../../envars';
 import logger from '../../logger';
 import {

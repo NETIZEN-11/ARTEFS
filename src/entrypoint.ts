@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Entry point for the artef CLI.
  *
  * This file intentionally has NO dependencies to ensure the Node.js version

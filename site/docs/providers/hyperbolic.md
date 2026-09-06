@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 42
 description: Configure Hyperbolic's OpenAI-compatible API to access DeepSeek, Qwen, and other specialized LLMs for text, image, and audio generation through a unified endpoint
 ---
@@ -107,20 +107,20 @@ providers:
 
 #### Text Generation Options
 
-| Parameter                         | Description                                                                                                                          |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `apiKey`                          | Your Hyperbolic API key                                                                                                              |
+| Parameter                         | Description                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `apiKey`                          | Your Hyperbolic API key                                                                                                          |
 | `cost`, `inputCost`, `outputCost` | Override artef's pricing estimates. Use `inputCost` and `outputCost` for asymmetric pricing; `cost` remains the shared fallback. |
-| `temperature`                     | Controls the randomness of the output (0.0 to 2.0)                                                                                   |
-| `max_tokens`                      | The maximum number of tokens to generate                                                                                             |
-| `top_p`                           | Controls nucleus sampling (0.0 to 1.0)                                                                                               |
-| `top_k`                           | Controls the number of top tokens to consider (-1 to consider all tokens)                                                            |
-| `min_p`                           | Minimum probability for a token to be considered (0.0 to 1.0)                                                                        |
-| `presence_penalty`                | Penalty for new tokens (0.0 to 1.0)                                                                                                  |
-| `frequency_penalty`               | Penalty for frequent tokens (0.0 to 1.0)                                                                                             |
-| `repetition_penalty`              | Prevents token repetition (default: 1.0)                                                                                             |
-| `stop`                            | Array of strings that will stop generation when encountered                                                                          |
-| `seed`                            | Random seed for reproducible results                                                                                                 |
+| `temperature`                     | Controls the randomness of the output (0.0 to 2.0)                                                                               |
+| `max_tokens`                      | The maximum number of tokens to generate                                                                                         |
+| `top_p`                           | Controls nucleus sampling (0.0 to 1.0)                                                                                           |
+| `top_k`                           | Controls the number of top tokens to consider (-1 to consider all tokens)                                                        |
+| `min_p`                           | Minimum probability for a token to be considered (0.0 to 1.0)                                                                    |
+| `presence_penalty`                | Penalty for new tokens (0.0 to 1.0)                                                                                              |
+| `frequency_penalty`               | Penalty for frequent tokens (0.0 to 1.0)                                                                                         |
+| `repetition_penalty`              | Prevents token repetition (default: 1.0)                                                                                         |
+| `stop`                            | Array of strings that will stop generation when encountered                                                                      |
+| `seed`                            | Random seed for reproducible results                                                                                             |
 
 #### Image Generation Options
 

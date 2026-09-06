@@ -1,4 +1,4 @@
-﻿import { DiagConsoleLogger, DiagLogLevel, diag, propagation } from '@opentelemetry/api';
+import { DiagConsoleLogger, DiagLogLevel, diag, propagation } from '@opentelemetry/api';
 import { W3CTraceContextPropagator } from '@opentelemetry/core';
 import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-http';
 import { resourceFromAttributes } from '@opentelemetry/resources';

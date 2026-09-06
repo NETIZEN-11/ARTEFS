@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "artef_dev",
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "artef_dev",

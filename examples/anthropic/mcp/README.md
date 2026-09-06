@@ -1,4 +1,4 @@
-﻿# anthropic/mcp (Anthropic Messages + MCP tools)
+# anthropic/mcp (Anthropic Messages + MCP tools)
 
 This example wires Claude up to a [Model Context Protocol](https://modelcontextprotocol.io) server through the Anthropic Messages provider. artef exposes the MCP server's tools to Claude, executes any `tool_use` blocks the model emits, and feeds the `tool_result` back into the conversation until Claude produces a final reply.
 

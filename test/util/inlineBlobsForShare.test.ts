@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { getShareAuthorizedBlob } from '../../src/blobs';
 import { createBlobInlineCache, inlineBlobRefsForShare } from '../../src/util/inlineBlobsForShare';
 

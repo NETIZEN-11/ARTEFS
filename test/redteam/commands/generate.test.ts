@@ -1,4 +1,4 @@
-﻿import fs from 'node:fs';
+import fs from 'node:fs';
 
 import { Command } from 'commander';
 import * as yaml from 'js-yaml';

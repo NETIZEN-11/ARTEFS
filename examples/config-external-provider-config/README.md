@@ -1,4 +1,4 @@
-﻿# config-external-provider-config (External Provider Config)
+# config-external-provider-config (External Provider Config)
 
 You can run this example with:
 

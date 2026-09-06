@@ -1,4 +1,4 @@
-﻿# compare-phi-vs-llama (Phi Vs Llama)
+# compare-phi-vs-llama (Phi Vs Llama)
 
 You can run this example with:
 

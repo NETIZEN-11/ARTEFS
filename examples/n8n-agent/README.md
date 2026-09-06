@@ -1,4 +1,4 @@
-﻿# n8n-agent (n8n AI Agent Evaluation)
+# n8n-agent (n8n AI Agent Evaluation)
 
 You can run this example with:
 

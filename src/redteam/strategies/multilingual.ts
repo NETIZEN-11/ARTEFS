@@ -1,4 +1,4 @@
-﻿import async from 'async';
+import async from 'async';
 import { Presets, SingleBar } from 'cli-progress';
 import dedent from 'dedent';
 import cliState from '../../cliState';

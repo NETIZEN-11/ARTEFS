@@ -1,4 +1,4 @@
-﻿# huggingface/pii (Huggingface Pii)
+# huggingface/pii (Huggingface Pii)
 
 You can run this example with:
 

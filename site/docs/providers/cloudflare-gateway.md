@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Cloudflare AI Gateway
 sidebar_position: 47
 description: Route AI requests through Cloudflare AI Gateway for caching, rate limiting, and analytics.

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Snowflake Cortex
 description: "Connect to AI models through Snowflake Cortex's OpenAI-compatible REST API with access to Claude, GPT, Mistral, and Llama models"
 ---

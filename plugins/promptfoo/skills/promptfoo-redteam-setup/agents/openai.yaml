@@ -1,4 +1,4 @@
-﻿interface:
+interface:
   display_name: 'artef Redteam Setup'
   short_description: 'Plan red team scans from endpoints or code'
   default_prompt: 'Use $artef-redteam-setup to create a focused red team config from a live endpoint, OpenAPI spec, or code.'

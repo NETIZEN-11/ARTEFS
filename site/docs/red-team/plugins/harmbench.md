@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: HarmBench
 description: Red team LLM safety using HarmBench's 400 harmful behavior tests, with filters for specific semantic and functional categories
 ---

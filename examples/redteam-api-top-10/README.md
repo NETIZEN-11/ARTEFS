@@ -1,4 +1,4 @@
-﻿# redteam-api-top-10 (OWASP API Security Top 10 Red Team Example)
+# redteam-api-top-10 (OWASP API Security Top 10 Red Team Example)
 
 A **deliberately vulnerable** demonstration app for testing AI red-teaming and OWASP API Security Top 10 vulnerabilities via prompt injection. This example showcases MCP (Model Context Protocol) tool integration with configurable security weaknesses.
 

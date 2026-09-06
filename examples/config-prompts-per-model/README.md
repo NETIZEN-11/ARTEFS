@@ -1,4 +1,4 @@
-﻿# config-prompts-per-model (Prompts Per Model)
+# config-prompts-per-model (Prompts Per Model)
 
 You can run this example with:
 

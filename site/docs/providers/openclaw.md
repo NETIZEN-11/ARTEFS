@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenClaw
 sidebar_label: OpenClaw
 sidebar_position: 42
@@ -210,8 +210,8 @@ providers:
 | session_key          | -                         | Session identifier for continuity; otherwise WS uses an isolated per-call session        |
 | thinking_level       | -                         | WS Agent reasoning level: `off`, `minimal`, `low`, `medium`, `high`, `xhigh`, `adaptive` |
 | extra_system_prompt  | -                         | WS Agent-only extra system prompt injected as `extraSystemPrompt`                        |
-| device_identity_path | -                         | WS Agent device keypair path (default: artef config directory)                       |
-| device_auth_path     | -                         | WS Agent issued-device-token cache path (default: artef config directory)            |
+| device_identity_path | -                         | WS Agent device keypair path (default: artef config directory)                           |
+| device_auth_path     | -                         | WS Agent issued-device-token cache path (default: artef config directory)                |
 | device_token         | -                         | Explicit WS device token for paired-device auth                                          |
 | device_family        | -                         | Optional device metadata included in the signed WS device payload                        |
 | disable_device_auth  | -                         | WS Agent break-glass option to omit device identity                                      |

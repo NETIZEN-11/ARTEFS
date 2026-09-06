@@ -1,4 +1,4 @@
-﻿import { rm } from 'fs/promises';
+import { rm } from 'fs/promises';
 
 import { AbortPromptError, ExitPromptError } from '@inquirer/core';
 import * as yaml from 'js-yaml';

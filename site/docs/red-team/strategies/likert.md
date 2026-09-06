@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Likert-based Jailbreaks
 title: Likert-based Jailbreaks Strategy
 description: Exploit academic framing and Likert scale formats to circumvent AI safety by disguising harmful requests as research surveys

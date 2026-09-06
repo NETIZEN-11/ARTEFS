@@ -1,4 +1,4 @@
-﻿# config-vars-referencing-vars (Vars Referencing Vars)
+# config-vars-referencing-vars (Vars Referencing Vars)
 
 You can run this example with:
 

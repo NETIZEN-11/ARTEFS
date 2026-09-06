@@ -1,4 +1,4 @@
-﻿# Prompt Processing
+# Prompt Processing
 
 Prompt loading, prompt files, Nunjucks rendering, grading prompts (`grading.ts`), and prompt processors (`processors/`).
 

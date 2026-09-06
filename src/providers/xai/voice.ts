@@ -1,4 +1,4 @@
-﻿/**
+/**
  * xAI Voice Agent API Provider
  *
  * Provides real-time voice conversations with Grok models via WebSocket.

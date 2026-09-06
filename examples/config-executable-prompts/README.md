@@ -1,4 +1,4 @@
-﻿# config-executable-prompts (Executable Prompts)
+# config-executable-prompts (Executable Prompts)
 
 This example demonstrates how to use executable scripts and binaries as prompt generators in artef.
 

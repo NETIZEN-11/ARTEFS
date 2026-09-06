@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Shared API-key gating for the two Codex providers (`openai:codex-sdk` and
  * `openai:codex-app-server`). Both spawn the Codex CLI and must decide identically whether the
  * resolved Codex/OpenAI API key belongs to the active backend. When routing through a

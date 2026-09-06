@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Groq
 description: Configure Groq's ultra-fast LLM inference API for high-performance LLM testing and evaluation with reasoning models, tool use, and vision capabilities
 ---

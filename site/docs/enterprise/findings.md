@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Findings and Reports
 sidebar_position: 50
 title: Findings and Reports in artef Enterprise

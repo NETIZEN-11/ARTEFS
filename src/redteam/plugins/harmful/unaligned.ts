@@ -1,4 +1,4 @@
-﻿import { getEnvInt } from '../../../envars';
+import { getEnvInt } from '../../../envars';
 import logger from '../../../logger';
 import { artefHarmfulCompletionProvider } from '../../../providers/artef';
 import { retryWithDeduplication, sampleArray } from '../../../util/generation';

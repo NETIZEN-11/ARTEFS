@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import * as path from 'path';
 
 import dedent from 'dedent';

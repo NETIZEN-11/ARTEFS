@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { mockGlobal, mockProcessEnv } from './utils';
 
 const envKeys = ['artef_TEST_UTIL_ORIGINAL', 'artef_TEST_UTIL_OVERRIDE', 'artef_TEST_UTIL_CREATED'];

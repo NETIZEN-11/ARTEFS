@@ -1,4 +1,4 @@
-﻿# redteam-docx-document-upload (Red Team DOCX Indirect Prompt Injection)
+# redteam-docx-document-upload (Red Team DOCX Indirect Prompt Injection)
 
 This example targets the deployed `example-app` service at `https://example-app.artef.app` to test indirect prompt injection through uploaded DOCX files.
 

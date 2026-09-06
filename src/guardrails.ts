@@ -1,4 +1,4 @@
-﻿import { fetchWithCache } from './cache';
+import { fetchWithCache } from './cache';
 import { getShareApiBaseUrl } from './constants';
 import { getEnvString } from './envars';
 import { cloudConfig } from './globalConfig/cloud';

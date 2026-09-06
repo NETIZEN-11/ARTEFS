@@ -340,7 +340,11 @@
         "src/node/doEval.ts",
         "src/contracts/**/*",
         "src/types/**/*",
-        "src/tracing/**/*"
+        "src/tracing/**/*",
+        "src/qualityGate/**/*",
+        "src/regression/**/*",
+        "src/releaseReadiness/**/*",
+        "src/humanReview/**/*"
       ],
       "linter": {
         "rules": {

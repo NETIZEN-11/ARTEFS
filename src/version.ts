@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Version and build-time constants.
  *
  * This module uses compile-time injection:

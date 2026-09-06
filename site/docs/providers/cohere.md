@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Cohere
 description: Configure Cohere chat models for RAG-optimized inference, with current Command A, Aya, and Command R variants plus flexible prompt truncation controls
 ---

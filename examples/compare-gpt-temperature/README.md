@@ -1,4 +1,4 @@
-﻿# compare-gpt-temperature (Gpt 4o Temperature Comparison)
+# compare-gpt-temperature (Gpt 4o Temperature Comparison)
 
 You can run this example with:
 

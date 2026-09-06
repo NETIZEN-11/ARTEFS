@@ -1,4 +1,4 @@
-﻿import { AsyncLocalStorage } from 'node:async_hooks';
+import { AsyncLocalStorage } from 'node:async_hooks';
 import { pathToFileURL } from 'node:url';
 import * as fs from 'fs';
 import * as os from 'os';

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Utility for parsing and validating ModelAudit CLI arguments
  * Ensures compatibility between artef and modelaudit CLI interfaces
  */

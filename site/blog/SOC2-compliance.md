@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'artef Achieves SOC 2 Type II and ISO 27001 Certification: Strengthening Trust in AI Security'
 description: 'artef achieves SOC 2 Type II and ISO 27001 compliance, demonstrating enterprise-grade security for AI red teaming and LLM evaluation tools.'
 image: /img/blog/soc2-compliance.png

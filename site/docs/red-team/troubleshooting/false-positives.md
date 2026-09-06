@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: False Positives
 description: Red team false positive detection by enhancing grader context and scoring precision to prevent inaccurate vulnerability assessments in AI security testing workflows
 ---

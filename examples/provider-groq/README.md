@@ -1,4 +1,4 @@
-﻿# provider-groq (Groq)
+# provider-groq (Groq)
 
 You can run this example with:
 

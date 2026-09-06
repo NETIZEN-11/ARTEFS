@@ -1,4 +1,4 @@
-﻿# eval-javascript-assert-params (JavaScript Assertion Params)
+# eval-javascript-assert-params (JavaScript Assertion Params)
 
 ## What this demonstrates
 

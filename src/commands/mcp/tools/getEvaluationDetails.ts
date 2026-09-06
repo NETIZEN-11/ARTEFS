@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { z } from 'zod';
 import { readResult } from '../../../util/database';
 import { redactAzureBlobSasTokens } from '../../../util/sanitizer';

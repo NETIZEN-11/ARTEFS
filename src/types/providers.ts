@@ -1,4 +1,4 @@
-﻿import type winston from 'winston';
+import type winston from 'winston';
 
 import type { MinimalApiProvider } from '../contracts/prompts';
 import type {

@@ -1,4 +1,4 @@
-﻿# config-node-module-package (Node Module Package)
+# config-node-module-package (Node Module Package)
 
 You can run this example with:
 

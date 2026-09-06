@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Smoke tests for CLI binary operations.
  *
  * These tests verify the built CLI binary works correctly.

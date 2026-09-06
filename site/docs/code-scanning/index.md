@@ -1,4 +1,4 @@
-﻿---
+---
 title: Code Scanning - LLM Security Vulnerability Scanner
 description: Scan code changes for LLM security vulnerabilities using AI-powered analysis. Find prompt injection, PII exposure, and other security risks in pull requests.
 keywords:

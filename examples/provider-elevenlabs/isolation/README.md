@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs/isolation (ElevenLabs Audio Isolation)
+# provider-elevenlabs/isolation (ElevenLabs Audio Isolation)
 
 Remove background noise from audio files to extract clean speech using ElevenLabs audio isolation.
 

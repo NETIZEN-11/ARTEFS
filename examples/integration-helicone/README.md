@@ -1,4 +1,4 @@
-﻿# integration-helicone (Helicone AI Gateway)
+# integration-helicone (Helicone AI Gateway)
 
 You can run this example with:
 

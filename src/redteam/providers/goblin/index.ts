@@ -1,4 +1,4 @@
-﻿import { type HydraConfig, HydraProvider } from '../hydra/index';
+import { type HydraConfig, HydraProvider } from '../hydra/index';
 
 /**
  * Goblin intentionally reuses Hydra's mature multi-turn execution path.

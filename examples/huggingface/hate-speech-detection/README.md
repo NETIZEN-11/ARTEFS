@@ -1,4 +1,4 @@
-﻿# huggingface/hate-speech-detection (Huggingface Hate Speech Detection)
+# huggingface/hate-speech-detection (Huggingface Hate Speech Detection)
 
 You can run this example with:
 

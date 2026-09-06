@@ -1,4 +1,4 @@
-﻿# provider-cerebras (Cerebras Example (High-Performance LLM Inference))
+# provider-cerebras (Cerebras Example (High-Performance LLM Inference))
 
 This example demonstrates how to use the Cerebras provider with artef to evaluate Cerebras Inference API models, which offer high-performance inference for Llama and other LLM models.
 

@@ -1,4 +1,4 @@
-﻿# Agent Plugin Bundles
+# Agent Plugin Bundles
 
 This directory contains the artef agent plugin bundle. Read this file before
 editing `plugins/artef` or adding another plugin bundle.

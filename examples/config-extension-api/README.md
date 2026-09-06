@@ -1,4 +1,4 @@
-﻿# config-extension-api (Custom Extensions Example for artef)
+# config-extension-api (Custom Extensions Example for artef)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿# claude-agent-sdk/advanced-options (Claude Agent SDK Advanced Options)
+# claude-agent-sdk/advanced-options (Claude Agent SDK Advanced Options)
 
 This example demonstrates advanced Claude Agent SDK configuration options including sandbox settings, runtime configuration, and CLI arguments.
 

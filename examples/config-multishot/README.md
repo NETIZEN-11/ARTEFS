@@ -1,4 +1,4 @@
-﻿# config-multishot (Multishot)
+# config-multishot (Multishot)
 
 You can run this example with:
 

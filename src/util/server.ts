@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import opener from 'opener';
 import { getDefaultPort, VERSION } from '../constants';
 import logger from '../logger';

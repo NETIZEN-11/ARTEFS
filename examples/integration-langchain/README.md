@@ -1,4 +1,4 @@
-﻿# integration-langchain (Langchain Python)
+# integration-langchain (Langchain Python)
 
 You can run this example with:
 

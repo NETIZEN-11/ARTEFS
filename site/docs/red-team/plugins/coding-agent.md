@@ -1,4 +1,4 @@
-﻿---
+---
 title: Coding Agent Plugins
 sidebar_label: Coding Agents
 sidebar_position: 60

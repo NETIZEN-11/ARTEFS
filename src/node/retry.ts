@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import { and, eq, inArray } from 'drizzle-orm';
 import cliState from '../cliState';
 import { getDb } from '../database/index';

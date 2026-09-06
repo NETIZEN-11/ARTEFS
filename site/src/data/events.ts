@@ -1,4 +1,4 @@
-﻿// Event Types
+// Event Types
 export type EventStatus = 'upcoming' | 'past';
 export type EventType = 'conference' | 'webinar' | 'workshop' | 'party';
 

@@ -1,4 +1,4 @@
-﻿# eval-markdown-rendering (Markdown Rendering)
+# eval-markdown-rendering (Markdown Rendering)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { RedteamGraderBase } from './base';
 
 import type { AssertionValue, ResultSuggestion } from '../../types/index';

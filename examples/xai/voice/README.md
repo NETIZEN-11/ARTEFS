@@ -1,4 +1,4 @@
-﻿# xai/voice (xAI Grok Voice Agent)
+# xai/voice (xAI Grok Voice Agent)
 
 This example demonstrates how to use xAI's Grok Voice Agent API with artef for evaluating real-time voice AI conversations.
 

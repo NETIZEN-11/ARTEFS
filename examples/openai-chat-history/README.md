@@ -1,4 +1,4 @@
-﻿# openai-chat-history (Openai Chat History)
+# openai-chat-history (Openai Chat History)
 
 You can run this example with:
 

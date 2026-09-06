@@ -1,4 +1,4 @@
-﻿# redteam-langchain (LangChain Red Team Example)
+# redteam-langchain (LangChain Red Team Example)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import async from 'async';
+import async from 'async';
 import chalk from 'chalk';
 import dedent from 'dedent';
 import { VERSION } from '../../constants';

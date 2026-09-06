@@ -1,4 +1,4 @@
-﻿# openai-agents (Long-Horizon OpenAI Agents Python SDK)
+# openai-agents (Long-Horizon OpenAI Agents Python SDK)
 
 This example shows how to evaluate the official Python `openai-agents` SDK end to end in artef.
 

@@ -1,4 +1,4 @@
-﻿# eval-assertions-generate (Assertion Generation Example)
+# eval-assertions-generate (Assertion Generation Example)
 
 You can run this example with:
 

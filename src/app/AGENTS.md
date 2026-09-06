@@ -1,4 +1,4 @@
-﻿# Frontend Application
+# Frontend Application
 
 React-based web UI using Vite + TypeScript. Separate workspace from main codebase.
 

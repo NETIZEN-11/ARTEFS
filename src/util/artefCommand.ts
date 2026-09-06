@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Utilities for detecting CLI installation method and generating appropriate next commands.
  * Combines multiple detection strategies for robust installer identification.
  */

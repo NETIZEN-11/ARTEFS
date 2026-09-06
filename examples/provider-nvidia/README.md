@@ -1,4 +1,4 @@
-﻿# provider-nvidia (NVIDIA NIM)
+# provider-nvidia (NVIDIA NIM)
 
 You can run this example with:
 

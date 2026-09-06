@@ -1,4 +1,4 @@
-﻿import * as os from 'os';
+import * as os from 'os';
 import * as path from 'path';
 
 import * as yaml from 'js-yaml';

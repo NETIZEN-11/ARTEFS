@@ -1,4 +1,4 @@
-﻿# provider-replicate/llama-guard-moderation (LlamaGuard Content Moderation)
+# provider-replicate/llama-guard-moderation (LlamaGuard Content Moderation)
 
 You can run this example with:
 

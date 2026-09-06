@@ -1,4 +1,4 @@
-﻿import { Presets, SingleBar } from 'cli-progress';
+import { Presets, SingleBar } from 'cli-progress';
 import { fetchWithCache } from '../../cache';
 import { VERSION } from '../../constants';
 import { getUserEmail } from '../../globalConfig/accounts';

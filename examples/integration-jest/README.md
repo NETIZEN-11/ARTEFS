@@ -1,4 +1,4 @@
-﻿# integration-jest (Prompt Testing with Jest and Vitest)
+# integration-jest (Prompt Testing with Jest and Vitest)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿# config-tests-per-provider (Isolated Test Suites)
+# config-tests-per-provider (Isolated Test Suites)
 
 This example demonstrates how to run different tests against different providers in a single evaluation using the `providers` filter on test cases.
 

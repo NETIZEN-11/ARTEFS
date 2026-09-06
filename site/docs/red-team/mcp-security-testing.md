@@ -1,4 +1,4 @@
-﻿---
+---
 title: MCP Security Testing Guide
 description: Secure Model Context Protocol servers through comprehensive red teaming, tool poisoning tests, and API vulnerability scanning
 sidebar_label: MCP Security Testing

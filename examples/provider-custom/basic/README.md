@@ -1,4 +1,4 @@
-﻿# provider-custom/basic (Custom Provider)
+# provider-custom/basic (Custom Provider)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿# provider-orcarouter (OrcaRouter Provider)
+# provider-orcarouter (OrcaRouter Provider)
 
 This example shows how to use [OrcaRouter](https://www.orcarouter.ai/), an OpenAI-compatible adaptive routing gateway, to evaluate prompts against multiple upstream models through a single endpoint.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Meta-Agent Jailbreaks
 title: Meta-Agent Jailbreaks Strategy
 description: Strategic jailbreak testing with adaptive decision-making to test system resilience

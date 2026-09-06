@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 999
 sidebar_label: Managing Large Configs
 title: Managing Large artef Configurations

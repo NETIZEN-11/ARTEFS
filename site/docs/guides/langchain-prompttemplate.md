@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Using LangChain PromptTemplate with artef
 description: Learn how to test LangChain PromptTemplate outputs systematically with artef's evaluation tools to validate prompt formatting and variable injection
 ---

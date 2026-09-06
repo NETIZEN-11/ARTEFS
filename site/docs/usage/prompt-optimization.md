@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prompt Optimization
 sidebar_position: 11
 sidebar_label: Prompt optimization

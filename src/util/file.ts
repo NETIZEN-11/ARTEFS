@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 import { access } from 'fs/promises';
 import * as path from 'path';
 

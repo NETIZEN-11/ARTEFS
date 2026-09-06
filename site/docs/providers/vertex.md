@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Google Vertex
 title: Google Vertex AI Provider
 description: Use Google Vertex AI models including Gemini, Claude, Llama, and specialized models for text, code, and embeddings in your evals
@@ -710,8 +710,8 @@ defaultTest:
 | `publisher`                        | Model publisher                                                    | `google`                             |
 | `context`                          | Model context                                                      | None                                 |
 | `cost`                             | Legacy per-token override applied to both input and output pricing | None                                 |
-| `inputCost`                        | Override input token pricing in artef cost estimates           | None                                 |
-| `outputCost`                       | Override output token pricing in artef cost estimates          | None                                 |
+| `inputCost`                        | Override input token pricing in artef cost estimates               | None                                 |
+| `outputCost`                       | Override output token pricing in artef cost estimates              | None                                 |
 | `examples`                         | Few-shot examples                                                  | None                                 |
 | `safetySettings`                   | Content filtering                                                  | None                                 |
 | `generationConfig.temperature`     | Randomness control                                                 | None                                 |

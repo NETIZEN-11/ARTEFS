@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { shouldShareResults } from '../../src/util/sharing';
 
 vi.mock('../../src/envars', () => ({

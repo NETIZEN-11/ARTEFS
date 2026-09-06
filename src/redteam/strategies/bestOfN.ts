@@ -1,4 +1,4 @@
-﻿import logger from '../../logger';
+import logger from '../../logger';
 
 import type { TestCase, TestCaseWithPlugin } from '../../types/index';
 

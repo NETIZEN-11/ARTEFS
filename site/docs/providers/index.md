@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: LLM Providers
 description: Configure multiple LLM providers including Claude, GPT, and Gemini models with standardized testing interfaces for comprehensive AI evaluation
 ---
@@ -104,11 +104,11 @@ providers:
 | [WebSocket](./websocket.md)                             | WebSocket-based providers                                        | `ws://example.com/ws`                                                                                                 |
 | [Webhook](./webhook.md)                                 | Custom - Webhook integration                                     | `webhook:http://example.com/webhook`                                                                                  |
 | [Echo](./echo.md)                                       | Custom - For testing purposes                                    | `echo`                                                                                                                |
-| [Manual Input](./manual-input.md)                       | Custom - CLI manual entry                                        | `artef:manual-input`                                                                                              |
+| [Manual Input](./manual-input.md)                       | Custom - CLI manual entry                                        | `artef:manual-input`                                                                                                  |
 | [Go](./go.md)                                           | Custom - Go file                                                 | `file://path/to/your/script.go`                                                                                       |
 | [Web Browser](./browser.md)                             | Custom - Automate web browser interactions                       | `browser`                                                                                                             |
 | [Sequence](./sequence.md)                               | Custom - Multi-prompt sequencing                                 | `sequence` with config.inputs array                                                                                   |
-| [Simulated User](./simulated-user.md)                   | Custom - Conversation simulator                                  | `artef:simulated-user`                                                                                            |
+| [Simulated User](./simulated-user.md)                   | Custom - Conversation simulator                                  | `artef:simulated-user`                                                                                                |
 | [WatsonX](./watsonx.md)                                 | IBM's WatsonX                                                    | `watsonx:ibm/granite-4-h-small`                                                                                       |
 | [X.AI](./xai.md)                                        | X.AI's models (text, image, video, voice)                        | `xai:grok-4.3`, `xai:image:grok-imagine-image`, `xai:video:grok-imagine-video`, `xai:voice:grok-voice-think-fast-1.0` |
 

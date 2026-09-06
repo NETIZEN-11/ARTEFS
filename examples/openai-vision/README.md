@@ -1,4 +1,4 @@
-﻿# openai-vision (OpenAI Vision Model Example)
+# openai-vision (OpenAI Vision Model Example)
 
 This example demonstrates how to use artef to evaluate OpenAI's vision capabilities, allowing you to test models on their ability to analyze and describe images.
 

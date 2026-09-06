@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Shared logic for generating update commands based on environment
  */
 

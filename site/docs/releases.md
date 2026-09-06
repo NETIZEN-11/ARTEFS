@@ -1,4 +1,4 @@
-﻿---
+---
 title: Release Notes
 sidebar_position: 100
 description: Track monthly artef releases featuring new providers, security plugins, performance improvements, and community contributions

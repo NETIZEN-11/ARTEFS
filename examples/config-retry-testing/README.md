@@ -1,4 +1,4 @@
-﻿# config-retry-testing (Retry Testing)
+# config-retry-testing (Retry Testing)
 
 You can run this example with:
 

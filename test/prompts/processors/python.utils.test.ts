@@ -1,4 +1,4 @@
-﻿import { PythonShell } from 'python-shell';
+import { PythonShell } from 'python-shell';
 import { describe, expect, it, vi } from 'vitest';
 import logger from '../../../src/logger';
 import {

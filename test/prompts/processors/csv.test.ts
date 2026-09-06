@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 
 import dedent from 'ts-dedent';
 import { beforeEach, describe, expect, it, vi } from 'vitest';

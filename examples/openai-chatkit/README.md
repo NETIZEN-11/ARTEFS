@@ -1,4 +1,4 @@
-﻿# openai-chatkit (OpenAI ChatKit Workflow Evaluation)
+# openai-chatkit (OpenAI ChatKit Workflow Evaluation)
 
 Evaluate ChatKit workflows built with OpenAI's Agent Builder using browser automation.
 

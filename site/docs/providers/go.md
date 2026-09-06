@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Go (Golang)
 description: Configure custom Go providers to integrate your own Go-based LLM clients, models, and APIs with artef's testing framework for seamless evaluation
 ---

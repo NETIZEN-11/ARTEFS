@@ -1,4 +1,4 @@
-﻿import { getEnvInt, getEnvString } from './envars';
+import { getEnvInt, getEnvString } from './envars';
 
 export * from './providers/constants';
 export { VERSION } from './version';

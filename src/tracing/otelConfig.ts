@@ -1,4 +1,4 @@
-﻿import { getEnvBool, getEnvString } from '../envars';
+import { getEnvBool, getEnvString } from '../envars';
 
 /**
  * Configuration for OpenTelemetry tracing.

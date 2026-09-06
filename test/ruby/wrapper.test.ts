@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { runRuby } from '../../src/ruby/rubyUtils';
 import { runRubyCode } from '../../src/ruby/wrapper';
 import {

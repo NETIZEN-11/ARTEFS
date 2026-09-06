@@ -1,4 +1,4 @@
-﻿# eval-sql-validation (Sql Validation)
+# eval-sql-validation (Sql Validation)
 
 You can run this example with:
 

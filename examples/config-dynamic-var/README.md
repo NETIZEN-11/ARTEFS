@@ -1,4 +1,4 @@
-﻿# config-dynamic-var (Dynamic Variable Generation)
+# config-dynamic-var (Dynamic Variable Generation)
 
 Generate variable values at runtime using JavaScript or Python.
 

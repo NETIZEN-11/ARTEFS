@@ -1,4 +1,4 @@
-﻿# Agent Skill Tests
+# Agent Skill Tests
 
 `test/agentSkills/artefPlugin.test.ts` is the contract suite for the
 artef plugin bundle (shared across Codex and Claude Code).

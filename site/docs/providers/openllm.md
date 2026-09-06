@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: OpenLLM
 description: "Deploy and serve open-source LLMs efficiently using BentoML's OpenLLM framework for production-ready model inference"
 ---

@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import { DEFAULT_CONFIG_EXTENSIONS } from './extensions';
 import { maybeReadConfig } from './load';

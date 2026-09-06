@@ -1,4 +1,4 @@
-﻿---
+---
 description: Report security vulnerabilities in artef responsibly - guidelines for disclosure, safe harbor provisions, and response times
 ---
 

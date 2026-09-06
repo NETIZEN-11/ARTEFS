@@ -1,4 +1,4 @@
-﻿import {
+import {
   addTraceProcessor,
   BatchTraceProcessor,
   getOrCreateTrace,

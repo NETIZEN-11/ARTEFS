@@ -1,4 +1,4 @@
-﻿import Ajv from 'ajv';
+import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { getEnvBool, getEnvString } from '../envars';
 import invariant from '../util/invariant';

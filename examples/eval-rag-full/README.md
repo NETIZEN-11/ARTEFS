@@ -1,4 +1,4 @@
-﻿# eval-rag-full (Rag Full)
+# eval-rag-full (Rag Full)
 
 You can run this example with:
 

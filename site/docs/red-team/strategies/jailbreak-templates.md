@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Jailbreak Templates
 title: Jailbreak Templates Strategy
 description: Test LLM resistance to known jailbreak techniques using a curated library of static templates

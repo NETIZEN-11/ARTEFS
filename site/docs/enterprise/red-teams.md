@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Running Red Teams
 sidebar_position: 40
 title: Running Red Teams in artef Enterprise

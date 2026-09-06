@@ -1,4 +1,4 @@
-﻿import {
+import {
   extendZodWithOpenApi,
   OpenAPIRegistry,
   OpenApiGeneratorV31,

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: SSRF
 description: Red team server-side request forgery (SSRF) vulnerabilities by testing AI systems against malicious URL fetching to prevent unauthorized resource access and data theft
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Install artef
 description: Learn how to install artef using npm, npx, or Homebrew. Set up artef for command-line usage or as a library in your project.
 keywords: [install, installation, npm, npx, homebrew, windows, setup, artef]

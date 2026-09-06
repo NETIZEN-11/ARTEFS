@@ -1,4 +1,4 @@
-﻿# redteam-donotanswer (DoNotAnswer Evaluation Example)
+# redteam-donotanswer (DoNotAnswer Evaluation Example)
 
 This example demonstrates how to use the DoNotAnswer plugin to evaluate whether a model properly refuses to answer harmful or inappropriate queries.
 

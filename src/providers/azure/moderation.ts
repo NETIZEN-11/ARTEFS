@@ -1,4 +1,4 @@
-﻿import crypto from 'node:crypto';
+import crypto from 'node:crypto';
 
 import { getCache, isCacheEnabled } from '../../cache';
 import { getEnvString } from '../../envars';

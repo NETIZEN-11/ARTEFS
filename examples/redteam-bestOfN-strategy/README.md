@@ -1,4 +1,4 @@
-﻿# redteam-bestOfN-strategy (Redteam: Best-of-N Strategy)
+# redteam-bestOfN-strategy (Redteam: Best-of-N Strategy)
 
 You can run this example with:
 

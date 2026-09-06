@@ -1,4 +1,4 @@
-﻿# openai-images (OpenAI Image Generation Example)
+# openai-images (OpenAI Image Generation Example)
 
 You can run this example with:
 

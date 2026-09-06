@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs/tts-advanced (ElevenLabs Advanced TTS Features)
+# provider-elevenlabs/tts-advanced (ElevenLabs Advanced TTS Features)
 
 This example demonstrates advanced TTS capabilities:
 

@@ -1,4 +1,4 @@
-﻿import { Command } from 'commander';
+import { Command } from 'commander';
 import { afterEach, beforeEach, describe, expect, it, type Mock, vi } from 'vitest';
 import { listCommand } from '../../src/commands/list';
 import logger from '../../src/logger';

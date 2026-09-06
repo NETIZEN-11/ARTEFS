@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Testing AI’s “Lethal Trifecta” with artef'
 description: Learn what the lethal trifecta is and how to use artef red teaming to detect prompt injection and data exfiltration risks in AI agents.
 image: /img/blog/lethal-trifecta/lethal-trifecta-venn.png

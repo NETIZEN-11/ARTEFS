@@ -1,4 +1,4 @@
-﻿---
+---
 title: xAI (Grok) Provider
 description: Use xAI Grok models for text, image, video, voice, and Responses API tool workflows, including Grok 4.5, Grok 4.3, regional endpoints, and pricing.
 keywords:

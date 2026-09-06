@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Envoy AI Gateway
 description: "Connect to AI models through Envoy AI Gateway's OpenAI-compatible proxy with unified API management and routing capabilities"
 ---

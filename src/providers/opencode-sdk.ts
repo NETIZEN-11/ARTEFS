@@ -1,4 +1,4 @@
-﻿import { createRequire } from 'node:module';
+import { createRequire } from 'node:module';
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import os from 'os';

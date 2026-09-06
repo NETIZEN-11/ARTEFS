@@ -1,4 +1,4 @@
-﻿# Eval Patterns
+# Eval Patterns
 
 ## Config Structure
 

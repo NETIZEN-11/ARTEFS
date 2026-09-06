@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Functions for manipulating the global configuration file, which lives at
  * ~/.artef/artef.yaml by default.
  */

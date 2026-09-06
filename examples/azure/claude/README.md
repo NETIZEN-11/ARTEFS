@@ -1,4 +1,4 @@
-﻿# azure/claude (Azure Claude Models)
+# azure/claude (Azure Claude Models)
 
 This example demonstrates how to use Anthropic Claude models on Azure AI Foundry with artef.
 

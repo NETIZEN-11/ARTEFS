@@ -1,4 +1,4 @@
-﻿# integration-google-adk (Google ADK Integration)
+# integration-google-adk (Google ADK Integration)
 
 This example shows how to evaluate the Python [Google Agent Development Kit (ADK)](https://adk.dev/) in artef with native ADK tracing.
 

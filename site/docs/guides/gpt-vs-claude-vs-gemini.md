@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: 'GPT vs Claude vs Gemini'
 description: 'Compare GPT, Claude, and Gemini performance on your own data with artef. Run side-by-side evaluations of cost, latency, and quality to find the best model for your use case.'
 ---

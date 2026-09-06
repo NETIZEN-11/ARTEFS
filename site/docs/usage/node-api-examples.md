@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Node API Examples
 sidebar_position: 22
 title: Node API examples

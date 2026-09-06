@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../../../envars';
+import { getEnvString } from '../../../envars';
 import logger from '../../../logger';
 import { ElevenLabsCache } from '../cache';
 import { ElevenLabsClient } from '../client';

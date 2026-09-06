@@ -1,4 +1,4 @@
-﻿import * as fsPromises from 'fs/promises';
+import * as fsPromises from 'fs/promises';
 
 import { XMLBuilder } from 'fast-xml-parser';
 import { ResultFailureReason } from '../types';

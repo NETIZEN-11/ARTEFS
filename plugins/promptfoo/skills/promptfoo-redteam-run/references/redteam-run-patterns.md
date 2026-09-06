@@ -1,4 +1,4 @@
-﻿# Redteam Run Patterns
+# Redteam Run Patterns
 
 ## Stable Eval From Generated Tests
 

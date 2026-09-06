@@ -1,4 +1,4 @@
-﻿interface:
+interface:
   display_name: 'artef Redteam Run'
   short_description: 'Run and triage red team scans'
   default_prompt: 'Use $artef-redteam-run to execute this generated redteam scan with its HTTP, Python, or JS target and summarize failures.'

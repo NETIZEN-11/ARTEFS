@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: A2A
 title: A2A Provider
 description: Use Agent2Agent (A2A) HTTP+JSON agents as providers in artef for evals and red teams
@@ -70,22 +70,22 @@ context, similar to how the MCP provider uses discovered tools.
 
 ## Configuration Options
 
-| Option               | Type                         | Default  | Description                                                                 |
-| -------------------- | ---------------------------- | -------- | --------------------------------------------------------------------------- |
-| `url`                | string                       | -        | Base URL for the A2A HTTP+JSON interface                                    |
-| `agentCardUrl`       | string                       | -        | URL of the Agent Card used for endpoint and capability discovery            |
-| `auth`               | object                       | -        | Bearer, basic, API key, or OAuth authentication configuration               |
-| `headers`            | `Record<string, string>`     | `{}`     | Headers sent to the Agent Card endpoint and A2A operation requests          |
-| `mode`               | `auto` \| `send` \| `stream` | `auto`   | Whether to call `message:send`, `message:stream`, or choose automatically   |
-| `tenant`             | string                       | -        | Tenant override. Defaults to the selected Agent Card interface tenant       |
-| `protocolVersion`    | string                       | `1.0`    | Value for the `A2A-Version` header                                          |
-| `polling.enabled`    | boolean                      | `true`   | Poll non-terminal tasks returned by `message:send`                          |
-| `polling.intervalMs` | number                       | `1000`   | Delay between `GET /tasks/{id}` polls                                       |
-| `polling.timeoutMs`  | number                       | `300000` | Maximum time to wait for task completion                                    |
-| `message`            | object                       | -        | Custom A2A message template                                                 |
-| `configuration`      | object                       | -        | A2A message configuration sent with each request                            |
-| `transformResponse`  | string \| Function           | -        | JavaScript transform for reshaping the final provider response              |
-| `timeoutMs`          | number                       | -        | Per-request HTTP timeout. Defaults to artef's provider request timeout. |
+| Option               | Type                         | Default  | Description                                                               |
+| -------------------- | ---------------------------- | -------- | ------------------------------------------------------------------------- |
+| `url`                | string                       | -        | Base URL for the A2A HTTP+JSON interface                                  |
+| `agentCardUrl`       | string                       | -        | URL of the Agent Card used for endpoint and capability discovery          |
+| `auth`               | object                       | -        | Bearer, basic, API key, or OAuth authentication configuration             |
+| `headers`            | `Record<string, string>`     | `{}`     | Headers sent to the Agent Card endpoint and A2A operation requests        |
+| `mode`               | `auto` \| `send` \| `stream` | `auto`   | Whether to call `message:send`, `message:stream`, or choose automatically |
+| `tenant`             | string                       | -        | Tenant override. Defaults to the selected Agent Card interface tenant     |
+| `protocolVersion`    | string                       | `1.0`    | Value for the `A2A-Version` header                                        |
+| `polling.enabled`    | boolean                      | `true`   | Poll non-terminal tasks returned by `message:send`                        |
+| `polling.intervalMs` | number                       | `1000`   | Delay between `GET /tasks/{id}` polls                                     |
+| `polling.timeoutMs`  | number                       | `300000` | Maximum time to wait for task completion                                  |
+| `message`            | object                       | -        | Custom A2A message template                                               |
+| `configuration`      | object                       | -        | A2A message configuration sent with each request                          |
+| `transformResponse`  | string \| Function           | -        | JavaScript transform for reshaping the final provider response            |
+| `timeoutMs`          | number                       | -        | Per-request HTTP timeout. Defaults to artef's provider request timeout.   |
 
 ## Authentication
 

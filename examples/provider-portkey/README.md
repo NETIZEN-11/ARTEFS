@@ -1,4 +1,4 @@
-﻿# provider-portkey (Portkey Test)
+# provider-portkey (Portkey Test)
 
 You can run this example with:
 

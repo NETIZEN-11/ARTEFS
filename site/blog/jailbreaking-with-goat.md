@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Introducing GOAT
 title: Introducing GOAT—artef's Latest Strategy
 description: 'Meet GOAT: our advanced multi-turn jailbreaking strategy that uses AI attackers to break AI defenders. See how gradient-based optimization makes jailbreaks more sophisticated.'

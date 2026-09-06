@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenAI Agents
 description: Test OpenAI Agents with tools, handoffs, sessions, sandbox workflows, and tracing in artef.
 keywords:
@@ -62,8 +62,8 @@ For repeatable eval baselines, set a model explicitly on the exported SDK agent 
 | `runOptions`       | Additional non-streaming SDK `run()` options such as `conversationId` or filters    | -                     |
 | `executeTools`     | Execute function tools normally (`real`) or replace them with mocked results        | `real`                |
 | `toolMocks`        | Mocked tool outputs keyed by tool name, used when `executeTools` is `mock` or false | -                     |
-| `tracing`          | Enable artef OTLP export for SDK spans                                          | false                 |
-| `otlpEndpoint`     | Custom OTLP endpoint URL for artef tracing                                      | http://localhost:4318 |
+| `tracing`          | Enable artef OTLP export for SDK spans                                              | false                 |
+| `otlpEndpoint`     | Custom OTLP endpoint URL for artef tracing                                          | http://localhost:4318 |
 
 ## File-Based Configuration
 
@@ -536,12 +536,12 @@ This provider targets non-streaming text and sandbox `run()` workflows. Use `ope
 
 ## Environment Variables
 
-| Variable                    | Description                |
-| --------------------------- | -------------------------- |
-| `OPENAI_API_KEY`            | OpenAI API key (required)  |
+| Variable                | Description                |
+| ----------------------- | -------------------------- |
+| `OPENAI_API_KEY`        | OpenAI API key (required)  |
 | `artef_TRACING_ENABLED` | Enable tracing globally    |
-| `OPENAI_BASE_URL`           | Custom OpenAI API base URL |
-| `OPENAI_ORGANIZATION`       | OpenAI organization ID     |
+| `OPENAI_BASE_URL`       | Custom OpenAI API base URL |
+| `OPENAI_ORGANIZATION`   | OpenAI organization ID     |
 
 ## Limitations
 

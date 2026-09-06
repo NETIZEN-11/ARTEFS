@@ -1,4 +1,4 @@
-﻿# config-tests-per-prompt (Filter Tests by Prompt)
+# config-tests-per-prompt (Filter Tests by Prompt)
 
 This example demonstrates how to run specific tests only with specific prompts using the test-level `prompts` field.
 

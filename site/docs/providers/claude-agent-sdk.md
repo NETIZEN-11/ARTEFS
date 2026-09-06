@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 3
 title: Claude Agent SDK
 description: 'Use Claude Agent SDK for evals with configurable tools, permissions, MCP servers, and more'
@@ -138,7 +138,7 @@ prompts:
 | Parameter                            | Type             | Description                                                                                                  | Default                  |
 | ------------------------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------ |
 | `apiKey`                             | string           | Anthropic API key                                                                                            | Environment variable     |
-| `apiKeyRequired`                     | boolean          | Require artef to find an Anthropic API key before calling the SDK. Set to `false` for local SDK auth.    | `true`                   |
+| `apiKeyRequired`                     | boolean          | Require artef to find an Anthropic API key before calling the SDK. Set to `false` for local SDK auth.        | `true`                   |
 | `working_dir`                        | string           | Directory for file operations                                                                                | Temporary directory      |
 | `model`                              | string           | Primary model to use (passed to Claude Agent SDK)                                                            | Claude Agent SDK default |
 | `fallback_model`                     | string           | Fallback model if primary fails. Accepts a comma-separated list, tried in order.                             | Claude Agent SDK default |

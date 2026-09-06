@@ -103,7 +103,17 @@ export class ScriptCompletionProvider implements ApiProvider {
         safeJsonStringify(this.options || {}) as string,
         safeJsonStringify(context || {}) as string,
       ]);
-      const options = this.options?.config.basePath ? { cwd: this.options.config.basePath } : {};
+      const isShellBuiltinOrBatch =
+        process.platform === 'win32' &&
+        (command === 'echo' ||
+          command === 'type' ||
+          command === 'dir' ||
+          command.endsWith('.bat') ||
+          command.endsWith('.cmd'));
+      const options = {
+        ...(this.options?.config.basePath ? { cwd: this.options.config.basePath } : {}),
+        shell: isShellBuiltinOrBatch,
+      };
 
       const child = execFile(command, scriptArgs, options, async (error, stdout, stderr) => {
         if (error) {

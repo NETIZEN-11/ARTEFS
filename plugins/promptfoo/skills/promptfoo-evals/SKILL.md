@@ -1,4 +1,4 @@
-﻿---
+---
 name: artef-evals
 description: >
   Write, refine, run, and QA non-redteam artef eval suites after the target

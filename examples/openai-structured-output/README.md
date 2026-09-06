@@ -1,4 +1,4 @@
-﻿# openai-structured-output (OpenAI Structured Output Example)
+# openai-structured-output (OpenAI Structured Output Example)
 
 This example demonstrates how to define JSON schemas for OpenAI's Structured Output feature in two different ways:
 
@@ -24,12 +24,12 @@ This example requires:
 
 This example includes several files that demonstrate different approaches:
 
-| File                             | Description                                                 |
-| -------------------------------- | ----------------------------------------------------------- |
+| File                         | Description                                                 |
+| ---------------------------- | ----------------------------------------------------------- |
 | `artefconfig.chat.yaml`      | Chat API config using both inline and external schemas      |
 | `artefconfig.responses.yaml` | Responses API config using both inline and external schemas |
-| `schema.responses.yaml`          | External schema file for Responses API                      |
-| `schema.chat.json`               | External schema file for Chat API                           |
+| `schema.responses.yaml`      | External schema file for Responses API                      |
+| `schema.chat.json`           | External schema file for Chat API                           |
 
 ## Running the Example
 

@@ -1,4 +1,4 @@
-﻿---
+---
 name: redteam-plugin-development
 description: Standards for creating redteam plugins and graders. Use when creating new plugins, writing graders, or modifying attack templates.
 ---

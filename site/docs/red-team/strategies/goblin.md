@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Goblin Multi-turn
 title: Goblin Multi-turn Strategy
 description: Adaptive multi-turn jailbreak agent focused on encoding, math, and logic techniques

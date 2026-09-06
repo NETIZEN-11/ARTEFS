@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Registry of agentic attack providers that support per-turn/per-iteration layer transforms.
  *
  * These are strategies internally implemented as providers that orchestrate

@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { createMockProvider, type MockApiProvider } from '../../factories/provider';
 
 import type { CallApiContextParams } from '../../../src/types/index';

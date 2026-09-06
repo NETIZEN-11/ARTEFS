@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../envars';
+import { getEnvString } from '../envars';
 import { renderVarsInObject } from '../util/index';
 import { OpenAiChatCompletionProvider } from './openai/chat';
 import { clampCachedTokens } from './shared';

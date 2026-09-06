@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Chat threads
 sidebar_position: 32
 title: Chat Conversations and Multi-Turn Threads

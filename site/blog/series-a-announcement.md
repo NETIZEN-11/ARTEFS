@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'artef Raises $18.4M Series A to Build the Definitive AI Security Stack'
 description: 'We raised $18.4M from Insight Partners with participation from Andreessen Horowitz. Funding will accelerate development of the most widely adopted AI security testing solution.'
 image: /img/blog/series-a-announcement.jpg

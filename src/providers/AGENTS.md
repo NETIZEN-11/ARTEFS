@@ -1,4 +1,4 @@
-﻿# Provider Implementations
+# Provider Implementations
 
 LLM provider integrations implementing `ApiProvider` interface to call different AI services.
 

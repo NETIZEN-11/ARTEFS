@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: GOAT
 title: GOAT Jailbreaking Strategy
 description: Apply GOAT (Generative Offensive Agent Tester) for sophisticated multi-turn jailbreaking using adversarial agent dialogues

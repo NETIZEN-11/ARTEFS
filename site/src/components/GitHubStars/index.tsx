@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { SITE_CONSTANTS } from '../../constants';
 import styles from './styles.module.css';

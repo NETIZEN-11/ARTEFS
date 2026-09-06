@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Memory Poisoning
 description: Red team memory poisoning vulnerabilities in AI agents through persistent state manipulation to prevent malicious instruction injection and protect decision integrity
 ---

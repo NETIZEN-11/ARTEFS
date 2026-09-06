@@ -1,4 +1,4 @@
-﻿# provider-http/basic (HTTP Provider Example)
+# provider-http/basic (HTTP Provider Example)
 
 You can run this example with:
 

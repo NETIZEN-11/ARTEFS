@@ -1,4 +1,4 @@
-﻿---
+---
 title: NVIDIA NIM
 sidebar_position: 58
 description: Use NVIDIA NIM hosted inference APIs with artef to evaluate Llama, Qwen, Nemotron, DeepSeek, and Mistral chat models through OpenAI-compatible endpoints.

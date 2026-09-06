@@ -1,4 +1,4 @@
-﻿import { Hono } from 'hono';
+import { Hono } from 'hono';
 import { cors } from 'hono/cors';
 import { NONCE, secureHeaders } from 'hono/secure-headers';
 import { describe, expect, it } from 'vitest';

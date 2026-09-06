@@ -1,4 +1,4 @@
-﻿import { fileURLToPath } from 'node:url';
+import { fileURLToPath } from 'node:url';
 
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { mockProcessEnv } from './util/utils';

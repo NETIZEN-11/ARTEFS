@@ -1,4 +1,4 @@
-﻿# anthropic/sonnet-5 (Claude Sonnet 5 Agentic Reasoning)
+# anthropic/sonnet-5 (Claude Sonnet 5 Agentic Reasoning)
 
 This example exercises Claude Sonnet 5 on agentic reasoning and coding tasks using the `high` effort level with adaptive thinking.
 

@@ -1,4 +1,4 @@
-﻿# provider-moonshot (Moonshot AI / Kimi)
+# provider-moonshot (Moonshot AI / Kimi)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import { randomUUID } from 'node:crypto';
+import { randomUUID } from 'node:crypto';
 
 import { getRequestListener } from '@hono/node-server';
 import express from 'express';

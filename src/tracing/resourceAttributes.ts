@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Shared resource-attribute keys used to link SDK-emitted OTEL logs back to
  * the evaluation trace. The claude-agent-sdk provider sets these via
  * `OTEL_RESOURCE_ATTRIBUTES` on the subprocess env, and the OTLP /v1/logs

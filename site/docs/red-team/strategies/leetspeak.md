@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Leetspeak
 title: Leetspeak Strategy
 description: Evaluate AI robustness against leetspeak obfuscation techniques using character substitutions to evade content filtering

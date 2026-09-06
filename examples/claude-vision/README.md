@@ -1,4 +1,4 @@
-﻿# claude-vision (Claude Vision)
+# claude-vision (Claude Vision)
 
 You can run this example with:
 

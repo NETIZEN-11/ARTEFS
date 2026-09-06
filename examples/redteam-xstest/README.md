@@ -1,4 +1,4 @@
-﻿# redteam-xstest (XSTest Plugin Example)
+# redteam-xstest (XSTest Plugin Example)
 
 You can run this example with:
 

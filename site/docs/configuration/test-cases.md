@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 12
 sidebar_label: Test Cases
 title: Test Case Configuration - Variables, Assertions, and Data

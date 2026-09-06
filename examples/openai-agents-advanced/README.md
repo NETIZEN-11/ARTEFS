@@ -1,4 +1,4 @@
-﻿# openai-agents-advanced (Sessions, Tracing, and Sandbox Agents)
+# openai-agents-advanced (Sessions, Tracing, and Sandbox Agents)
 
 This example exercises the OpenAI Agents SDK TypeScript features that matter once you move beyond a single-turn agent:
 

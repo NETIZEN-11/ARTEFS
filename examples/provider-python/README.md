@@ -1,4 +1,4 @@
-﻿# provider-python (Python Provider)
+# provider-python (Python Provider)
 
 This example demonstrates how to create a custom Python provider for artef that integrates with the OpenAI API.
 

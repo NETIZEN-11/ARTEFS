@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { isRelevantSpan, matchesSpanFilter } from '../../src/tracing/spanFilter';
 
 describe('trace span relevance', () => {

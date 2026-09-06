@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { fetchWithCache } from '../src/cache';
 import { getUserEmail } from '../src/globalConfig/accounts';
 import { getRequestTimeoutMs } from '../src/providers/shared';

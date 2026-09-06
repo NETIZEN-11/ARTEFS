@@ -1,4 +1,4 @@
-﻿# openai-function-call (OpenAI Function Call Example)
+# openai-function-call (OpenAI Function Call Example)
 
 You can run this example with:
 

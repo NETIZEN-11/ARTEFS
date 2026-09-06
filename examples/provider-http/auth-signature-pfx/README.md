@@ -1,4 +1,4 @@
-﻿# provider-http/auth-signature-pfx (HTTP provider with PFX certificate signature authentication)
+# provider-http/auth-signature-pfx (HTTP provider with PFX certificate signature authentication)
 
 You can run this example with:
 

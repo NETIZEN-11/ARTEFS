@@ -1,4 +1,4 @@
-﻿# eval-tool-use (Function and Tool Calling)
+# eval-tool-use (Function and Tool Calling)
 
 This example demonstrates how to evaluate LLM function/tool calling capabilities using artef.
 

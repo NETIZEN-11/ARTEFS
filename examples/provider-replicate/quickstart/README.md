@@ -1,4 +1,4 @@
-﻿# provider-replicate/quickstart (Replicate Quick Start)
+# provider-replicate/quickstart (Replicate Quick Start)
 
 You can run this example with:
 

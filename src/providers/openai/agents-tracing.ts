@@ -1,4 +1,4 @@
-﻿import logger from '../../logger';
+import logger from '../../logger';
 import { encodeExportTraceServiceRequest } from '../../tracing/protobuf';
 import { fetchWithProxy } from '../../util/fetch/index';
 import { getTracingServiceName } from '../tracing';

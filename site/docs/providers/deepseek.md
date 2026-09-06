@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: DeepSeek
 description: Configure DeepSeek's OpenAI-compatible API with V4 chat and reasoning models, 1M context windows, and prompt caching for cost-effective LLM testing
 ---

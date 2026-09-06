@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 10000
 description: Learn how to assess foundation model security risks through red teaming and static scanning using artef's security testing tools.
 keywords:

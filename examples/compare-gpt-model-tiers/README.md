@@ -1,4 +1,4 @@
-﻿# compare-gpt-model-tiers (Comparing GPT Model Tiers)
+# compare-gpt-model-tiers (Comparing GPT Model Tiers)
 
 You can run this example with:
 

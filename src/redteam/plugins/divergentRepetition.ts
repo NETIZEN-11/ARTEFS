@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright (c) 2024 artef, Inc
  * See LICENSE.md for license details
  */

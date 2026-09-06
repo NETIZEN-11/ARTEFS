@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Azure Pipelines
 description: Integrate artef LLM testing with Azure Pipelines CI/CD using step-by-step setup, environment variables, and matrix testing configurations for automated AI evaluation
 ---

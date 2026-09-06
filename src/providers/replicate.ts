@@ -1,4 +1,4 @@
-﻿import { createHmac } from 'crypto';
+import { createHmac } from 'crypto';
 
 import { fetchWithCache, getCache, isCacheEnabled } from '../cache';
 import { getEnvFloat, getEnvInt, getEnvString } from '../envars';

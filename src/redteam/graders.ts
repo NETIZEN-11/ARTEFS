@@ -1,4 +1,4 @@
-﻿import { AegisGrader } from './plugins/aegis';
+import { AegisGrader } from './plugins/aegis';
 import { REDTEAM_MEMORY_POISONING_PLUGIN_ID } from './plugins/agentic/constants';
 import { MemoryPoisoningPluginGrader } from './plugins/agentic/memoryPoisoning';
 import { AsciiSmugglingGrader } from './plugins/asciiSmuggling';

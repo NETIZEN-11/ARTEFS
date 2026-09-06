@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { ALL_PLUGINS, ALL_STRATEGIES } from '../../src/redteam/constants';
 import { BlobsSchemas } from '../../src/types/api/blobs';
 import {

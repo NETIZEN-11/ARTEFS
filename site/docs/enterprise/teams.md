@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Managing Roles and Teams
 sidebar_position: 20
 title: Managing Roles and Teams in artef Enterprise

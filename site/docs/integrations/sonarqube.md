@@ -1,4 +1,4 @@
-﻿---
+---
 title: Integrate artef with SonarQube
 description: Integrate artef security findings into SonarQube for centralized vulnerability tracking and CI/CD quality gates
 sidebar_label: SonarQube

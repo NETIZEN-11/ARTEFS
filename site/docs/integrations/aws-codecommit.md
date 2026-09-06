@@ -1,4 +1,4 @@
-﻿---
+---
 title: AWS CodeCommit Integration
 sidebar_label: AWS CodeCommit
 sidebar_position: 6

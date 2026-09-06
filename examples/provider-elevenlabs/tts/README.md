@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs/tts (ElevenLabs Text-to-Speech)
+# provider-elevenlabs/tts (ElevenLabs Text-to-Speech)
 
 You can run this example with:
 

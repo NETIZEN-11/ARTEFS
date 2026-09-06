@@ -1,4 +1,4 @@
-﻿# eval-named-metrics (Named Metrics Example)
+# eval-named-metrics (Named Metrics Example)
 
 This example demonstrates custom metric naming and derivation in artef.
 

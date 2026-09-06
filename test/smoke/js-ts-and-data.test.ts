@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Smoke tests for JS/TS configs, providers, data loading, and script assertions.
  *
  * Tests JavaScript/TypeScript configuration files, custom providers,

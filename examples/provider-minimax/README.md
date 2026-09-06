@@ -1,4 +1,4 @@
-﻿# provider-minimax (MiniMax Provider)
+# provider-minimax (MiniMax Provider)
 
 This example evaluates MiniMax's OpenAI-compatible chat models with artef.
 

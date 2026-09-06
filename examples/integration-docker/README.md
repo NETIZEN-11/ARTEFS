@@ -1,4 +1,4 @@
-﻿# integration-docker (Docker)
+# integration-docker (Docker)
 
 Examples for using artef with Docker containers.
 

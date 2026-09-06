@@ -1,4 +1,4 @@
-﻿import os from 'os';
+import os from 'os';
 import path from 'path';
 
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

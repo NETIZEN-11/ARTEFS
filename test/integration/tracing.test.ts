@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Integration tests for OpenTelemetry tracing infrastructure.
  *
  * These tests verify that the OTEL SDK can be initialized and that

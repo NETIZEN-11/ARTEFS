@@ -1,4 +1,4 @@
-﻿# compare-claude-vs-gpt-image (Image Analysis Example)
+# compare-claude-vs-gpt-image (Image Analysis Example)
 
 You can run this example with:
 

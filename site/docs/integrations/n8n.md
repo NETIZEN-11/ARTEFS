@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: n8n
 title: Using artef in n8n Workflows
 description: Learn how to integrate artef's LLM evaluation into your n8n workflows for automated testing, security and quality gates, and result sharing
@@ -17,7 +17,7 @@ This guide shows how to run artef evaluations from an **n8n** workflow so you ca
 | What                                                                                 | Why                                                   |
 | ------------------------------------------------------------------------------------ | ----------------------------------------------------- |
 | **Self‑hosted n8n ≥ v1** (Docker or bare‑metal)                                      | Gives access to the “Execute Command” node.           |
-| **artef CLI** available in the container/host                                    | Needed to run `artef eval`.                       |
+| **artef CLI** available in the container/host                                        | Needed to run `artef eval`.                           |
 | (Optional) **LLM provider API keys** set as environment variables or n8n credentials | Example: `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, …     |
 | (Optional) **Slack / email / GitHub nodes** in the same workflow                     | For notifications or comments once the eval finishes. |
 
@@ -55,7 +55,7 @@ Below is the minimal pattern most teams start with:
 | #   | Node                          | Purpose                                                           |
 | --- | ----------------------------- | ----------------------------------------------------------------- |
 | 1   | **Trigger** (Cron or Webhook) | Decide _when_ to evaluate (nightly, on Git push webhook …).       |
-| 2   | **Execute Command**           | Runs artef and emits raw stdout / stderr.                     |
+| 2   | **Execute Command**           | Runs artef and emits raw stdout / stderr.                         |
 | 3   | **Code / Set** node           | Parses the resulting JSON, extracts pass/fail counts & share‑URL. |
 | 4   | **IF** node                   | Branches on “failures > 0”.                                       |
 | 5   | **Slack / Email / GitHub**    | Sends alert or PR comment when the gate fails.                    |
@@ -210,7 +210,7 @@ the failure.
 | Symptom                                     | Likely cause / fix                                                                                    |
 | ------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **`Execute Command node not available`**    | You’re on n8n Cloud; switch to self‑hosted.                                                           |
-| **`artef: command not found`**          | artef not installed inside the container. Rebuild your Docker image or add an install step.       |
+| **`artef: command not found`**              | artef not installed inside the container. Rebuild your Docker image or add an install step.           |
 | **Run fails with `ENOENT` on config paths** | Make sure the prompts/config volume is mounted at the same path you reference in the command.         |
 | **Large evals time‑out**                    | Increase the node’s “Timeout (s)” setting _or_ chunk your test cases and iterate inside the workflow. |
 

@@ -1,4 +1,4 @@
-﻿import { createAdaptiveMultiTurnStrategy } from './hydra';
+import { createAdaptiveMultiTurnStrategy } from './hydra';
 
 /**
  * Adds Goblin's Hydra-compatible adaptive provider to every generated case.

@@ -1,4 +1,4 @@
-﻿# provider-elevenlabs/stt (ElevenLabs Speech-to-Text)
+# provider-elevenlabs/stt (ElevenLabs Speech-to-Text)
 
 This example demonstrates how to use ElevenLabs STT provider for audio transcription testing.
 

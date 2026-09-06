@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { z } from 'zod';
 import { fetchWithCache } from '../../cache';
 import { VERSION } from '../../constants';

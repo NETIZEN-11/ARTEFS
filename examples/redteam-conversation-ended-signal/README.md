@@ -1,4 +1,4 @@
-﻿# redteam-conversation-ended-signal (Redteam Conversation Ended Signal)
+# redteam-conversation-ended-signal (Redteam Conversation Ended Signal)
 
 You can run this example with:
 

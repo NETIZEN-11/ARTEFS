@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Scripts
 description: Configure custom shell commands and scripts as LLM providers to test chains, Python frameworks, and unsupported APIs with artef's testing framework
 ---

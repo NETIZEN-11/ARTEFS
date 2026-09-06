@@ -1,4 +1,4 @@
-﻿# Test Suite
+# Test Suite
 
 **What this is:** Vitest-based test suite for core artef functionality.
 

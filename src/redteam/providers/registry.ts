@@ -1,4 +1,4 @@
-﻿import type { ProviderFactory } from '../../providers/registryTypes';
+import type { ProviderFactory } from '../../providers/registryTypes';
 
 /**
  * Wrap a redteam factory's create() so dynamic-import failures and

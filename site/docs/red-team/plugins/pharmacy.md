@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Pharmacy Plugins
 title: Pharmacy Red-Teaming Plugins - AI Security for Pharmacy Systems
 description: Pharmacy red-teaming plugins for testing AI systems in pharmaceutical contexts to identify vulnerabilities in pharmacy AI applications

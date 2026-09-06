@@ -1,4 +1,4 @@
-﻿# eval-summarization (Summarization)
+# eval-summarization (Summarization)
 
 You can run this example with:
 

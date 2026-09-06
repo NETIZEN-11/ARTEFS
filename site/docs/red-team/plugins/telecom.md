@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Telecommunications Plugins
 title: Telecommunications Red Team Plugins
 description: Test AI systems for CPNI protection, E911 compliance, account security, TCPA consent, and FCC/CALEA telecom regulatory requirements with 12 specialized plugins.

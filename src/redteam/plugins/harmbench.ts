@@ -1,4 +1,4 @@
-﻿import { parse as csvParse } from 'csv-parse/sync';
+import { parse as csvParse } from 'csv-parse/sync';
 import dedent from 'dedent';
 import logger from '../../logger';
 import { getRequestTimeoutMs } from '../../providers/shared';

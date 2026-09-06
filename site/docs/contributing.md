@@ -1,4 +1,4 @@
-﻿---
+---
 title: Contributing to artef
 sidebar_label: Contributing
 description: Contribute to artef by submitting code, documentation, providers, and features following our development guidelines

@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 
 import { PythonShell } from 'python-shell';
 import { getEnvString } from '../../envars';

@@ -1,4 +1,4 @@
-﻿import type { ApiProvider, ProviderOptions } from '../types/providers';
+import type { ApiProvider, ProviderOptions } from '../types/providers';
 
 /**
  * Check if a provider is an HTTP provider

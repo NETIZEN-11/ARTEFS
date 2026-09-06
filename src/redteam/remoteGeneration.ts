@@ -1,4 +1,4 @@
-﻿import { context, propagation } from '@opentelemetry/api';
+import { context, propagation } from '@opentelemetry/api';
 import cliState from '../cliState';
 import { getEnvBool, getEnvString } from '../envars';
 import { isLoggedIntoCloud } from '../globalConfig/accounts';

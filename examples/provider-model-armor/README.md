@@ -1,4 +1,4 @@
-﻿# provider-model-armor (Google Cloud Model Armor)
+# provider-model-armor (Google Cloud Model Armor)
 
 This directory contains examples for testing Google Cloud Model Armor with artef.
 

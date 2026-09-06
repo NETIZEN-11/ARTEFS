@@ -1,4 +1,4 @@
-﻿import { getEnvBool } from '../envars';
+import { getEnvBool } from '../envars';
 import { cloudConfig } from '../globalConfig/cloud';
 
 /**

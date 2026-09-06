@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Factuality
 description: 'Validate factual accuracy of LLM responses using AI-powered fact-checking against verified knowledge bases and sources'
 ---

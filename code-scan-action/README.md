@@ -1,4 +1,4 @@
-﻿# artef Code Scan GitHub Action
+# artef Code Scan GitHub Action
 
 Automatically scan pull requests for LLM security vulnerabilities using AI-powered analysis.
 

@@ -1,4 +1,4 @@
-﻿import { z } from 'zod';
+import { z } from 'zod';
 import {
   CODING_AGENT_COLLECTIONS,
   CODING_AGENT_PLUGIN_ALIASES,

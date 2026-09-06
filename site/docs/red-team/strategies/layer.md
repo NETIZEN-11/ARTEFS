@@ -1,4 +1,4 @@
-﻿---
+---
 title: Layer Strategy
 description: Compose multiple red team strategies in order (e.g., base64 → rot13) to stack transformations and agentic techniques
 sidebar_label: Layer

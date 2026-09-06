@@ -1,4 +1,4 @@
-﻿---
+---
 title: Python Integration
 sidebar_label: Python
 sidebar_position: 1
@@ -230,8 +230,8 @@ def create_prompt(context):
 
 Test Python agent frameworks by wrapping them as providers:
 
-| Framework          | Example                                                                                                      | Guide                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| Framework          | Example                                                                                              | Guide                                                                  |
+| ------------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | **LangGraph**      | [`langgraph`](https://github.com/artef/artef/tree/main/examples/integration-langgraph)               | [Evaluate LangGraph agents](/docs/guides/evaluate-langgraph)           |
 | **LangChain**      | [`langchain-python`](https://github.com/artef/artef/tree/main/examples/integration-langchain)        | [Test LLM chains](/docs/configuration/testing-llm-chains)              |
 | **CrewAI**         | [`crewai`](https://github.com/artef/artef/tree/main/examples/integration-crewai)                     | [Evaluate CrewAI agents](/docs/guides/evaluate-crewai)                 |

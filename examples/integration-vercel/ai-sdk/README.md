@@ -1,4 +1,4 @@
-﻿# integration-vercel/ai-sdk (Vercel AI SDK Provider)
+# integration-vercel/ai-sdk (Vercel AI SDK Provider)
 
 Demonstrates dynamic prompt construction using the [Vercel AI SDK](https://ai-sdk.dev) with artef's provider prompt reporting feature.
 
@@ -84,11 +84,11 @@ Focus on:
 
 ## Files
 
-| File                   | Description                                                   |
-| ---------------------- | ------------------------------------------------------------- |
-| `aiSdkProvider.mjs`    | Provider using Vercel AI SDK with dynamic prompt construction |
-| `artefconfig.yaml` | Test cases showcasing different personas and task types       |
-| `package.json`         | Dependencies (`ai`, `@ai-sdk/openai`)                         |
+| File                | Description                                                   |
+| ------------------- | ------------------------------------------------------------- |
+| `aiSdkProvider.mjs` | Provider using Vercel AI SDK with dynamic prompt construction |
+| `artefconfig.yaml`  | Test cases showcasing different personas and task types       |
+| `package.json`      | Dependencies (`ai`, `@ai-sdk/openai`)                         |
 
 ## Adapting for Your Use Case
 

@@ -1,4 +1,4 @@
-﻿# config-separate-test-configs (Separate Test Configs)
+# config-separate-test-configs (Separate Test Configs)
 
 You can run this example with:
 

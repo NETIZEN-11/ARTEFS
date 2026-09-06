@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { z } from 'zod';
 import { loadApiProvider, loadApiProviders } from '../../../providers/index';
 import { createToolResponse, withTimeout } from '../lib/utils';

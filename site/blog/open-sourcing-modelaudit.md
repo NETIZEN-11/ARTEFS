@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Open-Sourcing ModelAudit: Security Scanner for ML Model Files'
 description: 'artef ModelAudit scans 42+ ML model formats for unsafe loading behaviors, known CVEs, and suspicious artifacts. Now MIT-licensed and open source.'
 image: /img/blog/open-sourcing-modelaudit/hero.jpg

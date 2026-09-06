@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: JFrog ML
 description: "Integrate JFrog's ML model management platform for artifact security scanning, versioning, and DevSecOps compliance"
 ---

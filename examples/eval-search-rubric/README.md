@@ -1,4 +1,4 @@
-﻿# eval-search-rubric (Search Rubric)
+# eval-search-rubric (Search Rubric)
 
 You can run this example with:
 

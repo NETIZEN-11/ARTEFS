@@ -1,4 +1,4 @@
-﻿type UnknownRecord = Record<string, unknown>;
+type UnknownRecord = Record<string, unknown>;
 
 /**
  * Content-part types the Responses API accepts. Anything already using one of these is passed

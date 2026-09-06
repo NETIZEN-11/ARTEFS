@@ -1,4 +1,4 @@
-﻿# google-vertex (Google Vertex AI Examples)
+# google-vertex (Google Vertex AI Examples)
 
 Example configurations for testing Google Vertex AI models with artef.
 

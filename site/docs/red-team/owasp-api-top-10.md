@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 25
 description: Red team LLM applications against OWASP API Security Top 10 vulnerabilities to protect AI systems from broken authorization, SSRF, and API-specific attacks
 ---

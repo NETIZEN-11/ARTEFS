@@ -1,4 +1,4 @@
-﻿# amazon-bedrock/video (AWS Bedrock Video Generation)
+# amazon-bedrock/video (AWS Bedrock Video Generation)
 
 You can run this example with:
 
@@ -11,8 +11,8 @@ Video generation examples using AWS Bedrock's async invoke API.
 
 ## Available Models
 
-| Model            | Config                           | Region         | Duration  |
-| ---------------- | -------------------------------- | -------------- | --------- |
+| Model            | Config                       | Region         | Duration  |
+| ---------------- | ---------------------------- | -------------- | --------- |
 | Amazon Nova Reel | `artefconfig.nova-reel.yaml` | us-east-1      | 6s - 2min |
 | Luma Ray 2       | `artefconfig.luma-ray.yaml`  | us-west-2 only | 5s or 9s  |
 

@@ -1,4 +1,4 @@
-﻿import crypto from 'crypto';
+import crypto from 'crypto';
 import fs from 'fs/promises';
 
 import { BLOB_MAX_SIZE, recordBlobReference, storeBlob } from '../blobs';

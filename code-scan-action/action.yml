@@ -1,4 +1,4 @@
-﻿name: 'artef Code Scan'
+name: 'artef Code Scan'
 description: 'Scan pull requests for LLM security vulnerabilities'
 author: 'artef, Inc.'
 

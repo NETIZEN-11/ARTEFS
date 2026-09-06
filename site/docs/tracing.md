@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 55
 description: Implement OpenTelemetry tracing in your LLM evaluations to monitor provider performance, debug workflows, and visualize execution traces directly in artef's web UI.
 ---
@@ -264,7 +264,7 @@ Several first-party providers expose turn marker spans to trace assertions. Some
 | `anthropic:claude-agent-sdk`     | `gen_ai.turn *`                            | One `assistant` message from the SDK stream; an internal LLM round (includes subagent rounds — see the caveat below)                    |
 | `azure:foundry-agent`            | `gen_ai.turn *`                            | One Responses API invocation in the function-call loop; an internal LLM round (cache hits emit no turn span — see the caveat below)     |
 | `openai:agents` (TypeScript)     | `response *` (preferred) or `generation *` | `openai-agents-js` emits `response <id>` per LLM round; `generation *` is also produced when the SDK includes a `generation`-typed span |
-| `openai-agents` Python (example) | `turn *` (preferred) or `response *`       | `artef_tracing.py` emits `turn N <agent>` per LLM round, plus `response <id>`                                                       |
+| `openai-agents` Python (example) | `turn *` (preferred) or `response *`       | `artef_tracing.py` emits `turn N <agent>` per LLM round, plus `response <id>`                                                           |
 | Google ADK (via `google.adk`)    | `call_llm`                                 | Emitted by ADK's built-in OpenTelemetry instrumentation                                                                                 |
 | `openai:codex-sdk`               | `gen_ai.turn *`                            | One SDK `thread.runStreamed()` turn, including its intermediate tool items                                                              |
 | `openai:codex-app-server`        | `gen_ai.turn *`                            | One app-server `turn/start` lifecycle, including its internal model generations and tool items                                          |

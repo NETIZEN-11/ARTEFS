@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: LiteLLM
 title: LiteLLM Provider - Access 400+ LLMs with Unified API
 description: Use LiteLLM with artef to evaluate 400+ language models through a unified OpenAI-compatible interface. Supports chat, completion, and embedding models.

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Client-side agent connection utility.
  *
  * Creates a Socket.IO client pre-configured for the agent protocol:

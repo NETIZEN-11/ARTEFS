@@ -1,4 +1,4 @@
-﻿# Agent Skill Fixtures
+# Agent Skill Fixtures
 
 Fixtures in this directory exercise the Codex plugin skills end to end. Keep
 them deterministic, small, and safe to run locally.

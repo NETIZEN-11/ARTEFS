@@ -1,4 +1,4 @@
-﻿import crypto from 'node:crypto';
+import crypto from 'node:crypto';
 
 import logger from '../../logger';
 import { fetchWithTimeout } from '../../util/fetch/index';

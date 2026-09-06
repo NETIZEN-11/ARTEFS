@@ -1,4 +1,4 @@
-﻿# azure (Azure AI Examples)
+# azure (Azure AI Examples)
 
 This directory contains examples for using Azure AI services with artef, including Azure OpenAI, Azure AI Foundry, and third-party models available through Microsoft Foundry.
 

@@ -1,4 +1,4 @@
-﻿// Load-bearing: registers shared vi.mock / beforeEach hooks before any
+// Load-bearing: registers shared vi.mock / beforeEach hooks before any
 // module-under-test import below. See ./setup.ts for details.
 import './setup';
 

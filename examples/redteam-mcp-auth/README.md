@@ -1,4 +1,4 @@
-﻿# redteam-mcp-auth (Red Team MCP Authentication)
+# redteam-mcp-auth (Red Team MCP Authentication)
 
 You can run this example with:
 

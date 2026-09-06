@@ -1,4 +1,4 @@
-﻿# integration-inspect-osworld (OSWorld via Inspect)
+# integration-inspect-osworld (OSWorld via Inspect)
 
 This example runs a real [OSWorld](https://github.com/xlang-ai/OSWorld) task through artef by wrapping the Inspect-native implementation in [`inspect_evals/osworld`](https://github.com/UKGovernmentBEIS/inspect_evals/tree/main/src/inspect_evals/osworld). OSWorld is a multimodal computer-use benchmark where an agent observes an Ubuntu desktop via screenshots, acts with mouse and keyboard tools, and is graded by task-specific checks against VM state. The benchmark is described in [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972).
 

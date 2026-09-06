@@ -1,4 +1,4 @@
-﻿import fsSync, { createReadStream } from 'fs';
+import fsSync, { createReadStream } from 'fs';
 import fs from 'fs/promises';
 import path from 'path';
 import readline from 'readline';

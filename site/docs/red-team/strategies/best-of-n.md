@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Best-of-N
 title: Best-of-N Jailbreaking Strategy
 description: Execute black-box jailbreaking by testing multiple prompt variations simultaneously to maximize bypass success probability

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * AWS Bedrock Base Provider
  *
  * Contains the abstract base class for all Bedrock providers.

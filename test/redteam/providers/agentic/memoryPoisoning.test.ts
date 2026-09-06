@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, MockInstance, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, MockInstance, vi } from 'vitest';
 import { MemoryPoisoningProvider } from '../../../../src/redteam/providers/agentic/memoryPoisoning';
 import { createMockProvider, type MockApiProvider } from '../../../factories/provider';
 

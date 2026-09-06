@@ -1,4 +1,4 @@
-﻿---
+---
 title: GPT Model Tiers MMLU-Pro Benchmark Comparison
 description: Compare full, mini, and nano GPT model tiers on MMLU-Pro reasoning tasks using artef with step-by-step setup and deterministic scoring.
 image: /img/docs/gpt-5-vs-gpt-5-mini-mmlu.png

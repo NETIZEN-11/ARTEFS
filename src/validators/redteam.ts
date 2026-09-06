@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { z } from 'zod';
 import {
   ALIASED_PLUGIN_MAPPINGS,

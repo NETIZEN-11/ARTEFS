@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Celebrating 100,000 Users: artef's Journey, Red Teaming, and the Future of AI Security"
 description: artef reaches 100K users! Learn about our journey from prompt evaluation to AI red teaming and what's next for AI security.
 image: /img/blog/100k-users-milestone.jpg

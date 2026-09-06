@@ -1,4 +1,4 @@
-﻿# UI Guidelines
+# UI Guidelines
 
 Rules for writing React components in the artef frontend.
 

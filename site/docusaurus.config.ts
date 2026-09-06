@@ -1,4 +1,4 @@
-﻿import { promises as fsPromises } from 'fs';
+import { promises as fsPromises } from 'fs';
 import { join } from 'path';
 
 import { themes } from 'prism-react-renderer';

@@ -1,4 +1,4 @@
-﻿import confirm from '@inquirer/confirm';
+import confirm from '@inquirer/confirm';
 import chalk from 'chalk';
 import dedent from 'dedent';
 import { cloudConfig } from '../globalConfig/cloud';

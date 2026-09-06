@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://artef.dev/config-schema.json",
   "commandLineOptions": {
     "filterRange": "1:3"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Your model upgrade just broke your agent's safety
 description: Model upgrades can change refusal, instruction-following, and tool-use behavior. Here's how to prevent safety regressions in agentic apps.
 image: /img/blog/model-upgrades-break-agent-safety/header.jpg

@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { SsrfGrader, type SsrfSeverity } from '../../../src/redteam/plugins/ssrf';
 
 describe('SsrfGrader', () => {

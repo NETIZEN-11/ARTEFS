@@ -1,4 +1,4 @@
-﻿# xai/video (xAI Grok Video Generation)
+# xai/video (xAI Grok Video Generation)
 
 You can run this example with:
 

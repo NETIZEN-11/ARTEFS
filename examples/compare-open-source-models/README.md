@@ -1,4 +1,4 @@
-﻿# compare-open-source-models (Open-Source Model Comparison)
+# compare-open-source-models (Open-Source Model Comparison)
 
 This example compares DeepSeek, Mistral, Llama, and Qwen on various tasks with factual assertions using OpenRouter.
 

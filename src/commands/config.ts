@@ -1,4 +1,4 @@
-﻿import confirm from '@inquirer/confirm';
+import confirm from '@inquirer/confirm';
 import { z } from 'zod';
 import { getUserEmail, setUserEmail } from '../globalConfig/accounts';
 import { cloudConfig } from '../globalConfig/cloud';

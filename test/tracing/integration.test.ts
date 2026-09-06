@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { sleep } from '../../src/util/time';
 import { mockProcessEnv } from '../util/utils';
 

@@ -1,4 +1,4 @@
-﻿# redteam-deepseek-foundation (DeepSeek Red Team Example)
+# redteam-deepseek-foundation (DeepSeek Red Team Example)
 
 This example demonstrates how to run a red team evaluation against DeepSeek R1 0528 and GPT-5.4 models to test their security and safety guardrails.
 

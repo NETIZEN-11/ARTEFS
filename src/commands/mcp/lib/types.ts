@@ -1,4 +1,4 @@
-﻿// Core MCP types
+// Core MCP types
 export interface McpCommandOptions {
   port: string;
   transport: string;

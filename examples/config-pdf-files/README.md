@@ -1,4 +1,4 @@
-﻿# config-pdf-files (PDF Document Analysis)
+# config-pdf-files (PDF Document Analysis)
 
 This example demonstrates how to analyze PDF documents using vision-capable LLMs from multiple providers.
 

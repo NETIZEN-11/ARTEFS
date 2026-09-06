@@ -1,4 +1,4 @@
-﻿# compare-mistral-vs-llama (Mistral Llama Comparison)
+# compare-mistral-vs-llama (Mistral Llama Comparison)
 
 You can run this example with:
 

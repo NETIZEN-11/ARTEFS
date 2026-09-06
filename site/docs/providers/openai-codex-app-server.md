@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 42
 title: OpenAI Codex App Server
 description: Evaluate Codex app-server with streamed agent events, approvals, sandboxing controls, and thread metadata through the artef JSON-RPC provider guide.
@@ -26,7 +26,7 @@ providers:
 
 Keep this provider separate from the Codex SDK provider. They share Codex concepts, but they expose different runtime contracts.
 
-| Surface            | Best for                                                      | Runtime                                              | artef provider                                    |
+| Surface            | Best for                                                      | Runtime                                              | artef provider                                        |
 | ------------------ | ------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
 | Codex SDK          | CI, automation, simple agentic coding evals                   | `@openai/codex-sdk` library                          | [`openai:codex-sdk`](./openai-codex-sdk.md)           |
 | Codex Security SDK | Repository scans, validated findings, scan cost, and coverage | `@openai/codex-security` library                     | [`openai:codex-security`](./openai-codex-security.md) |
@@ -47,8 +47,8 @@ Use this provider when the thing being tested depends on app-server-only behavio
 | Approval, permission, MCP, and tool requests    | Yes        | `server_request_policy` gives deterministic responses for non-interactive evals.                                                            |
 | Streamed item metadata                          | Yes        | Command, file, MCP, dynamic tool, web search, reasoning, and agent-message items are normalized.                                            |
 | Deep app-server tracing                         | Yes        | Enable `deep_tracing` to inject OTEL env vars into a fresh app-server process per row.                                                      |
-| Live partial output in assertions               | No         | artef receives the final provider response after the turn completes.                                                                    |
-| Attaching to an existing Desktop app            | No         | artef owns a separate app-server child process.                                                                                         |
+| Live partial output in assertions               | No         | artef receives the final provider response after the turn completes.                                                                        |
+| Attaching to an existing Desktop app            | No         | artef owns a separate app-server child process.                                                                                             |
 | WebSocket transport                             | No         | The provider uses stdio; app-server WebSocket mode remains experimental upstream.                                                           |
 
 When `service_tier: fast` is used, artef still reports only the standard model-rate estimate from the returned token ledger. The app-server payload does not expose enough billing metadata to convert Codex fast-mode credit consumption into an exact spend figure.

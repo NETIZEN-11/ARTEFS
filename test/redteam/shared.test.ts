@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 import * as fsPromises from 'fs/promises';
 import * as os from 'os';
 import path from 'path';

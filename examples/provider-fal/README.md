@@ -1,4 +1,4 @@
-﻿# provider-fal (fal.ai Image Generation Example)
+# provider-fal (fal.ai Image Generation Example)
 
 You can run this example with:
 

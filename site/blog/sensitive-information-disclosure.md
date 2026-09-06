@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: 'Sensitive Information Disclosure'
 title: 'Sensitive Information Disclosure in LLMs: Privacy and Compliance in Generative AI'
 description: 'LLMs can leak training data, PII, and corporate secrets. Discover how sensitive information disclosure happens and practical strategies to prevent data breaches.'

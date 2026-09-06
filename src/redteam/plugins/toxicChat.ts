@@ -1,4 +1,4 @@
-﻿import { fetchHuggingFaceDataset } from '../../integrations/huggingfaceDatasets';
+import { fetchHuggingFaceDataset } from '../../integrations/huggingfaceDatasets';
 import logger from '../../logger';
 import { RedteamGraderBase, RedteamPluginBase } from './base';
 

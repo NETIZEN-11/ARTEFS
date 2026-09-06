@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 // `nscale.test.ts` mocks `src/providers/openai` wholesale, so it can only assert
 // the shape of the config object handed to the OpenAI provider — never what is

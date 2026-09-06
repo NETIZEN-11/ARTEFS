@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: MCP (Model Context Protocol)
 title: MCP Provider
 description: Use Model Context Protocol (MCP) servers as providers in artef for testing agentic systems and tool-calling capabilities

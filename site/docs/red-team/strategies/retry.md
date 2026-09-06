@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Retry Failed Tests
 title: Retry Strategy
 description: Implement regression testing by automatically retrying failed cases to ensure consistent model behavior across deployments

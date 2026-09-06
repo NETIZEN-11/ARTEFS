@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Data Exfiltration
 description: Test whether AI agents can be manipulated to exfiltrate sensitive data through indirect prompt injection in web content.
 ---

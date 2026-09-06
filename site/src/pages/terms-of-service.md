@@ -1,4 +1,4 @@
-﻿---
+---
 description: Terms of service for using artef products and services - covering usage rights, licensing, warranties, and legal agreements
 ---
 

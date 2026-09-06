@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Next Generation of Red Teaming for LLM Agents'
 description: artef is introducing our revolutionary, next-generation red teaming agent designed for enterprise-grade LLM agents.
 image: /img/blog/summer-2025-new-redteam-agent/title.jpg

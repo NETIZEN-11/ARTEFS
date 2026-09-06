@@ -1,4 +1,4 @@
-﻿# eval-self-grading (Self Grading)
+# eval-self-grading (Self Grading)
 
 You can run this example with:
 

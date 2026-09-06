@@ -1,4 +1,4 @@
-﻿# provider-fireworks (Fireworks AI)
+# provider-fireworks (Fireworks AI)
 
 You can run this example with:
 

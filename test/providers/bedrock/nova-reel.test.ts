@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { disableCache, enableCache } from '../../../src/cache';
 import { NovaReelVideoProvider } from '../../../src/providers/bedrock/nova-reel';
 import { sleep } from '../../../src/util/time';

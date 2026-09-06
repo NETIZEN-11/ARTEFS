@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { clearCache, disableCache, enableCache } from '../../../src/cache';
 import {
   BedrockAnthropicMessagesProvider,

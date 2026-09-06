@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Authentication
 sidebar_position: 10
 title: Authenticating into artef Enterprise

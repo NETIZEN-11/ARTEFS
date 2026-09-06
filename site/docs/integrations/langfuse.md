@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Langfuse
 description: Integrate Langfuse prompts with artef for LLM testing. Configure version control, labels, and collaborative prompt management using environment variables and SDK setup.
 ---

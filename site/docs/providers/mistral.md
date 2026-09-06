@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Mistral AI
 title: Mistral AI Provider - Complete Guide to Models, Reasoning, and API Integration
 description: Configure Mistral AI Magistral reasoning models with multimodal capabilities, function calling, and OpenAI-compatible APIs

@@ -1,4 +1,4 @@
-﻿import { WebAPIPlatformError, WebAPIRateLimitedError, WebClient } from '@slack/web-api';
+import { WebAPIPlatformError, WebAPIRateLimitedError, WebClient } from '@slack/web-api';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { SlackProvider } from '../src/providers/slack';
 import { fetchWithProxy } from '../src/util/fetch/index';

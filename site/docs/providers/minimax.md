@@ -1,4 +1,4 @@
-﻿---
+---
 title: MiniMax Provider
 sidebar_label: MiniMax
 sidebar_position: 50

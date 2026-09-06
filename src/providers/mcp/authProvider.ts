@@ -1,4 +1,4 @@
-﻿import logger from '../../logger';
+import logger from '../../logger';
 import { getOAuthToken } from './util';
 import type { OAuthClientProvider } from '@modelcontextprotocol/sdk/client/auth.js';
 import type {

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Javascript
 description: Configure custom JavaScript providers to integrate any API or service with artef's testing framework using TypeScript, CommonJS, or ESM modules
 ---
@@ -225,12 +225,7 @@ module.exports = class TwoStageProvider {
 
 ```typescript title="typedProvider.ts"
 import artef from 'artef';
-import type {
-  ApiProvider,
-  ProviderOptions,
-  ProviderResponse,
-  CallApiContextParams,
-} from 'artef';
+import type { ApiProvider, ProviderOptions, ProviderResponse, CallApiContextParams } from 'artef';
 
 export default class TypedProvider implements ApiProvider {
   protected providerId: string;
@@ -350,10 +345,10 @@ In this case, `context.vars.image` contains the configured value. It may be raw 
 
 For red team runs, [image](/docs/red-team/strategies/image), [audio](/docs/red-team/strategies/audio), and [video](/docs/red-team/strategies/video) strategies generate media and store it in the template variable named by `redteam.injectVar`. The rendered `prompt` also contains the media value, but `context.vars` is safer because it preserves variable boundaries and avoids parsing a very long prompt.
 
-| Red team strategy | `context.vars[redteam.injectVar]`                        | Extra context                                                   | Forwarding notes                                                                                                                                                                                                                   |
-| ----------------- | -------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `image`           | Raw PNG base64, no `data:` prefix                        | `context.vars.image_text`, `context.test.metadata.originalText` | Wrap as `data:image/png;base64,...` for APIs that expect data URLs.                                                                                                                                                                |
-| `audio`           | Raw MP3 base64 from remote generation, no `data:` prefix | `context.test.metadata.originalText`                            | Requires remote generation. Forward with MIME type `audio/mpeg` or your provider's equivalent audio format.                                                                                                                        |
+| Red team strategy | `context.vars[redteam.injectVar]`                        | Extra context                                                   | Forwarding notes                                                                                                                                                                                                           |
+| ----------------- | -------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `image`           | Raw PNG base64, no `data:` prefix                        | `context.vars.image_text`, `context.test.metadata.originalText` | Wrap as `data:image/png;base64,...` for APIs that expect data URLs.                                                                                                                                                        |
+| `audio`           | Raw MP3 base64 from remote generation, no `data:` prefix | `context.test.metadata.originalText`                            | Requires remote generation. Forward with MIME type `audio/mpeg` or your provider's equivalent audio format.                                                                                                                |
 | `video`           | Raw MP4 base64 when local FFmpeg generation succeeds     | `context.vars.video_text`, `context.test.metadata.originalText` | Install FFmpeg and set `artef_DISABLE_REMOTE_GENERATION=true` or `artef_DISABLE_REDTEAM_REMOTE_GENERATION=true` for real MP4 bytes. If generation falls back, the value may decode to the original text instead of an MP4. |
 
 Audio and video have opposite generation requirements today: audio requires remote generation, while real MP4 video requires the local FFmpeg path. Run separate scans if you need to verify both remote audio and local MP4 handling.

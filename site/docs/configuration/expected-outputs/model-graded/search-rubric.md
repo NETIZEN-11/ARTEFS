@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Search Rubric
 ---
 

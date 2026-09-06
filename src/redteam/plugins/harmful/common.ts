@@ -1,4 +1,4 @@
-﻿import { getEnvBool, getEnvString } from '../../../envars';
+import { getEnvBool, getEnvString } from '../../../envars';
 import {
   HARM_PLUGINS,
   LLAMA_GUARD_ENABLED_CATEGORIES,

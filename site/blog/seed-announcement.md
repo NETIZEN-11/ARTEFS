@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'artef Raises $5M to Fix Vulnerabilities in AI Applications'
 description: 'artef raised $5M from Andreessen Horowitz to build the red team for AI applications. See our mission to fix vulnerabilities before they reach users.'
 image: /img/blog/launch-announcement.png

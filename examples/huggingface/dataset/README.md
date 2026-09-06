@@ -1,4 +1,4 @@
-﻿# huggingface/dataset (Huggingface Dataset)
+# huggingface/dataset (Huggingface Dataset)
 
 You can run this example with:
 

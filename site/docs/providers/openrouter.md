@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: OpenRouter
 description: "Access 300+ models through OpenRouter's unified API gateway with configurable routing, proxy support, and OpenAI-compatible requests"
 ---

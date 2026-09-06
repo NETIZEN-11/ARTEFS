@@ -1,4 +1,4 @@
-﻿import { BedrockRuntime } from '@aws-sdk/client-bedrock-runtime';
+import { BedrockRuntime } from '@aws-sdk/client-bedrock-runtime';
 import { NodeHttpHandler } from '@smithy/node-http-handler';
 import dedent from 'dedent';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

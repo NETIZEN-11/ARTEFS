@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 8
 description: 'Identify and block prompt injection attacks using advanced model-based classification for enhanced security protection'
 ---

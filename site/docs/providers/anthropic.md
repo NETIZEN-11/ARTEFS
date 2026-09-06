@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 2
 description: "Deploy Anthropic's Claude models including Opus, Sonnet, and Haiku for advanced reasoning and conversational AI applications"
 ---
@@ -125,8 +125,8 @@ Claude models are available across multiple platforms. Here's how the model name
 | temperature     | ANTHROPIC_TEMPERATURE | Controls the randomness of the output (default: 0). Omitted when `top_p` is set.    |
 | max_tokens      | ANTHROPIC_MAX_TOKENS  | The maximum length of the generated text (default: 1024)                            |
 | cost            | -                     | Legacy per-token override applied to both input and output pricing                  |
-| inputCost       | -                     | Override input token pricing in artef cost estimates                            |
-| outputCost      | -                     | Override output token pricing in artef cost estimates                           |
+| inputCost       | -                     | Override input token pricing in artef cost estimates                                |
+| outputCost      | -                     | Override output token pricing in artef cost estimates                               |
 | top_p           | -                     | Controls nucleus sampling. Mutually exclusive with `temperature`.                   |
 | top_k           | -                     | Only sample from the top K options for each subsequent token                        |
 | stop_sequences  | -                     | Array of strings that will stop generation when encountered                         |

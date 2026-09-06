@@ -1,4 +1,4 @@
-﻿# openai-multiline-yaml (Openai Multiline Yaml)
+# openai-multiline-yaml (Openai Multiline Yaml)
 
 You can run this example with:
 

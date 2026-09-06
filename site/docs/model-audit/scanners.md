@@ -1,4 +1,4 @@
-﻿---
+---
 description: Complete guide to ModelAudit's security scanners for different ML model formats including PyTorch, TensorFlow, Keras, ONNX, GGUF, and more.
 keywords:
   [

@@ -1,4 +1,4 @@
-﻿# redteam-medical-agent (Medical Agent Red Team Example)
+# redteam-medical-agent (Medical Agent Red Team Example)
 
 This example demonstrates a medical agent chatbot with access to sensitive medical records (PII) that can be tested using artef's red teaming capabilities.
 

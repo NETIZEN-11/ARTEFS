@@ -1,4 +1,4 @@
-﻿import { TraceFlags, trace } from '@opentelemetry/api';
+import { TraceFlags, trace } from '@opentelemetry/api';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import cliState from '../../src/cliState';
 import {

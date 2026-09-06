@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Uncensored Llama2 benchmark
 description: Compare censored and uncensored LLM responses on sensitive topics using Ollama and artef to evaluate model safety and content filtering
 slug: censored-vs-uncensored-ollama

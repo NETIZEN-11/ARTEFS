@@ -1,4 +1,4 @@
-﻿# Examples
+# Examples
 
 Self-contained example configurations for `npx artef@latest init --example <name>`.
 

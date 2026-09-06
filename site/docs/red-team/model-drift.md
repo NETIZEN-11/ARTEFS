@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 50
 sidebar_label: Detecting Model Drift
 title: Detecting Model Drift with Red Teaming

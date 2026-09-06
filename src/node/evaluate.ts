@@ -1,4 +1,4 @@
-﻿import { evaluateWithSource } from '../evaluate';
+import { evaluateWithSource } from '../evaluate';
 
 import type { EvaluateOptions, EvaluateTestSuite } from '../types';
 

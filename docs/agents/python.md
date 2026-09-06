@@ -1,4 +1,4 @@
-﻿# Python Guidelines
+# Python Guidelines
 
 For Python providers, prompts, assertions, and scripts.
 

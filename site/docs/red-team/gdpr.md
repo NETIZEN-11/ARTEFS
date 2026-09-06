@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 22
 description: Red team LLM applications for privacy, access-control, and personal data handling risks with artef's gdpr preset
 ---

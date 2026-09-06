@@ -1,4 +1,4 @@
-﻿---
+---
 description: artef privacy notice covering personal information, telemetry, cookies, sharing, security, and contact information for consumer services.
 ---
 

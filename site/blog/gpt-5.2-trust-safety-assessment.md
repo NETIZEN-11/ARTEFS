@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'GPT-5.2 Initial Trust and Safety Assessment'
 description: 'Day-0 red team results for GPT-5.2. 4,229 probes across 43 risk categories. Baseline safety holds at 96%, but jailbreaks drop it to as low as 22%.'
 image: /img/blog/gpt-5.2-security/hero.jpg

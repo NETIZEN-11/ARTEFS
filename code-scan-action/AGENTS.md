@@ -1,4 +1,4 @@
-﻿# Code Scan GitHub Action
+# Code Scan GitHub Action
 
 This package contains the GitHub Action wrapper for artef code scan.
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * GitHub Action Entry Point
  *
  * Main entry point for the artef code-scan GitHub Action

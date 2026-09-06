@@ -1,4 +1,4 @@
-﻿# provider-truefoundry (TrueFoundry Examples)
+# provider-truefoundry (TrueFoundry Examples)
 
 This directory contains example configurations for using [TrueFoundry's AI Gateway](https://www.truefoundry.com/ai-gateway) (LLM, MCP, and Agent Gateway) with artef.
 

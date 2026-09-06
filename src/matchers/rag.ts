@@ -1,4 +1,4 @@
-﻿import { serializeContext } from '../assertions/contextUtils';
+import { serializeContext } from '../assertions/contextUtils';
 import {
   ANSWER_RELEVANCY_GENERATE,
   CONTEXT_FAITHFULNESS_LONGFORM,

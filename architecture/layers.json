@@ -1,4 +1,4 @@
-﻿{
+{
   "publicFacade": "src/index.ts",
   "leafLayers": ["contracts"],
   "aliases": {
@@ -112,9 +112,14 @@
         "src/database",
         "src/evaluate.ts",
         "src/globalConfig",
+        "src/humanReview",
         "src/migrate.ts",
         "src/models",
         "src/node",
+        "src/qualityGate",
+        "src/queue",
+        "src/regression",
+        "src/releaseReadiness",
         "src/share.ts",
         "src/storage",
         "src/util"

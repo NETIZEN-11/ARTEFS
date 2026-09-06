@@ -1,4 +1,4 @@
-﻿// Maps old example names to their new names after the category prefix reorganization.
+// Maps old example names to their new names after the category prefix reorganization.
 // This ensures `npx artef init --example <old-name>` still works.
 export const EXAMPLE_ALIASES: Record<string, string> = {
   'agentic-sdk-comparison': 'compare-agentic-sdks',

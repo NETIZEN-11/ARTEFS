@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Remediation Reports
 sidebar_position: 55
 title: Remediation Reports in artef Enterprise

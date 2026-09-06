@@ -1,4 +1,4 @@
-﻿# compare-llama-vs-gpt (Llama Gpt Comparison)
+# compare-llama-vs-gpt (Llama Gpt Comparison)
 
 You can run this example with:
 

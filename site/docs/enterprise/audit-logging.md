@@ -1,4 +1,4 @@
-﻿---
+---
 title: Audit Logging
 description: Track administrative operations in artef Enterprise with comprehensive audit logs for security, compliance, and forensic analysis.
 sidebar_label: Audit Logging

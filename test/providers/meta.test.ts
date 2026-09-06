@@ -1,4 +1,4 @@
-﻿import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { clearCache, enableCache, fetchWithCache } from '../../src/cache';
 import cliState from '../../src/cliState';
 import { loadClaudeCodeCredential } from '../../src/providers/anthropic/claudeCodeAuth';

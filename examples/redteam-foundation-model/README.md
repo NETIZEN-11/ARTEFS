@@ -1,4 +1,4 @@
-﻿# redteam-foundation-model (Foundation Model Red Team)
+# redteam-foundation-model (Foundation Model Red Team)
 
 This example uses the same red team tests featured on [artef.dev/models](https://artef.dev/models).
 

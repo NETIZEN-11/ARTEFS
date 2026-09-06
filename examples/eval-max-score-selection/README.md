@@ -1,4 +1,4 @@
-﻿# eval-max-score-selection (Max-Score Selection)
+# eval-max-score-selection (Max-Score Selection)
 
 You can run this example with:
 

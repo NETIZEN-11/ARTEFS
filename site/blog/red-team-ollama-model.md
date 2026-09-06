@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How to Red Team an Ollama Model: Complete Local LLM Security Testing Guide'
 description: 'Running LLMs locally with Ollama? These models often bypass cloud safety filters. Learn how to red team local deployments and assess their unique risks.'
 image: /img/blog/llama-red-team/llama-hacker.webp

@@ -1,4 +1,4 @@
-﻿import { getEnvBool } from '../envars';
+import { getEnvBool } from '../envars';
 import logger from '../logger';
 import { getNunjucksEngine } from './templates';
 

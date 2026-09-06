@@ -1,4 +1,4 @@
-﻿export type ServerErrorPhase = 'startup' | 'runtime';
+export type ServerErrorPhase = 'startup' | 'runtime';
 
 function buildServerErrorMessage(
   error: NodeJS.ErrnoException,

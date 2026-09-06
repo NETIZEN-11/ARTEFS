@@ -1,4 +1,4 @@
-﻿# yaml-language-server: $schema=https://artef.dev/config-schema.json
+# yaml-language-server: $schema=https://artef.dev/config-schema.json
 # Test 10.2.1: Provider path relative to config file, NOT cwd
 # Bug #6503: Provider paths resolved from CWD instead of config directory
 #

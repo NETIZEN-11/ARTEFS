@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Simulated User
 description: 'Simulate realistic user interactions and behaviors for comprehensive testing of conversational AI systems and chatbots'
 ---

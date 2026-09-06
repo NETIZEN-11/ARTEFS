@@ -1,4 +1,4 @@
-﻿# redteam-starter (Redteam Starter)
+# redteam-starter (Redteam Starter)
 
 You can run this example with:
 

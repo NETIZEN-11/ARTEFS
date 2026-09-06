@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Ruby
 description: 'Create custom Ruby scripts for advanced model integrations, evaluations, and complex testing logic with full flexibility'
 ---
@@ -584,9 +584,9 @@ Set the aggregate `flagged` field explicitly; the directional fields do not cont
 
 | Issue                          | Solution                                                             |
 | ------------------------------ | -------------------------------------------------------------------- |
-| "Ruby not found" errors        | Set `artef_RUBY` env var or use `rubyExecutable` in config       |
+| "Ruby not found" errors        | Set `artef_RUBY` env var or use `rubyExecutable` in config           |
 | "cannot load such file" errors | Ensure required gems are installed with `gem install` or use bundler |
-| Script not executing           | Check file path is relative to `artefconfig.yaml`                |
+| Script not executing           | Check file path is relative to `artefconfig.yaml`                    |
 | No output visible              | Use `LOG_LEVEL=debug` to see print statements                        |
 | JSON parsing errors            | Ensure prompt format matches your parsing logic                      |
 | Timeout errors                 | Optimize initialization code, load resources once                    |

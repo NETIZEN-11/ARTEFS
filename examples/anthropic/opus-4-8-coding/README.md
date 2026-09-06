@@ -1,4 +1,4 @@
-﻿# anthropic/opus-4-8-coding (Opus-Tier Advanced Coding)
+# anthropic/opus-4-8-coding (Opus-Tier Advanced Coding)
 
 This example exercises the Opus-tier Claude models on hard coding tasks, comparing **Claude Opus 5** against **Claude Opus 4.8** at `xhigh` effort — plus Opus 5 at `low` so you can see the effort tradeoff on your own tasks.
 

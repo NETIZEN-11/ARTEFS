@@ -1,4 +1,4 @@
-﻿import { getEnvBool, getEnvInt } from '../envars';
+import { getEnvBool, getEnvInt } from '../envars';
 import { loadYaml } from '../util/yamlLoad';
 
 import type { ApiProvider } from '../types/index';

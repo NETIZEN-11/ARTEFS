@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Join artef at Hacker Summer Camp 2025'
 description: 'Join artef at AI Summit, Black Hat, and DEF CON for demos, workshops, and discussions on LLM security and red teaming'
 image: /img/blog/hacker-summer-camp-hero.webp

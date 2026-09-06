@@ -1,4 +1,4 @@
-﻿# Proposal: A Layered Package System for artef
+# Proposal: A Layered Package System for artef
 
 ## Executive Summary
 
@@ -694,7 +694,7 @@ Only publish provider packages where there is a clear benefit:
 | Internal package churn leaks into public API  | Publish only after private boundary use stabilizes                              |
 | Dual ESM/CJS builds become inconsistent       | Artifact smokes for both import modes on every public package                   |
 | Developers slow down in a new monorepo layout | Keep root install/build/test commands as the golden path                        |
-| Provider package count becomes confusing      | Publish provider packs selectively; keep `artef` full install               |
+| Provider package count becomes confusing      | Publish provider packs selectively; keep `artef` full install                   |
 | Version skew across packages                  | Start with fixed versions and exact internal deps                               |
 | Release workflow becomes fragile              | Reuse current release pipeline, add package-graph and tarball acceptance checks |
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Voice Crescendo Provider
  *
  * A multi-turn voice conversation strategy for audio-to-audio red team testing.

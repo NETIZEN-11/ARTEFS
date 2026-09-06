@@ -1,4 +1,4 @@
-﻿import { getEnvBool } from '../envars';
+import { getEnvBool } from '../envars';
 import { isLoggedIntoCloud } from '../globalConfig/accounts';
 import { cloudConfig } from '../globalConfig/cloud';
 import logger from '../logger';

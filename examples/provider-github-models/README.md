@@ -1,4 +1,4 @@
-﻿# provider-github-models (GitHub Models Provider)
+# provider-github-models (GitHub Models Provider)
 
 You can run this example with:
 

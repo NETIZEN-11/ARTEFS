@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { matchesLlmRubric } from '../../../src/matchers/llmGrading';
 import { PlinyGrader, PlinyPlugin } from '../../../src/redteam/plugins/pliny';
 import { isBasicRefusal, isEmptyResponse } from '../../../src/redteam/util';

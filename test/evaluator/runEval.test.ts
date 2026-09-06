@@ -1,4 +1,4 @@
-﻿import './setup';
+import './setup';
 
 import { afterAll, afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { clearCache } from '../../src/cache';

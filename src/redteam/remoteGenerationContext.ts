@@ -1,4 +1,4 @@
-﻿import type { RedteamGenerationContext } from './types';
+import type { RedteamGenerationContext } from './types';
 
 export type { RedteamGenerationContext } from './types';
 

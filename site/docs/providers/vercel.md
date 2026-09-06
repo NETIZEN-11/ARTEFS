@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vercel AI Gateway
 sidebar_label: Vercel AI Gateway
 sidebar_position: 48

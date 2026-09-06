@@ -1,4 +1,4 @@
-﻿---
+---
 description: "Detailed comparison of artef and Microsoft's PyRIT for LLM security testing. Covers attack methods, RAG testing, CI/CD integration, and selection criteria."
 image: /img/blog/pyrit/artef-vs-pyrit.jpg
 keywords:
@@ -25,7 +25,7 @@ As enterprises deploy AI applications at scale, red teaming has become essential
 
 ## Quick Comparison
 
-| Feature               | artef                        | PyRIT                    |
+| Feature               | artef                            | PyRIT                    |
 | --------------------- | -------------------------------- | ------------------------ |
 | **Setup Time**        | Minutes (Web/CLI wizard)         | Hours (Python scripting) |
 | **Attack Generation** | Automatic, context-aware         | Manual configuration     |

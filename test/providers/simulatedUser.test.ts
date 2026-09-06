@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { SimulatedUser } from '../../src/providers/simulatedUser';
 import * as timeUtils from '../../src/util/time';

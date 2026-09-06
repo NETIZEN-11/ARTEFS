@@ -1,4 +1,4 @@
-﻿# Provider Setup Patterns
+# Provider Setup Patterns
 
 Use these as starting points; keep secrets in env vars.
 

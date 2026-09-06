@@ -1,4 +1,4 @@
-﻿---
+---
 title: Agent Skills for Evals and Red Teaming
 description: Install artef agent skills for eval writing, provider setup, and red-team workflows in Claude Code and OpenAI Codex, with security configs and scan triage.
 sidebar_label: Agent Skills
@@ -61,8 +61,8 @@ Both marketplaces install the same bundle at `plugins/artef`, exposed by
 `.claude-plugin/marketplace.json` for Claude Code and
 `.agents/plugins/marketplace.json` for Codex:
 
-| Skill                      | Use it for                                                                 |
-| -------------------------- | -------------------------------------------------------------------------- |
+| Skill                  | Use it for                                                                 |
+| ---------------------- | -------------------------------------------------------------------------- |
 | `artef-evals`          | Non-redteam eval suites, assertions, test cases, and result inspection     |
 | `artef-provider-setup` | HTTP targets plus JavaScript or Python `file://` providers and wrappers    |
 | `artef-redteam-setup`  | Focused redteam configs from live endpoints, OpenAPI specs, or static code |

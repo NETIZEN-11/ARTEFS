@@ -1,4 +1,4 @@
-﻿import { buildIsolatedAnthropicClientOptions } from '../anthropic/generic';
+import { buildIsolatedAnthropicClientOptions } from '../anthropic/generic';
 import { AnthropicMessagesProvider } from '../anthropic/messages';
 import {
   getBedrockMantleOrigin,

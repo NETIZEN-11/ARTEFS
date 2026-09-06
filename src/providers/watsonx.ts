@@ -1,4 +1,4 @@
-﻿import crypto from 'crypto';
+import crypto from 'crypto';
 
 import { z } from 'zod';
 import { fetchWithCache, getCache, isCacheEnabled } from '../cache';

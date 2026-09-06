@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How AI Regulation Changed in 2025'
 description: 'Why AI compliance questions multiplied in 2025. A field guide to federal procurement, state laws, EU AI Act deadlines, and what practitioners need to prepare.'
 image: /img/blog/ai-regulation-2025/hero.jpg

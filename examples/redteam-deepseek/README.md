@@ -1,4 +1,4 @@
-﻿# redteam-deepseek (DeepSeek Red Team Evaluation)
+# redteam-deepseek (DeepSeek Red Team Evaluation)
 
 This example demonstrates how to run both an eval from a csv file and an automated red team against DeepSeek models.
 

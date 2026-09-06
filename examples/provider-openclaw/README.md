@@ -1,4 +1,4 @@
-﻿# provider-openclaw (OpenClaw Agent Testing)
+# provider-openclaw (OpenClaw Agent Testing)
 
 This example demonstrates how to use artef with OpenClaw, a personal AI assistant framework.
 

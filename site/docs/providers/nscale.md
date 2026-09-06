@@ -1,4 +1,4 @@
-﻿---
+---
 description: Use Nscale Serverless Inference API with artef for cost-effective AI model evaluation and testing
 ---
 

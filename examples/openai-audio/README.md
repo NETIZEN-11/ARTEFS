@@ -1,4 +1,4 @@
-﻿# openai-audio (OpenAI Audio Example)
+# openai-audio (OpenAI Audio Example)
 
 You can run this example with:
 

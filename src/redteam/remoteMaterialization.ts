@@ -1,4 +1,4 @@
-﻿import { getInputType, type Inputs } from '../types/shared';
+import { getInputType, type Inputs } from '../types/shared';
 import { getRemoteGenerationUrl } from './remoteGeneration';
 
 import type { VarValue } from '../types';

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Prompt Injection: A Comprehensive Guide'
 sidebar_label: Prompt injection
 description: 'Prompt injections are the most critical LLM vulnerability. From Microsoft Copilot data theft to ChatGPT jailbreaks, see how these attacks work and how to defend.'

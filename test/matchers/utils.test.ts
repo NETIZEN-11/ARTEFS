@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest';
 import cliState from '../../src/cliState';
 import {
   getAndCheckProvider,

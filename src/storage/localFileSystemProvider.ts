@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Local filesystem storage provider for media files.
  *
  * Stores media in the local artef data directory (~/.artef/media).

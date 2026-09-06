@@ -1,4 +1,4 @@
-﻿# config-jsonl-test-cases (JSON Lines (JSONL) Test Cases Example)
+# config-jsonl-test-cases (JSON Lines (JSONL) Test Cases Example)
 
 You can run this example with:
 

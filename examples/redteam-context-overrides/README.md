@@ -1,4 +1,4 @@
-﻿# redteam-context-overrides (Redteam Context Overrides)
+# redteam-context-overrides (Redteam Context Overrides)
 
 You can run this example with:
 

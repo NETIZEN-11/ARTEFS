@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Manual Input
 description: 'Manually provide test responses without LLM API calls for rapid prototyping, debugging, and baseline evaluation testing'
 ---

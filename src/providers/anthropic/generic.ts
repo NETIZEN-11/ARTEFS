@@ -1,4 +1,4 @@
-﻿import { createHash, randomUUID } from 'crypto';
+import { createHash, randomUUID } from 'crypto';
 
 import Anthropic from '@anthropic-ai/sdk';
 import { getEnvString } from '../../envars';

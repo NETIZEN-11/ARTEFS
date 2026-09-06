@@ -1,4 +1,4 @@
-﻿# eval-image-classification (Image Classification Example with artef)
+# eval-image-classification (Image Classification Example with artef)
 
 You can run this example with:
 

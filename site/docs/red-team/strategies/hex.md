@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Hex Encoding
 title: Hex Encoding Strategy
 description: Evaluate AI robustness against hexadecimal-encoded attacks designed to bypass content filters and safety mechanisms

@@ -1,4 +1,4 @@
-﻿# anthropic/claude-code-session (Authenticate via Claude Code session)
+# anthropic/claude-code-session (Authenticate via Claude Code session)
 
 This example shows how to run artef evals against the Anthropic Messages
 API — including `llm-rubric` model-graded assertions — by reusing an existing

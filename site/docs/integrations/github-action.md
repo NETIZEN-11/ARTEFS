@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: GitHub Actions
 description: Automate LLM prompt testing in CI/CD with GitHub Actions integration. Compare prompt changes, view diffs, and analyze results directly in pull requests using artef.
 ---

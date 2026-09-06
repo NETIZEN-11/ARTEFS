@@ -1,4 +1,4 @@
-﻿---
+---
 title: Slack Provider
 sidebar_label: Slack
 description: Enable human-in-the-loop evaluations with the Slack provider for collecting expert feedback, comparing human vs AI responses, and building golden datasets through Slack channels or direct messages

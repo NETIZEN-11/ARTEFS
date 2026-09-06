@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeAll, beforeEach, describe, expect, it, Mock, vi } from 'vitest';
+import { afterEach, beforeAll, beforeEach, describe, expect, it, Mock, vi } from 'vitest';
 import * as evaluatorHelpers from '../../../../src/evaluatorHelpers';
 import { artefChatCompletionProvider } from '../../../../src/providers/artef';
 import {

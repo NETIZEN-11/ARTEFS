@@ -1,4 +1,4 @@
-﻿import { afterAll, beforeEach, describe, expect, it, Mock, Mocked, MockedClass, vi } from 'vitest';
+import { afterAll, beforeEach, describe, expect, it, Mock, Mocked, MockedClass, vi } from 'vitest';
 import { evaluate } from '../../src/evaluator';
 import logger from '../../src/logger';
 import Eval from '../../src/models/eval';

@@ -1,4 +1,4 @@
-﻿import fs from 'fs/promises';
+import fs from 'fs/promises';
 
 import confirm from '@inquirer/confirm';
 import select from '@inquirer/select';

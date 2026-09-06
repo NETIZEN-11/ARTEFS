@@ -1,4 +1,4 @@
-﻿import { getEnvInt } from '../../envars';
+import { getEnvInt } from '../../envars';
 import { renderPrompt } from '../../evaluatorHelpers';
 import { isLoggedIntoCloud } from '../../globalConfig/accounts';
 import logger from '../../logger';

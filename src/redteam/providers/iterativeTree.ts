@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @file iterativeTree.ts
  * @description This file implements an iterative red team attack provider based on the paper:
  * "Red Teaming Language Models via Iterative Refinement" (https://arxiv.org/abs/2312.02119).

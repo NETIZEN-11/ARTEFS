@@ -1,4 +1,4 @@
-﻿# redteam-tracing-example (Red Team Tracing)
+# redteam-tracing-example (Red Team Tracing)
 
 You can run this example with:
 

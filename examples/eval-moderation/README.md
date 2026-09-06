@@ -1,4 +1,4 @@
-﻿# eval-moderation (Moderation)
+# eval-moderation (Moderation)
 
 You can run this example with:
 

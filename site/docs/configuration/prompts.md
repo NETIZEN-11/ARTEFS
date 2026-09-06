@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 11
 sidebar_label: Prompts
 title: Prompt Configuration - Text, Chat, and Dynamic Prompts

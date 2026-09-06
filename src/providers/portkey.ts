@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../envars';
+import { getEnvString } from '../envars';
 import { OpenAiChatCompletionProvider } from './openai/chat';
 import { hasHeaderOverride } from './openai/index';
 

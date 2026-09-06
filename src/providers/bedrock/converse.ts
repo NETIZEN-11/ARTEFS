@@ -1,4 +1,4 @@
-﻿/**
+/**
  * AWS Bedrock Converse API Provider
  *
  * This provider implements the AWS Bedrock Converse API, which provides a unified

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 50
 title: Self-hosting
 description: Learn how to self-host artef using Docker, Docker Compose, or Helm. This comprehensive guide walks you through setup, configuration, and troubleshooting.

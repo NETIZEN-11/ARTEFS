@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Portable blob reference format used across API/UI boundaries.
  * Example URI: artef://blob/<hash>
  */

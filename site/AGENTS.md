@@ -1,4 +1,4 @@
-﻿# Documentation Site
+# Documentation Site
 
 Docusaurus-based documentation at [artef.dev](https://www.artef.dev/).
 

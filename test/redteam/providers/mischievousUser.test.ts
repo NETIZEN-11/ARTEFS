@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import RedteamMischievousUserProvider from '../../../src/redteam/providers/mischievousUser';
 import { createMockProvider } from '../../factories/provider';
 

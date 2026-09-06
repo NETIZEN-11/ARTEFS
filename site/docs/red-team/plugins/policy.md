@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Policy
 description: Red team custom AI policies by adding organization-specific rules, importing policies in batches, and reviewing separate policy results.
 ---

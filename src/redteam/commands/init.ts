@@ -1,4 +1,4 @@
-﻿import fs from 'fs/promises';
+import fs from 'fs/promises';
 import * as path from 'path';
 
 import checkbox, { Separator } from '@inquirer/checkbox';

@@ -1,4 +1,4 @@
-﻿import { type EnvVarKey, getEnvString } from '../envars';
+import { type EnvVarKey, getEnvString } from '../envars';
 import { renderVarsInObject } from '../util';
 import { OpenAiChatCompletionProvider } from './openai/chat';
 

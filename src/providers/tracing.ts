@@ -1,4 +1,4 @@
-﻿import { trace } from '@opentelemetry/api';
+import { trace } from '@opentelemetry/api';
 import cliState from '../cliState';
 import { getOtelConfigFromEnv } from '../tracing/otelConfig';
 import { getTraceStore } from '../tracing/store';

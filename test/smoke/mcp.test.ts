@@ -1,4 +1,4 @@
-﻿import { type ChildProcess, spawn } from 'child_process';
+import { type ChildProcess, spawn } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 

@@ -1,4 +1,4 @@
-﻿# Database Layer
+# Database Layer
 
 SQLite/libSQL access (`index.ts`), schema (`tables.ts`), eval deletion (`evalDeletion.ts`), signal files (`signal.ts`), and test helpers (`testing.ts`).
 

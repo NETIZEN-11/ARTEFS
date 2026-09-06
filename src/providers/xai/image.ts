@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../../envars';
+import { getEnvString } from '../../envars';
 import logger from '../../logger';
 import invariant from '../../util/invariant';
 import {

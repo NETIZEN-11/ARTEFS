@@ -1,4 +1,4 @@
-﻿# eval-function-tools-callback (Function Tool Callbacks Example)
+# eval-function-tools-callback (Function Tool Callbacks Example)
 
 You can run this example with:
 

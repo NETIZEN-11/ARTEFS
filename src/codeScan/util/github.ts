@@ -1,4 +1,4 @@
-﻿/**
+/**
  * GitHub Utilities
  *
  * Helper functions for GitHub integration.

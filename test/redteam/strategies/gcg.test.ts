@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { type FetchWithCacheResult, fetchWithCache } from '../../../src/cache';
 import { getUserEmail, isLoggedIntoCloud } from '../../../src/globalConfig/accounts';
 import logger from '../../../src/logger';

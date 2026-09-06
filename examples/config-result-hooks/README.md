@@ -1,4 +1,4 @@
-﻿# config-result-hooks (Process Evaluation Results)
+# config-result-hooks (Process Evaluation Results)
 
 This example shows how to use extension hooks to process evaluation results programmatically. Use this to:
 

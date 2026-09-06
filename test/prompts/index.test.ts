@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 
 import dedent from 'dedent';
 import { globSync } from 'glob';

@@ -1,4 +1,4 @@
-﻿# integration-opentelemetry (OpenTelemetry Tracing)
+# integration-opentelemetry (OpenTelemetry Tracing)
 
 Examples for using OpenTelemetry tracing with artef.
 

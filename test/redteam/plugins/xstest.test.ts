@@ -1,4 +1,4 @@
-﻿import { parse } from 'csv-parse/sync';
+import { parse } from 'csv-parse/sync';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import logger from '../../../src/logger';
 import { fetchDataset, XSTestPlugin } from '../../../src/redteam/plugins/xstest';

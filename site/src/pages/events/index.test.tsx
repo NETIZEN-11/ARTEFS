@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { hydrateRoot } from 'react-dom/client';
 import { renderToString } from 'react-dom/server';
 

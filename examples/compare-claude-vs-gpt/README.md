@@ -1,4 +1,4 @@
-﻿# compare-claude-vs-gpt (Claude Vs Gpt)
+# compare-claude-vs-gpt (Claude Vs Gpt)
 
 You can run this example with:
 

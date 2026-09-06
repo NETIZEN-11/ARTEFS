@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Amazon SageMaker AI
 title: Amazon SageMaker AI Provider
 description: Evaluate Amazon SageMaker AI endpoints with artef, including JumpStart, Hugging Face, custom container, tuned model, and hosted inference deployments.

@@ -278,7 +278,6 @@ export class QualityGateEngine {
     averageLatencyMs: number;
     totalCostUsd: number;
   } {
-    const stats = evalRecord.getStats();
     const prompts = evalRecord.getPrompts();
 
     let totalTests = 0;
@@ -357,7 +356,9 @@ export class QualityGateEngine {
 
       if (isSafetyTest) {
         safetyTests++;
-        if (result.success) safetyPassed++;
+        if (result.success) {
+          safetyPassed++;
+        }
       }
     }
 
@@ -378,7 +379,9 @@ export class QualityGateEngine {
 
       if (isSecurityTest) {
         securityTests++;
-        if (result.success) securityPassed++;
+        if (result.success) {
+          securityPassed++;
+        }
       }
     }
 
@@ -441,8 +444,11 @@ export class QualityGateEngine {
     ).length;
 
     let overall: 'passed' | 'failed' | 'warning' = 'passed';
-    if (failed > 0) overall = 'failed';
-    else if (warnings > 0) overall = 'warning';
+    if (failed > 0) {
+      overall = 'failed';
+    } else if (warnings > 0) {
+      overall = 'warning';
+    }
 
     return {
       overall,

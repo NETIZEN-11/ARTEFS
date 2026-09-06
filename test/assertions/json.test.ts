@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { handleContainsJson, handleIsJson } from '../../src/assertions/json';
 import { createMockProvider, createProviderResponse } from '../factories/provider';
 import { createAtomicTestCase } from '../factories/testSuite';

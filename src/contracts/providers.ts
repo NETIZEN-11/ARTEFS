@@ -1,4 +1,4 @@
-﻿import type { BlobRef } from './blobs.js';
+import type { BlobRef } from './blobs.js';
 import type { TokenUsage, VarValue } from './shared.js';
 
 /**

@@ -1,4 +1,4 @@
-﻿# openinterpreter (Open Interpreter Provider)
+# openinterpreter (Open Interpreter Provider)
 
 Evaluate the Rust-based Open Interpreter coding agent in a disposable, read-only workspace.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: LLM Rubric
 description: 'Create flexible custom rubrics using natural language to evaluate LLM outputs against specific quality and safety criteria'
 ---

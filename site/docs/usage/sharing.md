@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 40
 description: Share your artef eval results with teams via cloud platform, enterprise deployment, or self-hosted infrastructure
 keywords: [eval sharing, model testing, artef sharing, collaboration, team sharing]

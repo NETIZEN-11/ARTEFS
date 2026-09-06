@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { RedteamGraderBase } from '../base';
 
 export class TelecomE911MisinformationPluginGrader extends RedteamGraderBase {

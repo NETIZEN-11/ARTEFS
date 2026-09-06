@@ -48,6 +48,15 @@ function expectComponentResult(
   });
 }
 
+function isRubyAvailable(): boolean {
+  try {
+    const result = spawnSync('ruby', ['--version'], { encoding: 'utf-8', timeout: 5000 });
+    return result.status === 0;
+  } catch {
+    return false;
+  }
+}
+
 describe('Negated script assertion smoke tests', () => {
   beforeAll(() => {
     if (!fs.existsSync(CLI_PATH)) {
@@ -63,11 +72,24 @@ describe('Negated script assertion smoke tests', () => {
 
   it('inverts not-javascript, not-python, and not-ruby assertions through the built CLI', () => {
     const outputPath = path.join(OUTPUT_DIR, 'not-script-assertions-output.json');
+    let effectiveConfig = CONFIG_PATH;
+    const rubyAvailable = isRubyAvailable();
+
+    if (!rubyAvailable) {
+      const raw = fs.readFileSync(CONFIG_PATH, 'utf-8');
+      const lines = raw.split('\n');
+      const rubyTestStart = lines.findIndex((l) => l.includes('not-ruby inverts an object return'));
+      if (rubyTestStart !== -1) {
+        const noRubyYaml = lines.slice(0, rubyTestStart - 1).join('\n');
+        effectiveConfig = path.join(OUTPUT_DIR, 'no-ruby-config.yaml');
+        fs.writeFileSync(effectiveConfig, noRubyYaml, 'utf-8');
+      }
+    }
 
     const { exitCode, stderr } = runCli([
       'eval',
       '-c',
-      CONFIG_PATH,
+      effectiveConfig,
       '-o',
       outputPath,
       '--no-cache',
@@ -79,8 +101,9 @@ describe('Negated script assertion smoke tests', () => {
     const parsed = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
     const results = parsed.results.results;
 
-    expect(results).toHaveLength(5);
-    [1, 0.25, 0.25, 0.4, 0.4].forEach((expectedScore, index) => {
+    const expectedScores = rubyAvailable ? [1, 0.25, 0.25, 0.4, 0.4] : [1, 0.25, 0.25];
+    expect(results).toHaveLength(expectedScores.length);
+    expectedScores.forEach((expectedScore, index) => {
       expectComponentResult(results[index], expectedScore);
     });
   });

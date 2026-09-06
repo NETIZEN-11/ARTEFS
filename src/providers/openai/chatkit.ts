@@ -1,4 +1,4 @@
-﻿/**
+/**
  * OpenAI ChatKit Provider
  *
  * Evaluates ChatKit workflows deployed via Agent Builder using Playwright

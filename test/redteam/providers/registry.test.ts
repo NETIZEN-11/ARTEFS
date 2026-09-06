@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { getProviderFactories } from '../../../src/providers/registry';
 import {
   redteamProviderFactories,

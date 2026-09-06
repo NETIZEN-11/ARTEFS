@@ -1,4 +1,4 @@
-﻿# openai-codex-sdk (OpenAI Codex SDK Examples)
+# openai-codex-sdk (OpenAI Codex SDK Examples)
 
 The OpenAI Codex SDK provider enables agentic code analysis and generation evals with thread-based conversations and Git-aware operations.
 

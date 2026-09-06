@@ -1,4 +1,4 @@
-﻿/**
+/**
  * HuggingFace metadata utilities for fetching model revision information.
  * Used for deduplication of model scans.
  */

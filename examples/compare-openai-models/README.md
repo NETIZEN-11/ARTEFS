@@ -1,4 +1,4 @@
-﻿# compare-openai-models (OpenAI Model Comparison)
+# compare-openai-models (OpenAI Model Comparison)
 
 This example compares OpenAI's `gpt-5.4` with `gpt-5.4-mini` across various riddles and reasoning tasks.
 

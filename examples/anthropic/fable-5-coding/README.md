@@ -1,4 +1,4 @@
-﻿# anthropic/fable-5-coding (Claude Fable 5 Advanced Coding)
+# anthropic/fable-5-coding (Claude Fable 5 Advanced Coding)
 
 This example exercises Claude Fable 5 on hard coding tasks using the `xhigh` effort level. Fable 5 always uses adaptive thinking, so no `thinking` configuration is needed.
 

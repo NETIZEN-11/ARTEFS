@@ -1,4 +1,4 @@
-﻿import { fetchWithCache } from '../cache';
+import { fetchWithCache } from '../cache';
 import { getEnvString } from '../envars';
 import logger from '../logger';
 import { type GenAISpanContext, type GenAISpanResult, withGenAISpan } from '../tracing/genaiTracer';

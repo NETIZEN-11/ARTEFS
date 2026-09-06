@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 4
 title: Azure OpenAI Provider
 description: Configure and use Azure OpenAI models with artef for evals, including GPT-4, reasoning models, assistants, Azure AI Foundry, and vision capabilities
@@ -212,9 +212,9 @@ Azure does not expose a reasoning model's private chain-of-thought. Configuring
 make hidden reasoning steps visible.
 
 | Provider type     | Reasoning request behavior                                                                                                                | Visible artef output                                                                                                                                              |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `azure:chat`      | For reasoning deployments, sends `reasoning_effort` and `max_completion_tokens`; set `isReasoningModel: true` for aliases                 | Assistant `message.content`. If Azure reports `completion_tokens_details.reasoning_tokens`, artef records that count in `tokenUsage.completionDetails.reasoning`. |
-| `azure:responses` | For reasoning deployments, maps `reasoning_effort` to `reasoning.effort` and uses `max_output_tokens`; set `isReasoningModel` for aliases | Assistant output plus an Azure-provided reasoning **summary** when the response contains a non-empty `output` reasoning item. It is not raw chain-of-thought.         |
+| `azure:responses` | For reasoning deployments, maps `reasoning_effort` to `reasoning.effort` and uses `max_output_tokens`; set `isReasoningModel` for aliases | Assistant output plus an Azure-provided reasoning **summary** when the response contains a non-empty `output` reasoning item. It is not raw chain-of-thought.     |
 
 For `azure:responses`, the current provider exposes Azure's summary request through
 `passthrough.reasoning`. Keep `effort` and `summary` in that same raw object because

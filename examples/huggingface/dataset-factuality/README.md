@@ -1,4 +1,4 @@
-﻿# huggingface/dataset-factuality (TruthfulQA Factuality Evaluation)
+# huggingface/dataset-factuality (TruthfulQA Factuality Evaluation)
 
 This example demonstrates how to evaluate model factuality using the TruthfulQA dataset from HuggingFace. The TruthfulQA dataset is designed to test whether language models can avoid generating false answers by crafting questions that might elicit common misconceptions.
 

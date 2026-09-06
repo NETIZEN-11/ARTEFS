@@ -1040,7 +1040,7 @@ describe('useRedTeamConfig', () => {
         url: 'https://example.test/chat',
         body: '{{prompt}}',
         method: 'POST',
-        headers: { Authorization: 'Bearer €' },
+        headers: { Authorization: 'Bearer Â€' },
       },
     ],
     [

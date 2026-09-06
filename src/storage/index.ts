@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Media storage module for artef.
  *
  * Provides abstraction for storing binary media (audio, images, video)

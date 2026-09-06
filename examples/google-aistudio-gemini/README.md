@@ -1,4 +1,4 @@
-﻿# google-aistudio-gemini (Google AI Studio (Gemini and Gemma) Example)
+# google-aistudio-gemini (Google AI Studio (Gemini and Gemma) Example)
 
 You can run this example with:
 

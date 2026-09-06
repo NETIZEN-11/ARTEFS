@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import { trace } from '@opentelemetry/api';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

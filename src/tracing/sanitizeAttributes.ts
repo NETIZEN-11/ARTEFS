@@ -1,4 +1,4 @@
-﻿export interface AttributeSanitizationOptions {
+export interface AttributeSanitizationOptions {
   redactAttributes?: string[];
   sanitizeSensitiveAttributes?: boolean;
   truncateValues?: boolean;

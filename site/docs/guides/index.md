@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Guides
 title: Eval Guides
 description: Step-by-step tutorials for evaluating LLMs, comparing models, and testing integrations with artef

@@ -1,4 +1,4 @@
-﻿---
+---
 name: artef-redteam-run
 description: >
   Run, rerun, inspect, and QA artef redteam scans from generated redteam YAML

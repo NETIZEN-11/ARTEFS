@@ -1,4 +1,4 @@
-﻿# redteam-provider-override (Redteam Provider Override)
+# redteam-provider-override (Redteam Provider Override)
 
 You can run this example with:
 

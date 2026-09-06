@@ -1,4 +1,4 @@
-﻿# huggingface (Hugging Face)
+# huggingface (Hugging Face)
 
 Examples for using artef with Hugging Face models, datasets, and classifiers.
 

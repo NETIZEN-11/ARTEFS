@@ -1,4 +1,4 @@
-﻿import * as fs from 'fs';
+import * as fs from 'fs';
 
 import cliProgress from 'cli-progress';
 import { afterAll, afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

@@ -1,4 +1,4 @@
-﻿# simple-csv (Simple CSV Example)
+# simple-csv (Simple CSV Example)
 
 You can run this example with:
 

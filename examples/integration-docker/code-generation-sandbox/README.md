@@ -1,4 +1,4 @@
-﻿# integration-docker/code-generation-sandbox (Docker Code Generation Sandbox)
+# integration-docker/code-generation-sandbox (Docker Code Generation Sandbox)
 
 You can run this example with:
 

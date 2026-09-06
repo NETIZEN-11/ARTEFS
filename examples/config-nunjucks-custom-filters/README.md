@@ -1,4 +1,4 @@
-﻿# config-nunjucks-custom-filters (Nunjucks Custom Filters)
+# config-nunjucks-custom-filters (Nunjucks Custom Filters)
 
 You can run this example with:
 

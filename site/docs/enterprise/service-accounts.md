@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Service Accounts
 sidebar_position: 30
 title: Creating and Managing Service Accounts in artef Enterprise

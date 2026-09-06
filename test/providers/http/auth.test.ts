@@ -1,4 +1,4 @@
-﻿// Authentication tests: RSA signatures, JKS keystores, OAuth token refresh, file-based auth, bearer/API key auth.
+// Authentication tests: RSA signatures, JKS keystores, OAuth token refresh, file-based auth, bearer/API key auth.
 import './setup';
 
 import crypto from 'crypto';

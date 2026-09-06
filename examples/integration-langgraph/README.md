@@ -1,4 +1,4 @@
-﻿# integration-langgraph (LangGraph Integration)
+# integration-langgraph (LangGraph Integration)
 
 This example demonstrates how to use LangGraph with artef, including a research agent setup, structured output, and red teaming or evaluation.
 

@@ -1,4 +1,4 @@
-﻿# config-prompt-labels (Prompt Labels)
+# config-prompt-labels (Prompt Labels)
 
 You can run this example with:
 

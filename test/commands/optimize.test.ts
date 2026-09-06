@@ -1,4 +1,4 @@
-﻿import { Command } from 'commander';
+import { Command } from 'commander';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { doOptimize, optimizeCommand } from '../../src/commands/optimize';
 import logger from '../../src/logger';

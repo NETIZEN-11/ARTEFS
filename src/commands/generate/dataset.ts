@@ -1,4 +1,4 @@
-﻿import fs from 'fs/promises';
+import fs from 'fs/promises';
 
 import chalk from 'chalk';
 import * as yaml from 'js-yaml';

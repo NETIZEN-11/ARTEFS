@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { TEEN_SAFETY_PLUGINS } from '../../../src/redteam/constants';
 import { Plugins } from '../../../src/redteam/plugins';
 import { TeenSafetyAgeRestrictedGoodsAndServicesPluginGrader } from '../../../src/redteam/plugins/teenSafety/ageRestrictedGoodsAndServices';

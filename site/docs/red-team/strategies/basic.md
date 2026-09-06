@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Basic
 title: Basic Strategy
 description: Configure inclusion of original plugin-generated test cases in evaluation outputs for baseline comparison and analysis

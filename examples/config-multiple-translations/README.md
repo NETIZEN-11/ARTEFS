@@ -1,4 +1,4 @@
-﻿# config-multiple-translations (Multiple Translations)
+# config-multiple-translations (Multiple Translations)
 
 Evaluate translation quality across multiple languages using standard artef evals and [scenarios](https://www.artef.dev/docs/configuration/scenarios/).
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: fal.ai Provider
 description: Integrate fal.ai's fast image generation models including Flux and Stable Diffusion for visual AI testing and evaluation
 sidebar_position: 42

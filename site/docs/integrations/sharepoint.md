@@ -1,4 +1,4 @@
-﻿---
+---
 title: SharePoint Integration
 sidebar_label: SharePoint
 description: Import LLM test cases from Microsoft SharePoint. Configure certificate-based authentication and load test data from SharePoint CSV files.

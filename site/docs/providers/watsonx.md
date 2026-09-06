@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: WatsonX
 description: Configure IBM WatsonX's text and chat models for enterprise-grade LLM testing, including Granite, Llama, code, and multilingual options
 ---

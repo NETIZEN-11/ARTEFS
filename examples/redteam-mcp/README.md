@@ -1,4 +1,4 @@
-﻿# redteam-mcp (Red Team Model Context Protocol)
+# redteam-mcp (Red Team Model Context Protocol)
 
 This example demonstrates red teaming an AI assistant that uses Model Context Protocol (MCP) for tool use capabilities. The example focuses on testing various attack vectors specific to MCP implementations, such as function call exploits, system prompt leakage, unauthorized tool discovery, and other MCP-specific vulnerabilities.
 

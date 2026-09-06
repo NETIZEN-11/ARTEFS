@@ -1,4 +1,4 @@
-﻿import { createHmac } from 'crypto';
+import { createHmac } from 'crypto';
 
 import { fetchWithCache, getCache, getScopedCacheKey, isCacheEnabled } from '../../cache';
 import logger from '../../logger';

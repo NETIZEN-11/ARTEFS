@@ -1,4 +1,4 @@
-﻿# Assertions
+# Assertions
 
 Assertion handlers turn provider outputs, traces, scripts, and model-graded checks into
 artef pass/fail scores.

@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import dedent from 'dedent';
 import cliState from '../cliState';
 import logger from '../logger';

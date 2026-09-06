@@ -1,4 +1,4 @@
-﻿import cliState from '../cliState';
+import cliState from '../cliState';
 import logger from '../logger';
 import {
   artef_FACTUALITY_PROMPT,

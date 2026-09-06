@@ -1,4 +1,4 @@
-﻿import { getEnvString } from '../envars';
+import { getEnvString } from '../envars';
 import { getAnthropicEnvHeaderSuppressions } from './anthropic/generic';
 import { AnthropicMessagesProvider } from './anthropic/messages';
 import { OpenAiChatCompletionProvider } from './openai/chat';

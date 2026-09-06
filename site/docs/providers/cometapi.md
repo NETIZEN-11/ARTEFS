@@ -1,4 +1,4 @@
-﻿---
+---
 title: CometAPI
 description: Use 500+ AI models from multiple providers through CometAPI's unified OpenAI-compatible interface
 sidebar_label: CometAPI

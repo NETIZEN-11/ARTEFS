@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Fireworks AI
 description: Configure Fireworks AI's serverless chat and embedding models through their OpenAI-compatible API for LLM evaluation and testing with artef
 ---
@@ -69,7 +69,7 @@ Because the provider extends the OpenAI provider, all [OpenAI configuration para
 | `apiBaseUrl`                                       | Base URL override. Can also be set with the `FIREWORKS_API_BASE_URL` environment variable.                                                                 |
 | `apiHost`                                          | Host override for a proxy or gateway; resolves to `https://<apiHost>/v1`.                                                                                  |
 | `temperature`, `max_tokens`, `top_p`, `top_k`, ... | Standard OpenAI-compatible sampling parameters.                                                                                                            |
-| `cost`, `inputCost`, `outputCost`                  | Override artef's cost estimate (USD per token). Use `inputCost` and `outputCost` for asymmetric pricing; `cost` is the shared fallback.                |
+| `cost`, `inputCost`, `outputCost`                  | Override artef's cost estimate (USD per token). Use `inputCost` and `outputCost` for asymmetric pricing; `cost` is the shared fallback.                    |
 | `cacheReadInputCost`                               | Per-token rate for Fireworks server-side prompt-cache hits. Defaults to the full `inputCost` (no discount is assumed, since the discount varies by model). |
 
 | Environment variable     | Description                                                        |

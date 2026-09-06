@@ -1,4 +1,4 @@
-﻿# azure-mai (Microsoft MAI models on Azure AI Foundry)
+# azure-mai (Microsoft MAI models on Azure AI Foundry)
 
 You can run this example with:
 

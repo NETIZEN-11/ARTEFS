@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { isAllowedPrompt } from '../src/evaluator';
 import { doesPromptRefMatch, isPromptAllowed } from '../src/util/promptMatching';
 import {

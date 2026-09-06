@@ -1,4 +1,4 @@
-﻿# Agent Documentation
+# Agent Documentation
 
 Guidance for AI agents editing the reusable docs in `docs/agents/`.
 

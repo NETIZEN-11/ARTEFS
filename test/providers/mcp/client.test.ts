@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import { SpanStatusCode, trace } from '@opentelemetry/api';
 import { beforeEach, describe, expect, it, vi } from 'vitest';

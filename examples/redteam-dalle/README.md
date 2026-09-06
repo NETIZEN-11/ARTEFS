@@ -1,4 +1,4 @@
-﻿# redteam-dalle (DALL-E Red Team Example)
+# redteam-dalle (DALL-E Red Team Example)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 42
 title: OpenCode SDK
 description: 'Use OpenCode SDK for evals with 75+ providers, built-in tools, and terminal-native AI agent'
@@ -205,11 +205,11 @@ When enabling write/edit/bash tools, consider how you will reset files after eac
 | `tools`             | object  | Tool configuration                                                         | None; read-only with `working_dir`     |
 | `permission`        | object  | Permission configuration for tools                                         | No extra rules; wildcard-deny baseline |
 | `agent`             | string  | Built-in or preconfigured agent to use                                     | Default agent                          |
-| `custom_agent`      | object  | Custom agent configuration when artef starts the OpenCode server       | None                                   |
+| `custom_agent`      | object  | Custom agent configuration when artef starts the OpenCode server           | None                                   |
 | `session_id`        | string  | Resume an existing session                                                 | Create new session                     |
 | `parent_session_id` | string  | Fork from an existing session (v2 server only); inherits compacted history | None                                   |
 | `persist_sessions`  | boolean | Reuse the same session for repeated calls with the same provider config    | `false`                                |
-| `mcp`               | object  | MCP server configuration when artef starts the OpenCode server         | None                                   |
+| `mcp`               | object  | MCP server configuration when artef starts the OpenCode server             | None                                   |
 | `cache_mcp`         | boolean | Enable caching when MCP is configured                                      | `false`                                |
 
 ## Supported Providers

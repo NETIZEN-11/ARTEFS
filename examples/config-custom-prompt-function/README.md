@@ -1,4 +1,4 @@
-﻿# config-custom-prompt-function (Prompt Functions and Format Examples)
+# config-custom-prompt-function (Prompt Functions and Format Examples)
 
 You can run this example with:
 

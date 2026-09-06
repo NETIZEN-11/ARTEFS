@@ -1,4 +1,4 @@
-﻿# openai-tools-call (OpenAI Tools Call Example)
+# openai-tools-call (OpenAI Tools Call Example)
 
 This example demonstrates how to use artef to evaluate OpenAI's tools calling capabilities. It shows how to define and test tool usage with the Chat Completions API.
 

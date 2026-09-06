@@ -1,4 +1,4 @@
-﻿---
+---
 title: Multi-Input Red Teaming
 sidebar_label: Multi-Input Testing
 sidebar_position: 10002

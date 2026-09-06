@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import { Command, InvalidArgumentError } from 'commander';
 import logger from '../logger';
 import { optimizePromptTestSuite } from '../optimizer/promptOptimizer';

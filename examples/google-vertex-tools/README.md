@@ -1,4 +1,4 @@
-﻿# google-vertex-tools (Google Vertex Tools)
+# google-vertex-tools (Google Vertex Tools)
 
 Example configurations for testing Google Vertex AI models with function calling and tool callbacks.
 

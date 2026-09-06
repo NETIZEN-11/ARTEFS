@@ -1,4 +1,4 @@
-﻿# Red Team Providers
+# Red Team Providers
 
 This folder contains red teaming providers designed to test and evaluate language and image generation models. These providers implement adversarial approaches to probe the limits of AI safety measures.
 

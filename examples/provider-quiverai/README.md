@@ -1,4 +1,4 @@
-﻿# provider-quiverai (QuiverAI SVG Generation, Vectorization & Pipelines)
+# provider-quiverai (QuiverAI SVG Generation, Vectorization & Pipelines)
 
 Compare QuiverAI's Arrow models — including [Arrow 1.1](https://docs.quiver.ai) and Arrow 1.1 Max — across three workflows: text-to-SVG generation, image-to-SVG vectorization, and a chained `GPT Image-2 → QuiverAI vectorize` pipeline. Every workflow is scored with an LLM-as-judge rubric so you can compare quality side-by-side.
 

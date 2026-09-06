@@ -1,4 +1,4 @@
-﻿# provider-http/auth-signature (Setting up an HTTP provider with cryptographically signed requests)
+# provider-http/auth-signature (Setting up an HTTP provider with cryptographically signed requests)
 
 You can run this example with:
 

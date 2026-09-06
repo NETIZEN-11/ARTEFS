@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { getCache, getScopedCacheKey, isCacheEnabled } from '../../../src/cache';
 import { OpenAiTtsProvider } from '../../../src/providers/openai/tts';
 import { HttpRateLimitError } from '../../../src/util/fetch/errors';

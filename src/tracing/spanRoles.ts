@@ -1,4 +1,4 @@
-﻿import { context, createContextKey, trace } from '@opentelemetry/api';
+import { context, createContextKey, trace } from '@opentelemetry/api';
 
 export const SPAN_ROLE_ATTRIBUTE = 'artef.span.role';
 

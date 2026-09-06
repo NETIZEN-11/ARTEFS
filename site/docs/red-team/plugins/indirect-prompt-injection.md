@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Indirect Prompt Injection
 description: Test whether untrusted data sources like RAG documents, emails, or user profiles can hijack your LLM's behavior through embedded instructions.
 ---

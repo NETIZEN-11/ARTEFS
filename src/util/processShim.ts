@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Browser-safe process shim module.
  *
  * This module provides a shimmed process object that works in both Node.js and browser

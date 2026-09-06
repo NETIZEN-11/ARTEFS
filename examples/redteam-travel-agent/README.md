@@ -1,4 +1,4 @@
-﻿# redteam-travel-agent (Redteam Travel Agent)
+# redteam-travel-agent (Redteam Travel Agent)
 
 You can run this example with:
 

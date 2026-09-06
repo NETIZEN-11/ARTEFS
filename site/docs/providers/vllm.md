@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: vLLM
 description: "Run vLLM's OpenAI-compatible server with artef, including local chat targets, self-hosted judges, and thinking-model grading."
 ---
@@ -298,7 +298,7 @@ defaultTest:
 | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `API key is not set`                                                                                     | Set `apiKey` in provider config, or set `OPENAI_API_KEY`. If vLLM was started without `--api-key`, any placeholder such as `empty` is fine.                                                                      |
 | `ECONNREFUSED`                                                                                           | Use `127.0.0.1` instead of `localhost`, verify the vLLM port, and confirm Docker or a remote host exposes the port.                                                                                              |
-| artef calls OpenAI instead of vLLM                                                                   | Put `apiBaseUrl: http://.../v1` on the provider object, or set `OPENAI_BASE_URL`. Do not set `apiBaseUrl` to `/v1/chat/completions`.                                                                             |
+| artef calls OpenAI instead of vLLM                                                                       | Put `apiBaseUrl: http://.../v1` on the provider object, or set `OPENAI_BASE_URL`. Do not set `apiBaseUrl` to `/v1/chat/completions`.                                                                             |
 | Judge returns `Could not extract JSON`, wrong categories, odd RAG scores, or wrong `select-best` winners | Set `showThinking: false` on the judge provider and keep the full provider object in `defaultTest.options.provider` or `assert.provider`.                                                                        |
 | Judge output still starts with `<think>` even with `showThinking: false`                                 | The generation was truncated before vLLM split reasoning into `reasoning_content`. Increase `--max-model-len` / `max_tokens`, or disable thinking via `passthrough.chat_template_kwargs.enable_thinking: false`. |
 | `search-rubric` uses a different provider than vLLM                                                      | This is expected unless the configured provider has web-search capability. Plain vLLM chat is not a search provider; configure a web-search-capable grader for `search-rubric`.                                  |

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Configuration Loader
  *
  * Loads and validates configuration from YAML files.

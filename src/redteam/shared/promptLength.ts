@@ -1,4 +1,4 @@
-﻿import cliState from '../../cliState';
+import cliState from '../../cliState';
 
 export const MAX_CHARS_PER_MESSAGE_MODIFIER_KEY = 'maxCharsPerMessage';
 

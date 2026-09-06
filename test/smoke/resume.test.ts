@@ -1,4 +1,4 @@
-﻿/**
+/**
  * End-to-end smoke tests for eval resume functionality.
  *
  * Tests the --resume flag and Ctrl+C (SIGINT) pause/resume flow:
@@ -249,101 +249,109 @@ describe('Resume E2E Tests', () => {
       expect(outputs.some((o: string) => o.includes('Judy'))).toBe(true);
     });
 
-    it('SIGINT pauses evaluation and shows eval ID', async () => {
-      const configPath = path.join(CONFIGS_DIR, 'resume-many-tests.yaml');
+    it.skipIf(process.platform === 'win32')(
+      'SIGINT pauses evaluation and shows eval ID',
+      async () => {
+        const configPath = path.join(CONFIGS_DIR, 'resume-many-tests.yaml');
 
-      // Run with delay so we have time to send SIGINT
-      const cli = spawnCli(['eval', '-c', configPath, '--no-cache', '--delay', '200']);
+        // Run with delay so we have time to send SIGINT
+        const cli = spawnCli(['eval', '-c', configPath, '--no-cache', '--delay', '200']);
 
-      try {
-        // Wait for eval to start
-        await cli.waitForOutput(/Running \d+ test cases/, 15000);
+        try {
+          // Wait for eval to start
+          await cli.waitForOutput(/Running \d+ test cases/, 15000);
 
-        // Send SIGINT to pause
-        cli.sendSignal('SIGINT');
+          // Send SIGINT to pause
+          cli.sendSignal('SIGINT');
 
-        // Wait for the process to fully exit so all output is captured
-        const result = await cli.waitForExit(15000);
-        const combined = result.stdout + result.stderr;
+          // Wait for the process to fully exit so all output is captured
+          const result = await cli.waitForExit(15000);
+          const combined = result.stdout + result.stderr;
 
-        // Should contain the pause message and eval ID
-        expect(combined).toContain('Evaluation paused');
+          // Should contain the pause message and eval ID
+          expect(combined).toContain('Evaluation paused');
 
-        const evalId = extractEvalId(combined);
-        expect(evalId).toBeTruthy();
+          const evalId = extractEvalId(combined);
+          expect(evalId).toBeTruthy();
 
-        // Should also contain the resume instructions
-        expect(combined).toContain('Resume with:');
-        expect(combined).toContain('--resume');
-      } catch (error) {
-        cli.kill();
-        throw error;
-      }
-    });
+          // Should also contain the resume instructions
+          expect(combined).toContain('Resume with:');
+          expect(combined).toContain('--resume');
+        } catch (error) {
+          cli.kill();
+          throw error;
+        }
+      },
+    );
 
-    it('--resume completes remaining test cases from a paused eval', async () => {
-      const configPath = path.join(CONFIGS_DIR, 'resume-many-tests.yaml');
+    it.skipIf(process.platform === 'win32')(
+      '--resume completes remaining test cases from a paused eval',
+      async () => {
+        const configPath = path.join(CONFIGS_DIR, 'resume-many-tests.yaml');
 
-      // Step 1: Start eval with delay and serial execution, then pause it.
-      // Use --max-concurrency 1 so tests run one at a time (each takes ~500ms).
-      // With 10 serial tests, SIGINT at ~1.5s reliably lands mid-eval (~3 done).
-      // Without serial mode, concurrency=4 + fast echo provider can finish all
-      // 10 tests before SIGINT arrives, making resume a no-op.
-      const cli = spawnCli([
-        'eval',
-        '-c',
-        configPath,
-        '--no-cache',
-        '--delay',
-        '500',
-        '--max-concurrency',
-        '1',
-      ]);
+        // Step 1: Start eval with delay and serial execution, then pause it.
+        // Use --max-concurrency 1 so tests run one at a time (each takes ~500ms).
+        // With 10 serial tests, SIGINT at ~1.5s reliably lands mid-eval (~3 done).
+        // Without serial mode, concurrency=4 + fast echo provider can finish all
+        // 10 tests before SIGINT arrives, making resume a no-op.
+        const cli = spawnCli([
+          'eval',
+          '-c',
+          configPath,
+          '--no-cache',
+          '--delay',
+          '500',
+          '--max-concurrency',
+          '1',
+        ]);
 
-      let evalId: string | undefined;
+        let evalId: string | undefined;
 
-      try {
-        await cli.waitForOutput(/Running \d+ test cases/, 15000);
+        try {
+          await cli.waitForOutput(/Running \d+ test cases/, 15000);
 
-        // Let a few tests complete before pausing (~3 at 500ms each)
-        await new Promise((resolve) => setTimeout(resolve, 1500));
+          // Let a few tests complete before pausing (~3 at 500ms each)
+          await new Promise((resolve) => setTimeout(resolve, 1500));
 
-        cli.sendSignal('SIGINT');
-        const result = await cli.waitForExit(15000);
-        const combined = result.stdout + result.stderr;
+          cli.sendSignal('SIGINT');
+          const result = await cli.waitForExit(15000);
+          const combined = result.stdout + result.stderr;
 
-        evalId = extractEvalId(combined) || undefined;
-        expect(evalId).toBeTruthy();
-      } catch (error) {
-        cli.kill();
-        throw error;
-      }
+          evalId = extractEvalId(combined) || undefined;
+          expect(evalId).toBeTruthy();
+        } catch (error) {
+          cli.kill();
+          throw error;
+        }
 
-      // Step 2: Resume the eval
-      // Note: --resume reconstructs config from saved eval, so -o from current
-      // invocation is NOT applied. We verify via stdout instead.
-      const { exitCode, stdout } = runCli(['eval', '--resume', evalId!, '--no-cache']);
+        // Step 2: Resume the eval
+        // Note: --resume reconstructs config from saved eval, so -o from current
+        // invocation is NOT applied. We verify via stdout instead.
+        const { exitCode, stdout } = runCli(['eval', '--resume', evalId!, '--no-cache']);
 
-      expect(exitCode).toBe(0);
+        expect(exitCode).toBe(0);
 
-      // Should mention resuming and skipping
-      expect(stdout).toContain('Resuming');
+        // Should mention resuming and skipping
+        expect(stdout).toContain('Resuming');
 
-      // Extract the skip count to verify it's a true partial resume
-      const skipMatch = stdout.match(/skipping (\d+) previously completed cases/);
-      expect(skipMatch).toBeTruthy();
-      const skipped = parseInt(skipMatch![1], 10);
-      // Must have skipped some (completed before pause) but not all (otherwise nothing to resume)
-      expect(skipped).toBeGreaterThan(0);
-      expect(skipped).toBeLessThan(10);
+        // Extract the skip count to verify it's a true partial resume
+        const skipMatch = stdout.match(/skipping (\d+) previously completed cases/);
+        expect(skipMatch).toBeTruthy();
+        const skipped = parseInt(skipMatch![1], 10);
+        // Must have skipped some (completed before pause) but not all (otherwise nothing to resume)
+        expect(skipped).toBeGreaterThan(0);
+        expect(skipped).toBeLessThan(10);
 
-      // All 10 test results should be present in the final output
-      expect(stdout).toContain('10 passed');
-      expect(stdout).toContain('Alice');
-      expect(stdout).toContain('Judy');
-    });
+        // All 10 test results should be present in the final output
+        expect(stdout).toContain('10 passed');
+        expect(stdout).toContain('Alice');
+        expect(stdout).toContain('Judy');
+      },
+    );
 
-    it('second SIGINT force-exits the process', async () => {
+    it.skipIf(process.platform === 'win32')(
+      'second SIGINT force-exits the process',
+      async () => {
       const configPath = path.join(CONFIGS_DIR, 'resume-many-tests.yaml');
 
       const cli = spawnCli(['eval', '-c', configPath, '--no-cache', '--delay', '500']);

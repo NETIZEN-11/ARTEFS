@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Looper
 description: Automate LLM testing in CI/CD by integrating artef with Looper workflows. Configure quality gates, caching, and multi-environment evaluations for production AI pipelines.
 ---
@@ -133,7 +133,7 @@ In order to send evaluation results elsewhere, use:
 | `npm: command not found` | Add `nodejs:` under `tools` or use an image with Node pre‑installed.                    |
 | Cache not restored       | Verify the path and that the `files pull` task succeeds.                                |
 | Long‑running jobs        | Split prompt sets into separate flows or raise `timeoutMillis` in the build definition. |
-| API rate limits          | Enable artef cache and/or rotate API keys.                                          |
+| API rate limits          | Enable artef cache and/or rotate API keys.                                              |
 
 ## Best practices
 

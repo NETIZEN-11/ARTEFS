@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'RAG Data Poisoning: Key Concepts Explained'
 description: Attackers can poison RAG knowledge bases to manipulate AI responses. Learn how these stealth attacks work and why they're so hard to detect.
 image: /img/docs/rag-poisoning.svg

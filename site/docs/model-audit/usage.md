@@ -1,4 +1,4 @@
-﻿---
+---
 title: ModelAudit Advanced Usage
 sidebar_label: Advanced Usage
 sidebar_position: 120

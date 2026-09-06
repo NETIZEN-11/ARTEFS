@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Mischievous User
 title: Mischievous User Strategy
 description: Deploy multi-turn red teaming conversations simulating mischievous users to test AI resilience against social engineering

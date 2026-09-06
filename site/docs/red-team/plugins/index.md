@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Overview
 description: Red team LLM plugins by deploying trained adversarial models to detect vulnerabilities, prevent prompt injection attacks, and protect AI systems from malicious payloads
 ---
@@ -45,7 +45,7 @@ artef also supports various risk management frameworks based on common security 
 | [**ISO/IEC 42001**](/docs/red-team/iso-42001/)                       | iso:42001       | iso:42001:privacy          |
 | [**Data Protection**](/docs/red-team/gdpr/)                          | gdpr            | gdpr:art5                  |
 | [**EU AI Act**](/docs/red-team/eu-ai-act/)                           | eu:ai-act       | eu:ai-act:art5             |
-| **artef Recommended**                                            | default         | default                    |
+| **artef Recommended**                                                | default         | default                    |
 
 ## Available Plugins
 

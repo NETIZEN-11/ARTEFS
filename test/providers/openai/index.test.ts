@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vitest';
 import {
   DEFAULT_OPENAI_ORIGINATOR,
   OPENAI_ORIGINATOR_HEADER,

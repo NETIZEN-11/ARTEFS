@@ -1,4 +1,4 @@
-﻿# Smoke Tests Plan
+# Smoke Tests Plan
 
 Comprehensive smoke test plan for the artef CLI and library. This document serves as the checklist and specification for smoke tests that verify the **built package** works correctly across critical user flows.
 
@@ -51,8 +51,8 @@ test/smoke/
 
 #### 1.1 Basic CLI Operations
 
-| #     | Test            | Command                              | Verifies                 |
-| ----- | --------------- | ------------------------------------ | ------------------------ |
+| #     | Test            | Command                          | Verifies                 |
+| ----- | --------------- | -------------------------------- | ------------------------ |
 | 1.1.1 | Version output  | `artef --version`                | Binary executes, version |
 | 1.1.2 | Help output     | `artef --help`                   | Commander parsing        |
 | 1.1.3 | Subcommand help | `artef eval --help`              | Subcommand routing       |
@@ -61,23 +61,23 @@ test/smoke/
 
 #### 1.2 Init Command
 
-| #     | Test              | Command                               | Verifies            |
-| ----- | ----------------- | ------------------------------------- | ------------------- |
+| #     | Test              | Command                           | Verifies            |
+| ----- | ----------------- | --------------------------------- | ------------------- |
 | 1.2.1 | Init interactive  | `artef init --no-interactive`     | Project scaffolding |
 | 1.2.2 | Init with example | `artef init --example simple-cli` | Example download    |
 
 #### 1.3 Validate Command
 
-| #     | Test           | Command                                | Verifies          |
-| ----- | -------------- | -------------------------------------- | ----------------- |
+| #     | Test           | Command                            | Verifies          |
+| ----- | -------------- | ---------------------------------- | ----------------- |
 | 1.3.1 | Valid config   | `artef validate -c valid.yaml`     | Validation passes |
 | 1.3.2 | Invalid config | `artef validate -c invalid.yaml`   | Validation errors |
 | 1.3.3 | Schema errors  | `artef validate -c malformed.yaml` | Schema validation |
 
 #### 1.4 Eval Command (Core)
 
-| #     | Test            | Command                                             | Verifies            |
-| ----- | --------------- | --------------------------------------------------- | ------------------- |
+| #     | Test            | Command                                         | Verifies            |
+| ----- | --------------- | ----------------------------------------------- | ------------------- |
 | 1.4.1 | Basic eval      | `artef eval -c echo-config.yaml --no-cache`     | Core eval pipeline  |
 | 1.4.2 | JSON output     | `artef eval -c config.yaml -o out.json`         | JSON export         |
 | 1.4.3 | YAML output     | `artef eval -c config.yaml -o out.yaml`         | YAML export         |
@@ -89,8 +89,8 @@ test/smoke/
 
 #### 1.5 List/Show/Export Commands
 
-| #     | Test          | Command                                  | Verifies             |
-| ----- | ------------- | ---------------------------------------- | -------------------- |
+| #     | Test          | Command                              | Verifies             |
+| ----- | ------------- | ------------------------------------ | -------------------- |
 | 1.5.1 | List evals    | `artef list evals`                   | Database reads       |
 | 1.5.2 | List datasets | `artef list datasets`                | Dataset listing      |
 | 1.5.3 | Show eval     | `artef show <eval-id>`               | Eval retrieval       |
@@ -98,8 +98,8 @@ test/smoke/
 
 #### 1.6 Cache Commands
 
-| #     | Test        | Command                 | Verifies         |
-| ----- | ----------- | ----------------------- | ---------------- |
+| #     | Test        | Command             | Verifies         |
+| ----- | ----------- | ------------------- | ---------------- |
 | 1.6.1 | Cache clear | `artef cache clear` | Cache management |
 
 #### 1.7 Exit Codes
@@ -938,11 +938,11 @@ The 0.120.0 release migrated from CommonJS to ESM, causing several regressions:
 
 #### 10.4 CLI Issues
 
-| #      | Bug                    | Issue | Description                                        | Proposed Test                                   |
-| ------ | ---------------------- | ----- | -------------------------------------------------- | ----------------------------------------------- |
-| 10.4.1 | Eval hanging           | #6460 | Eval command hung indefinitely, never completing   | Basic eval completes in reasonable time         |
-| 10.4.2 | View premature exit    | #6460 | `artef view` exited immediately after starting | (Not testable in smoke tests - requires server) |
-| 10.4.3 | Logger write-after-end | #6511 | Winston "write after end" errors during shutdown   | Multiple evals in sequence don't cause errors   |
+| #      | Bug                    | Issue | Description                                      | Proposed Test                                   |
+| ------ | ---------------------- | ----- | ------------------------------------------------ | ----------------------------------------------- |
+| 10.4.1 | Eval hanging           | #6460 | Eval command hung indefinitely, never completing | Basic eval completes in reasonable time         |
+| 10.4.2 | View premature exit    | #6460 | `artef view` exited immediately after starting   | (Not testable in smoke tests - requires server) |
+| 10.4.3 | Logger write-after-end | #6511 | Winston "write after end" errors during shutdown | Multiple evals in sequence don't cause errors   |
 
 #### 10.5 Language Providers
 

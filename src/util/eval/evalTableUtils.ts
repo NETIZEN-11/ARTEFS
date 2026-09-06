@@ -1,4 +1,4 @@
-﻿import { stringify as csvStringify } from 'csv-stringify/sync';
+import { stringify as csvStringify } from 'csv-stringify/sync';
 import { ResultFailureReason } from '../../types/index';
 
 import type Eval from '../../models/eval';

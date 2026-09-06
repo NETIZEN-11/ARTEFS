@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'artef for Enterprise: AI Evaluation and Red Teaming at Scale'
 description: 'Scale AI security testing across your entire organization. artef Enterprise offers team management, SSO, audit logs, and continuous monitoring for production AI systems.'
 image: /img/continuous-testing.png

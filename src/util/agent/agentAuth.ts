@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Shared auth credential resolution for agent clients.
  *
  * Common waterfall: CLI arg → artef_API_KEY env var → cloud config stored key.

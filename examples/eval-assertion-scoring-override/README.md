@@ -1,4 +1,4 @@
-﻿# eval-assertion-scoring-override (Assertion Scoring Function Override Example)
+# eval-assertion-scoring-override (Assertion Scoring Function Override Example)
 
 You can run this example with:
 

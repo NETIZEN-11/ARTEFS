@@ -1,4 +1,4 @@
-﻿---
+---
 description: Monitor and optimize LLM usage through Helicone's AI gateway with unified access, caching, and comprehensive observability
 ---
 

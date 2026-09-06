@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Jest & Vitest
 description: Integrate LLM testing into Jest and Vitest workflows with custom matchers for semantic similarity, factuality checks, and automated prompt quality validation
 ---

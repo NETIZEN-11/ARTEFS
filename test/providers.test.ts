@@ -1,4 +1,4 @@
-﻿import fs from 'fs';
+import fs from 'fs';
 import path from 'path';
 
 import { beforeEach, describe, expect, it, vi } from 'vitest';

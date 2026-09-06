@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Core Scan Execution Logic
  *
  * Main entry point for scanner module - orchestrates the complete scan process.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ModelAudit - Static Security Scanner for ML Models
 description: Scan AI/ML models for security vulnerabilities, malicious code, and backdoors. Supports PyTorch, TensorFlow, ONNX, Keras, and 30+ model formats.
 keywords:

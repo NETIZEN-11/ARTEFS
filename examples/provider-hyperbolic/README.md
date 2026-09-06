@@ -1,4 +1,4 @@
-﻿# provider-hyperbolic (Hyperbolic AI Provider)
+# provider-hyperbolic (Hyperbolic AI Provider)
 
 This directory contains examples for testing Hyperbolic AI models with artef.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 23
 description: Red team LLM applications against NIST AI Risk Management Framework measures to ensure trustworthy AI development and deployment
 ---

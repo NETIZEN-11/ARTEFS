@@ -1,4 +1,4 @@
-﻿# eval-custom-grader-csv (Custom Grader Csv)
+# eval-custom-grader-csv (Custom Grader Csv)
 
 You can run this example with:
 

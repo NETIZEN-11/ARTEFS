@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { getGraderById } from '../../../../src/redteam/graders';
 import { MedicalFdaAiDisclosurePluginGrader } from '../../../../src/redteam/plugins/medical/medicalFdaAiDisclosure';
 import { MedicalFdaCyberAccessControlPluginGrader } from '../../../../src/redteam/plugins/medical/medicalFdaCyberAccessControl';

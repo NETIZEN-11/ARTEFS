@@ -1,4 +1,4 @@
-﻿---
+---
 title: CLI Command
 sidebar_label: CLI Command
 sidebar_position: 3
@@ -43,20 +43,20 @@ artef code-scans run [repo-path] [options]
 
 ### Options
 
-| Option                            | Description                                                                                         | Default                                              |
-| --------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| `repo-path`                       | Path to repository                                                                                  | Current directory (`.`)                              |
+| Option                            | Description                                                                                     | Default                                      |
+| --------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| `repo-path`                       | Path to repository                                                                              | Current directory (`.`)                      |
 | `--api-key <key>`                 | artef API key                                                                                   | From `artef auth` or `artef_API_KEY` env var |
-| `--base <ref>`                    | Base branch/commit to compare against                                                               | Auto-detects either main or master                   |
-| `--compare <ref>`                 | Branch/commit to scan                                                                               | `HEAD`                                               |
-| `--config <path>`                 | Path to config file                                                                                 | `.artef-code-scan.yaml`                          |
-| `--guidance <text>`               | Custom guidance to tailor the scan                                                                  | None                                                 |
-| `--guidance-file <path>`          | Load guidance from a file                                                                           | None                                                 |
-| `--api-host <url>`                | artef API host URL                                                                              | `https://api.artef.app`                          |
-| `--diffs-only`                    | Scan only PR diffs, don't explore full repo                                                         | false                                                |
-| `--json`                          | Output results as JSON ([see schema](#json-output-schema))                                          | false                                                |
-| `-f, --format <format>`           | Output format (`text`, `json`, or `sarif`)                                                          | `text`                                               |
-| `--github-pr <owner/repo#number>` | Post comments to GitHub PR (used with [artef GitHub Action](/docs/code-scanning/github-action)) | None                                                 |
+| `--base <ref>`                    | Base branch/commit to compare against                                                           | Auto-detects either main or master           |
+| `--compare <ref>`                 | Branch/commit to scan                                                                           | `HEAD`                                       |
+| `--config <path>`                 | Path to config file                                                                             | `.artef-code-scan.yaml`                      |
+| `--guidance <text>`               | Custom guidance to tailor the scan                                                              | None                                         |
+| `--guidance-file <path>`          | Load guidance from a file                                                                       | None                                         |
+| `--api-host <url>`                | artef API host URL                                                                              | `https://api.artef.app`                      |
+| `--diffs-only`                    | Scan only PR diffs, don't explore full repo                                                     | false                                        |
+| `--json`                          | Output results as JSON ([see schema](#json-output-schema))                                      | false                                        |
+| `-f, --format <format>`           | Output format (`text`, `json`, or `sarif`)                                                      | `text`                                       |
+| `--github-pr <owner/repo#number>` | Post comments to GitHub PR (used with [artef GitHub Action](/docs/code-scanning/github-action)) | None                                         |
 
 ### Examples
 

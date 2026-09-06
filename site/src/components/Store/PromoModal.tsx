@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 import CloseIcon from '@mui/icons-material/Close';
 import GitHubIcon from '@mui/icons-material/GitHub';

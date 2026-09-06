@@ -1,4 +1,4 @@
-﻿# provider-lm-studio (LM Studio Example with artef)
+# provider-lm-studio (LM Studio Example with artef)
 
 You can run this example with:
 

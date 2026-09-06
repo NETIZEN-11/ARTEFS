@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import protobuf from 'protobufjs';
 import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest';

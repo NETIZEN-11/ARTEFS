@@ -1,4 +1,4 @@
-﻿# redteam-auth (Red Team Authentication)
+# redteam-auth (Red Team Authentication)
 
 You can run this example with:
 

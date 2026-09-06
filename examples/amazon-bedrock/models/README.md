@@ -1,4 +1,4 @@
-﻿# amazon-bedrock/models (Amazon Bedrock Examples)
+# amazon-bedrock/models (Amazon Bedrock Examples)
 
 You can run this example with:
 

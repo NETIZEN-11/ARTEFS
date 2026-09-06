@@ -1,4 +1,4 @@
-﻿# redteam-cyberseceval (CyberSecEval Example)
+# redteam-cyberseceval (CyberSecEval Example)
 
 You can run this example with:
 

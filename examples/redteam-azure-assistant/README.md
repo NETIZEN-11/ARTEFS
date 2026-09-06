@@ -1,4 +1,4 @@
-﻿# redteam-azure-assistant (Red Team Azure Assistant)
+# redteam-azure-assistant (Red Team Azure Assistant)
 
 Red team testing for Azure OpenAI Assistants with function tools to evaluate security boundaries.
 

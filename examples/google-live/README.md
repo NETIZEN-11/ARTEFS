@@ -1,4 +1,4 @@
-﻿# google-live (Google Live API with Gemini)
+# google-live (Google Live API with Gemini)
 
 You can run this example with:
 

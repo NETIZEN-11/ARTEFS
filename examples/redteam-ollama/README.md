@@ -1,4 +1,4 @@
-﻿# redteam-ollama (Ollama Red Team Example)
+# redteam-ollama (Ollama Red Team Example)
 
 You can run this example with:
 

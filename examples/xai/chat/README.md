@@ -1,4 +1,4 @@
-﻿# xai/chat (xAI Grok Models Evaluation)
+# xai/chat (xAI Grok Models Evaluation)
 
 This example demonstrates how to evaluate xAI's Grok models across their main capabilities: text generation with reasoning, image creation, and server-side search tools.
 

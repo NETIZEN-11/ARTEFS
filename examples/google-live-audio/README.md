@@ -1,4 +1,4 @@
-﻿# google-live-audio (Google Live API Audio with Gemini)
+# google-live-audio (Google Live API Audio with Gemini)
 
 This example demonstrates how to use artef with Google's Live API for audio generation using Gemini models.
 

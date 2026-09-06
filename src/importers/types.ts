@@ -1,4 +1,4 @@
-﻿import type { OpenAIEvalsImportResult } from './openaiEvals';
+import type { OpenAIEvalsImportResult } from './openaiEvals';
 
 export const IMPORT_SOURCE_OPENAI_EVALS = 'openai-evals-jsonl';
 export const IMPORT_SOURCE_artef = 'artef-json';

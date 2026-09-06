@@ -1,4 +1,4 @@
-﻿import WebSocket from 'ws';
+import WebSocket from 'ws';
 import logger from '../../logger';
 import { maybeLoadToolsFromExternalFile } from '../../util/index';
 import { sanitizeUrlForLogging } from '../../util/sanitizer';

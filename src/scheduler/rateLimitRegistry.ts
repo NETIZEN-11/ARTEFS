@@ -1,4 +1,4 @@
-﻿import { EventEmitter } from 'events';
+import { EventEmitter } from 'events';
 
 import { getEnvBool, getEnvInt } from '../envars';
 import logger from '../logger';

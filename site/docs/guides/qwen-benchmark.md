@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Qwen vs Llama vs GPT
 description: Compare Qwen3 32B vs GPT-5 vs Llama 4 Maverick performance on customer support tasks with custom benchmarks to optimize your chatbot's response quality
 ---

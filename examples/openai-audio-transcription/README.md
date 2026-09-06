@@ -1,4 +1,4 @@
-﻿# openai-audio-transcription (OpenAI Audio Transcription Example)
+# openai-audio-transcription (OpenAI Audio Transcription Example)
 
 You can run this example with:
 

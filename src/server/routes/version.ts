@@ -1,4 +1,4 @@
-﻿import express from 'express';
+import express from 'express';
 import semverGt from 'semver/functions/gt.js';
 import semverValid from 'semver/functions/valid.js';
 import { VERSION } from '../../constants';

@@ -1,4 +1,4 @@
-﻿// Core HttpProvider tests: API calls, raw requests, body processing, headers, response transforms, sanitization.
+// Core HttpProvider tests: API calls, raw requests, body processing, headers, response transforms, sanitization.
 import './setup';
 
 import path from 'path';

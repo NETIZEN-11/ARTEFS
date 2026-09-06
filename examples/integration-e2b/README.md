@@ -1,4 +1,4 @@
-﻿# integration-e2b (E2B Code Evaluation)
+# integration-e2b (E2B Code Evaluation)
 
 ## What This Example Demonstrates
 

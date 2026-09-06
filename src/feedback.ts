@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import dedent from 'dedent';
 import { getUserEmail } from './globalConfig/accounts';
 import logger from './logger';

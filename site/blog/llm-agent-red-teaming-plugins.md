@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'New Red Teaming Plugins for LLM Agents: Enhancing API Security'
 description: 'LLM agents with API access create new attack surfaces. Our latest plugins test for BOLA, BFLA, and SSRF vulnerabilities that traditional security tools miss.'
 image: /img/blog/bola.svg

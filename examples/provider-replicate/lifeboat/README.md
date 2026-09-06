@@ -1,4 +1,4 @@
-﻿# provider-replicate/lifeboat (Replicate Lifeboat)
+# provider-replicate/lifeboat (Replicate Lifeboat)
 
 You can run this example with:
 

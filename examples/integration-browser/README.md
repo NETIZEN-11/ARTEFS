@@ -1,4 +1,4 @@
-﻿# integration-browser (Browser)
+# integration-browser (Browser)
 
 Examples for using artef with browser-based testing.
 

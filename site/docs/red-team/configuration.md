@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 3
 sidebar_label: Configuration
 description: Red team your LLM configuration settings using automated vulnerability scanning to detect misconfigurations and prevent unauthorized access to AI system parameters

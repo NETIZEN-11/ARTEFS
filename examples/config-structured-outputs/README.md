@@ -1,4 +1,4 @@
-﻿# config-structured-outputs (Multi-Provider Structured Outputs)
+# config-structured-outputs (Multi-Provider Structured Outputs)
 
 You can run this example with:
 

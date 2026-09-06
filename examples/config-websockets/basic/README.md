@@ -1,4 +1,4 @@
-﻿# config-websockets/basic (Websockets Provider Example)
+# config-websockets/basic (Websockets Provider Example)
 
 You can run this example with:
 

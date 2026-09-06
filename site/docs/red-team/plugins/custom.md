@@ -1,4 +1,4 @@
-﻿---
+---
 title: Custom Plugins
 sidebar_label: Custom Plugins
 description: Build custom red team plugins with file-based generators and graders for risks that built-in artef plugins do not cover.
@@ -71,13 +71,13 @@ artef redteam run -c artefconfig.yaml
 
 The custom plugin file is strict: extra fields fail schema validation. Supported fields are:
 
-| Field       | Required | Description                                                                                      |
-| ----------- | -------- | ------------------------------------------------------------------------------------------------ |
+| Field       | Required | Description                                                                                  |
+| ----------- | -------- | -------------------------------------------------------------------------------------------- |
 | `generator` | Yes      | Nunjucks template artef sends to the generation provider to create adversarial test prompts. |
-| `grader`    | Yes      | Nunjucks template used as an `llm-rubric` assertion for every generated test case.               |
-| `threshold` | No       | Minimum score required for the rubric assertion to pass.                                         |
-| `metric`    | No       | Metric name shown in results. Defaults to `custom`.                                              |
-| `id`        | No       | Optional stable identifier for the custom plugin definition.                                     |
+| `grader`    | Yes      | Nunjucks template used as an `llm-rubric` assertion for every generated test case.           |
+| `threshold` | No       | Minimum score required for the rubric assertion to pass.                                     |
+| `metric`    | No       | Metric name shown in results. Defaults to `custom`.                                          |
+| `id`        | No       | Optional stable identifier for the custom plugin definition.                                 |
 
 The `generator` template receives:
 

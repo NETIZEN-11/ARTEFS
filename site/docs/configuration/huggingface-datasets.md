@@ -1,4 +1,4 @@
-﻿---
+---
 displayed_sidebar: artef
 sidebar_label: HuggingFace Datasets
 title: Loading Test Cases from HuggingFace Datasets
@@ -140,8 +140,8 @@ env:
 
 ## Example projects
 
-| Example                                                                                                           | Use Case          | Key Features         |
-| ----------------------------------------------------------------------------------------------------------------- | ----------------- | -------------------- |
+| Example                                                                                                   | Use Case          | Key Features         |
+| --------------------------------------------------------------------------------------------------------- | ----------------- | -------------------- |
 | [Basic Setup](https://github.com/artef/artef/tree/main/examples/huggingface/dataset)                      | Simple evaluation | Default parameters   |
 | [MMLU-Pro Comparison](https://github.com/artef/artef/tree/main/examples/compare-gpt-model-tiers-mmlu-pro) | Query parameters  | Split, config, limit |
 | [Red Team Safety](https://github.com/artef/artef/tree/main/examples/redteam-beavertails)                  | Safety testing    | BeaverTails dataset  |

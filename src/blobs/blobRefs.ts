@@ -1,4 +1,4 @@
-﻿import { BLOB_SCHEME } from './constants';
+import { BLOB_SCHEME } from './constants';
 
 export const BLOB_HASH_REGEX = /^[a-f0-9]{64}$/i;
 export const BLOB_URI_REGEX = /artef:\/\/blob\/([a-f0-9]{64})/gi;

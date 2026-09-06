@@ -1,4 +1,4 @@
-﻿/*
+/*
  * This plugin downloads prompt templates from the L1B3RT4S project
  * (https://github.com/elder-plinius/L1B3RT4S).
  */

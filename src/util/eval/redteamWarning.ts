@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import dedent from 'dedent';
 import logger from '../../logger';
 

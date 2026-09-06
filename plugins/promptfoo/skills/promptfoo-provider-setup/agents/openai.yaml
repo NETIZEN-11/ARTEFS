@@ -1,4 +1,4 @@
-﻿interface:
+interface:
   display_name: 'artef Provider Setup'
   short_description: 'Connect artef to HTTP, Python, and JS'
   default_prompt: 'Use $artef-provider-setup to connect artef to my HTTP endpoint, OpenAPI operation, Python provider, or app code.'

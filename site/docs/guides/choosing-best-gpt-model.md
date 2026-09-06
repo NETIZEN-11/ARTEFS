@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Choosing the Best GPT Model
 description: Compare GPT-5.2 vs GPT-5-mini performance on your custom data with automated benchmarks to evaluate reasoning capabilities, costs, and response latency metrics
 ---

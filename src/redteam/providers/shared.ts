@@ -1,4 +1,4 @@
-﻿import { randomUUID } from 'crypto';
+import { randomUUID } from 'crypto';
 
 import { extractAndStoreBinaryData, isBlobStorageEnabled } from '../../blobs/extractor';
 import { shouldAttemptRemoteBlobUpload } from '../../blobs/remoteUpload';

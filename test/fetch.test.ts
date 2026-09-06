@@ -1,4 +1,4 @@
-﻿import * as fsPromises from 'node:fs/promises';
+import * as fsPromises from 'node:fs/promises';
 import path from 'node:path';
 
 import { Agent, interceptors, ProxyAgent } from 'undici';

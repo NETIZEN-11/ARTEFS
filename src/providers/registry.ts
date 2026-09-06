@@ -1,4 +1,4 @@
-﻿import path from 'path';
+import path from 'path';
 
 import dedent from 'dedent';
 import { getEnvString } from '../envars';

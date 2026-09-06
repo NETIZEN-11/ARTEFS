@@ -1,4 +1,4 @@
-﻿---
+---
 title: GitHub Models Provider
 description: 'Leverage GitHub Models API to access OpenAI, Anthropic, Google, and xAI models with unified OpenAI-compatible formatting'
 keywords:

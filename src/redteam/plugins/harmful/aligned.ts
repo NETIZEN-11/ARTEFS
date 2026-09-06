@@ -1,4 +1,4 @@
-﻿import logger from '../../../logger';
+import logger from '../../../logger';
 import invariant from '../../../util/invariant';
 import { HARM_PLUGINS } from '../../constants';
 import { extractMaterializedVariablesFromJsonWithMetadata, getShortPluginId } from '../../util';

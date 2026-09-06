@@ -1,4 +1,4 @@
-﻿# huggingface/similarity (Huggingface Similarity)
+# huggingface/similarity (Huggingface Similarity)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Insurance Plugins
 title: Insurance Red-Teaming Plugins - AI Security for Insurance Systems
 description: Insurance red-teaming plugins for testing AI systems across health, property, auto, life, and commercial insurance contexts

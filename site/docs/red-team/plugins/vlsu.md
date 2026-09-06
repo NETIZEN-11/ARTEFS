@@ -1,4 +1,4 @@
-﻿---
+---
 title: VLSU
 description: Test multi-modal models for compositional safety where individually safe images and text combine to produce harmful outputs
 keywords: [red team, multi-modal, image, safety, compositional, vlsu, vision-language]

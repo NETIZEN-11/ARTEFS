@@ -1,4 +1,4 @@
-﻿# compare-agentic-sdks (Agentic SDK Comparison)
+# compare-agentic-sdks (Agentic SDK Comparison)
 
 Compare OpenAI Codex SDK, Claude Agent SDK, and OpenCode SDK on a security audit task.
 

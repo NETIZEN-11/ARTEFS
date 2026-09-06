@@ -1,4 +1,4 @@
-﻿# provider-replicate/image-generation (State-of-the-Art Image Generation)
+# provider-replicate/image-generation (State-of-the-Art Image Generation)
 
 You can run this example with:
 

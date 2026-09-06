@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, MockedFunction, vi } from 'vitest';
+import { beforeEach, describe, expect, it, MockedFunction, vi } from 'vitest';
 import * as cache from '../../../src/cache';
 import logger from '../../../src/logger';
 import * as imageDatasetUtils from '../../../src/redteam/plugins/imageDatasetUtils';

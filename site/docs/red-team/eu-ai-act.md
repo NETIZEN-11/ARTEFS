@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 26
 description: Red team LLM applications against EU AI Act requirements to ensure compliance with prohibited practices and high-risk system regulations
 ---

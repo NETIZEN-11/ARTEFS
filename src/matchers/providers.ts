@@ -1,4 +1,4 @@
-﻿import cliState from '../cliState';
+import cliState from '../cliState';
 import logger from '../logger';
 import { loadApiProvider } from '../providers/index';
 import { shouldGenerateRemote } from '../redteam/remoteGeneration';

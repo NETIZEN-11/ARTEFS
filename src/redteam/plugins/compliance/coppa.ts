@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { isBasicRefusal } from '../../util';
 import { RedteamGraderBase } from '../base';
 

@@ -1,4 +1,4 @@
-﻿import logger from '../../logger';
+import logger from '../../logger';
 import { getRequestTimeoutMs } from '../../providers/shared';
 import { fetchWithTimeout } from '../../util/fetch/index';
 import { RedteamPluginBase } from './base';

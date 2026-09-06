@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guardrails Assertion
 sidebar_position: 101
 sidebar_label: Guardrails
@@ -35,7 +35,7 @@ The programmatic [`guardrails.guard()`, `pii()`, and `harm()` helpers](/docs/usa
 
 artef normalizes some structured safety signals in built-in providers. Support is endpoint- and mode-specific, so a vendor name alone is not enough to determine support.
 
-| artef integration                                                         | Signals currently normalized                                                        | What it does not cover                                                                                           |
+| artef integration                                                             | Signals currently normalized                                                        | What it does not cover                                                                                           |
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Azure OpenAI Chat, Completions, Assistants, and selected Foundry Agent errors | Input content-filter errors and output content-filter results                       | Azure Responses uses a different response contract and is not normalized in the same way.                        |
 | AWS Bedrock InvokeModel and non-streaming Converse                            | `amazon-bedrock-guardrailAction` and `stopReason: guardrail_intervened`             | Direction is usually unknown. Streaming, cached, and Bedrock Agents responses do not all expose the same fields. |

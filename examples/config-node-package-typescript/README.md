@@ -1,4 +1,4 @@
-﻿# config-node-package-typescript (Node Package TypeScript)
+# config-node-package-typescript (Node Package TypeScript)
 
 You can run this example with:
 

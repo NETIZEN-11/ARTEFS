@@ -1,4 +1,4 @@
-﻿# openai-eval-factuality (Openai Eval Factuality)
+# openai-eval-factuality (Openai Eval Factuality)
 
 You can run this example with:
 

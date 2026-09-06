@@ -1,4 +1,4 @@
-﻿# provider-transformers-local (Fully Local LLM Evaluation)
+# provider-transformers-local (Fully Local LLM Evaluation)
 
 This example demonstrates a completely local LLM evaluation setup using Transformers.js - no API keys or external services required.
 

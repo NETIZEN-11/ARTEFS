@@ -1,4 +1,4 @@
-﻿# redteam-chatbot (Red teaming a Multi-turn Chatbot)
+# redteam-chatbot (Red teaming a Multi-turn Chatbot)
 
 You can run this example with:
 

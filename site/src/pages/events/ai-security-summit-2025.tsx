@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';

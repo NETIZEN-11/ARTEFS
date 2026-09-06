@@ -1,4 +1,4 @@
-﻿# openai-realtime (OpenAI Realtime API Example)
+# openai-realtime (OpenAI Realtime API Example)
 
 This example demonstrates how to use artef to test OpenAI's Realtime API capabilities. The Realtime API allows for real-time communication with `gpt-realtime-2`, `gpt-realtime-1.5`, and `gpt-realtime` using WebSockets, supporting text, audio, and model-dependent image inputs plus text/audio outputs.
 

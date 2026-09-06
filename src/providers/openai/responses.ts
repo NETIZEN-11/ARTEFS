@@ -1,4 +1,4 @@
-﻿import {
+import {
   claimCacheKeyOnce,
   type FetchWithCacheResult,
   fetchWithCache,

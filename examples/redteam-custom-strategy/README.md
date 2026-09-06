@@ -1,4 +1,4 @@
-﻿# redteam-custom-strategy (Custom Red Team Strategy Example)
+# redteam-custom-strategy (Custom Red Team Strategy Example)
 
 You can run this example with:
 

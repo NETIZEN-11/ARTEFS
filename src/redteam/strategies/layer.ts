@@ -1,4 +1,4 @@
-﻿import logger from '../../logger';
+import logger from '../../logger';
 import { remoteGenerationContextPayload } from '../remoteGenerationContext';
 import { getAttackProviderFullId, isAttackProvider } from '../shared/attackProviders';
 import { withPersistableGenerationProvider } from './types';

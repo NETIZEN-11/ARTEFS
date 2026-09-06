@@ -1,4 +1,4 @@
-﻿# eval-json-output (Json Output)
+# eval-json-output (Json Output)
 
 You can run this example with:
 

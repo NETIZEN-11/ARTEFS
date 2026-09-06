@@ -1,4 +1,4 @@
-﻿# simple-test (Simple Test)
+# simple-test (Simple Test)
 
 You can run this example with:
 

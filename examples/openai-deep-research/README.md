@@ -1,4 +1,4 @@
-﻿# openai-deep-research (OpenAI Deep Research Models)
+# openai-deep-research (OpenAI Deep Research Models)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 22
 sidebar_label: Assertions & metrics
 title: Assertions and Metrics - LLM Output Validation
@@ -185,7 +185,7 @@ See [Model-graded evals](/docs/configuration/expected-outputs/model-graded), [cl
 | [factuality](/docs/configuration/expected-outputs/model-graded)                                      | LLM output adheres to the given facts, using Factuality method from OpenAI eval  |
 | [model-graded-closedqa](/docs/configuration/expected-outputs/model-graded)                           | LLM output adheres to given criteria, using Closed QA method from OpenAI eval    |
 | [pi](/docs/configuration/expected-outputs/model-graded/pi)                                           | Alternative scoring approach that uses a dedicated model for evaluating criteria |
-| [select-best](https://artef.dev/docs/configuration/expected-outputs/model-graded)                | Compare multiple outputs for a test case and pick the best one                   |
+| [select-best](https://artef.dev/docs/configuration/expected-outputs/model-graded)                    | Compare multiple outputs for a test case and pick the best one                   |
 | [max-score](/docs/configuration/expected-outputs/model-graded/max-score)                             | Select output with highest aggregate score from other assertions                 |
 
 ## Weighted assertions

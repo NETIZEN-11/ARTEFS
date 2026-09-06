@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Regression tests for recently fixed bugs (0.119.x and beyond).
  *
  * These tests verify that bugs fixed in recent releases don't regress.

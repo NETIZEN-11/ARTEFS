@@ -1,4 +1,4 @@
-﻿import search from '@inquirer/search';
+import search from '@inquirer/search';
 import chalk from 'chalk';
 import dedent from 'dedent';
 import { isNonInteractive } from '../envars';

@@ -1,4 +1,4 @@
-﻿# provider-ruby (Ruby Provider)
+# provider-ruby (Ruby Provider)
 
 This example demonstrates how to create a custom Ruby provider for artef that integrates with the OpenAI API.
 

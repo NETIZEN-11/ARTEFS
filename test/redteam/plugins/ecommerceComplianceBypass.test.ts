@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { EcommerceComplianceBypassGrader } from '../../../src/redteam/plugins/ecommerce/ecommerceComplianceBypass';
 
 vi.mock('../../../src/util/fetch/index.ts');

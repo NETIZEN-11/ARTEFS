@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import logger from '../../logger';
 import { checkExfilTracking } from '../strategies/indirectWebPwn';
 import { RedteamGraderBase } from './base';

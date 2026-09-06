@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Main Entry Point Tests
  *
  * Tests for the GitHub Action main entry point, specifically the CLI args construction.

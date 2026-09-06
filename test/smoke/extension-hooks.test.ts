@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Smoke tests for extension hooks.
  *
  * Verifies that a Python extension hook returning its context does not break

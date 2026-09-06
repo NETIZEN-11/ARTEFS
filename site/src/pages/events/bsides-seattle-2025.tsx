@@ -1,4 +1,4 @@
-﻿import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 
 import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';

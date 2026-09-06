@@ -1,4 +1,4 @@
-﻿import type Anthropic from '@anthropic-ai/sdk';
+import type Anthropic from '@anthropic-ai/sdk';
 
 import type { MCPConfig } from '../mcp/types';
 import type { OpenAIToolChoice } from '../shared';

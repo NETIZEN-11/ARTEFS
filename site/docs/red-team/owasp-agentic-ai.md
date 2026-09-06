@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 22
 description: Red team agentic AI applications against OWASP Top 10 for Agentic Applications to protect autonomous AI systems from goal hijacking, tool misuse, and multi-agent attacks
 ---

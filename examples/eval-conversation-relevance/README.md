@@ -1,4 +1,4 @@
-﻿# eval-conversation-relevance (Conversation Relevance)
+# eval-conversation-relevance (Conversation Relevance)
 
 You can run this example with:
 

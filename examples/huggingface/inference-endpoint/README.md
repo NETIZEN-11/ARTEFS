@@ -1,4 +1,4 @@
-﻿# huggingface/inference-endpoint (Huggingface Inference Endpoint)
+# huggingface/inference-endpoint (Huggingface Inference Endpoint)
 
 You can run this example with:
 

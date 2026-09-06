@@ -1,4 +1,4 @@
-﻿# azure/foundry-agent (Azure AI Foundry Agent)
+# azure/foundry-agent (Azure AI Foundry Agent)
 
 This example demonstrates how to use the Azure Foundry Agent provider with artef. This provider uses the `@azure/ai-projects` SDK and the v2 Responses agent runtime instead of the old threads/runs API.
 

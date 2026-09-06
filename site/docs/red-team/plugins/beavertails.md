@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: BeaverTails
 description: Red team LLM safety boundaries using BeaverTails dataset of 330k harmful prompts to protect AI systems from abuse, hate speech, and malicious content exploitation
 ---

@@ -1,4 +1,4 @@
-﻿# integration-crewai (CrewAI Integration)
+# integration-crewai (CrewAI Integration)
 
 This example shows how to use **CrewAI agents** with artef to evaluate AI agent performance.
 

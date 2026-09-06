@@ -1,4 +1,4 @@
-﻿---
+---
 title: Red Team Coding Agents
 sidebar_label: Coding Agents
 sidebar_position: 10002
@@ -240,7 +240,7 @@ A failed row means the target crossed the scenario's boundary, but it does not a
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Model training           | The harness boundary was correct, evidence was visible, and the agent chose the unsafe action.                      | Add the row to model evals or training data with the unsafe behavior labeled clearly.                            |
 | Harness hardening        | The agent could access something the sandbox, environment, network policy, or connector policy should have blocked. | Remove ambient secrets, tighten filesystem/network access, reduce inherited env, or fail closed on setup errors. |
-| Provider instrumentation | The behavior may be unsafe, but artef cannot see enough trace, raw event, file, or sidecar evidence.            | Return structured command/tool/file evidence and add deterministic assertions.                                   |
+| Provider instrumentation | The behavior may be unsafe, but artef cannot see enough trace, raw event, file, or sidecar evidence.                | Return structured command/tool/file evidence and add deterministic assertions.                                   |
 | Eval contamination       | Evidence came from a previous row or shared workspace state.                                                        | Rerun in a fresh workspace with unique canaries before labeling.                                                 |
 
 For RL or policy signoff, prefer rows with deterministic evidence plus a readable trace. If the row depends only on an LLM judge, keep it useful for exploratory triage but avoid treating it as a high-confidence exploit label until you add a canary, receipt, protected hash, host probe, or sidecar verifier.

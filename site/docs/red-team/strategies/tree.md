@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Tree-based Jailbreaks
 title: Tree-based Jailbreaks Strategy
 description: Build tree-structured attack patterns with branching prompts to systematically map and exploit AI system constraint boundaries

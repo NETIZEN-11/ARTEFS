@@ -1,4 +1,4 @@
-﻿import { getDefaultPort } from '../constants';
+import { getDefaultPort } from '../constants';
 import logger from '../logger';
 import { formatLibsqlBindingErrorMessage } from '../util/libsqlBindingErrors';
 import { BrowserBehavior, checkServerRunning } from '../util/server';

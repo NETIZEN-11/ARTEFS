@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { EcommercePriceManipulationGrader } from '../../../src/redteam/plugins/ecommerce/ecommercePriceManipulation';
 
 vi.mock('../../../src/util/fetch/index.ts');

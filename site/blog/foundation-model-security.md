@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'How Much Does Foundation Model Security Matter?'
 description: 'Not all foundation models are created equal when it comes to security. Learn what to look for in model cards and how to assess jailbreak resistance before you build.'
 image: /img/blog/foundation-model-security/artificial_analysis.png

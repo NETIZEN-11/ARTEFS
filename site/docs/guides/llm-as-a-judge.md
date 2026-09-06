@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'LLM as a Judge Evaluation Guide'
 sidebar_label: LLM as a Judge
 description: 'Build LLM-as-a-judge evals in artef with rubric prompts, model-graded scoring, multi-judge voting, bias checks, and prompt injection defense patterns.'
@@ -405,7 +405,7 @@ See [`select-best`](/docs/configuration/expected-outputs/model-graded/select-bes
 
 ### Choosing an approach
 
-| Approach              | When to use                               | artef type                                                                    |
+| Approach              | When to use                               | artef type                                                                        |
 | --------------------- | ----------------------------------------- | --------------------------------------------------------------------------------- |
 | Direct scoring        | Simple criteria, fast iteration           | `llm-rubric`                                                                      |
 | Chain-of-thought      | Complex multi-dimensional criteria        | `g-eval`                                                                          |

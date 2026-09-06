@@ -1,4 +1,4 @@
-﻿# getting-started (Getting Started Example)
+# getting-started (Getting Started Example)
 
 You can run this example with:
 

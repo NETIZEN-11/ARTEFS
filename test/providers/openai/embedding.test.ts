@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { disableCache, enableCache, fetchWithCache } from '../../../src/cache';
 import { OpenAiEmbeddingProvider } from '../../../src/providers/openai/embedding';
 import { mockProcessEnv } from '../../util/utils';

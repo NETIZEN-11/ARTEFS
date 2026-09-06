@@ -1,4 +1,4 @@
-﻿# mistral (Mistral AI Chat Models)
+# mistral (Mistral AI Chat Models)
 
 This example demonstrates Mistral AI's chat models, including Magistral reasoning models, current multimodal models, and shows how to use Mistral models for evaluation grading and embeddings.
 

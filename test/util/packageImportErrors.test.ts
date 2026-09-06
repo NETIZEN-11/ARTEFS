@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { isMissingPackageImportError } from '../../src/util/packageImportErrors';
 
 describe('isMissingPackageImportError', () => {

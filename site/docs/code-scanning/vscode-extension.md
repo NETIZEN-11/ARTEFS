@@ -1,4 +1,4 @@
-﻿---
+---
 title: VS Code Extension
 sidebar_label: VS Code Extension
 sidebar_position: 4
@@ -70,15 +70,15 @@ Right-click in the editor to access:
 
 Configure the extension in VS Code Settings or in your `settings.json`:
 
-| Setting                          | Description                      | Default                     |
-| -------------------------------- | -------------------------------- | --------------------------- |
-| `artef.apiHost`              | artef API host URL           | `https://api.artef.app` |
-| `artef.minimumSeverity`      | Minimum severity to display      | `low`                       |
-| `artef.scanOnSave`           | Auto-scan files on save          | `true`                      |
-| `artef.scanOnSaveDebounceMs` | Debounce delay for auto-scan     | `1500`                      |
-| `artef.diffsOnly`            | Only analyze code diffs          | `true`                      |
-| `artef.showCodeLens`         | Show inline CodeLens annotations | `true`                      |
-| `artef.enabledLanguages`     | Languages to scan                | See below                   |
+| Setting                      | Description                      | Default                 |
+| ---------------------------- | -------------------------------- | ----------------------- |
+| `artef.apiHost`              | artef API host URL               | `https://api.artef.app` |
+| `artef.minimumSeverity`      | Minimum severity to display      | `low`                   |
+| `artef.scanOnSave`           | Auto-scan files on save          | `true`                  |
+| `artef.scanOnSaveDebounceMs` | Debounce delay for auto-scan     | `1500`                  |
+| `artef.diffsOnly`            | Only analyze code diffs          | `true`                  |
+| `artef.showCodeLens`         | Show inline CodeLens annotations | `true`                  |
+| `artef.enabledLanguages`     | Languages to scan                | See below               |
 
 ### Example settings.json
 

@@ -1,4 +1,4 @@
-﻿import { parseDataUrl } from '../../util/dataUrl';
+import { parseDataUrl } from '../../util/dataUrl';
 import { calculateCost as calculateCostBase } from '../shared';
 import type Anthropic from '@anthropic-ai/sdk';
 

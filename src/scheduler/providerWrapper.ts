@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Provider wrapper that adds rate limiting to any ApiProvider.
  *
  * Use this to wrap providers before passing them to redteam/assertion

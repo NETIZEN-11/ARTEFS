@@ -1,7 +1,6 @@
 import { eq, lt, sql } from 'drizzle-orm';
 import { getDb } from '../database/index';
 import { evalResultsTable, evalsTable } from '../database/tables';
-import { getEnvInt } from '../envars';
 import logger from '../logger';
 
 export async function cleanupOldEvaluations(maxAgeDays: number = 30): Promise<number> {

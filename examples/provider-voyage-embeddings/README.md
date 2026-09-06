@@ -1,4 +1,4 @@
-﻿# provider-voyage-embeddings (Voyage Embeddings)
+# provider-voyage-embeddings (Voyage Embeddings)
 
 You can run this example with:
 

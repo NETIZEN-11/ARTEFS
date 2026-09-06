@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Audio Inputs
 title: Audio Jailbreaking Strategy
 description: Assess multimodal AI vulnerabilities using audio-encoded text attacks to circumvent content moderation and safety filters

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Media storage abstraction for artef (OSS).
  *
  * OSS uses only the local filesystem for media storage. Cloud deployments can override

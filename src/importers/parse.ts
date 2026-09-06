@@ -1,4 +1,4 @@
-﻿import logger from '../logger';
+import logger from '../logger';
 import { convertOpenAIEvalsJsonl, isOpenAIEvalsJsonlRow } from './openaiEvals';
 import { IMPORT_SOURCE_artef, IMPORT_SOURCE_OPENAI_EVALS, type ParsedImportFile } from './types';
 

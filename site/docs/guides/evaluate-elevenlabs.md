@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Evaluating ElevenLabs Voice AI'
 description: 'Step-by-step guide for testing ElevenLabs voice AI with artef - from TTS quality testing to conversational agent evaluation'
 ---

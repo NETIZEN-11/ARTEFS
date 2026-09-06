@@ -1,4 +1,4 @@
-﻿---
+---
 title: Evaluate OpenAI Agents (Python SDK)
 description: Evaluate the Python openai-agents SDK with artef tracing, SandboxAgent workflows, trace assertions, and agent red teams.
 sidebar_position: 26

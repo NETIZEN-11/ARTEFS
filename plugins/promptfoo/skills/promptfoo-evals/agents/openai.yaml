@@ -1,4 +1,4 @@
-﻿interface:
+interface:
   display_name: 'artef Evals'
   short_description: 'Write and QA artef eval suites'
   default_prompt: 'Use $artef-evals to write and run a focused eval, including local JS/Python providers.'

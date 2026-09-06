@@ -1,4 +1,4 @@
-﻿import search from '@inquirer/search';
+import search from '@inquirer/search';
 import { Command } from 'commander';
 import { afterAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { authCommand } from '../../src/commands/auth';

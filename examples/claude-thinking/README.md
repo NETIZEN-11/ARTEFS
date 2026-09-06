@@ -1,4 +1,4 @@
-﻿# claude-thinking (Claude Thinking)
+# claude-thinking (Claude Thinking)
 
 This example demonstrates Claude's "thinking" capability, which allows you to see the model's step-by-step reasoning process before it provides a final answer. The example compares thinking outputs from Claude Sonnet 4 (Anthropic API) and Claude Haiku 4.5 (AWS Bedrock).
 

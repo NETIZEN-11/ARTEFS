@@ -1,4 +1,4 @@
-﻿# config-multi-turn (Multiple Turn Conversation)
+# config-multi-turn (Multiple Turn Conversation)
 
 You can run this example with:
 

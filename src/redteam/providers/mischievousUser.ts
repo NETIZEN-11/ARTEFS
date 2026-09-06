@@ -1,4 +1,4 @@
-﻿import { isLoggedIntoCloud } from '../../globalConfig/accounts';
+import { isLoggedIntoCloud } from '../../globalConfig/accounts';
 import { REDTEAM_SIMULATED_USER_TASK_ID } from '../../providers/artef';
 import { type Message, SimulatedUser } from '../../providers/simulatedUser';
 import invariant from '../../util/invariant';

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Node API Quick Reference
 sidebar_position: 23
 title: Node API quick reference

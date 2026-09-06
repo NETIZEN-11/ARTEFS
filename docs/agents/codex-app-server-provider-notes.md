@@ -1,4 +1,4 @@
-﻿# Codex App Server Provider Notes
+# Codex App Server Provider Notes
 
 These notes track the planned artef integration for the Codex app-server protocol.
 They are intentionally implementation-facing: keep them current as the provider, docs,

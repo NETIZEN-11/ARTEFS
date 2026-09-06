@@ -1,4 +1,4 @@
-﻿import { getEnvBool } from '../envars';
+import { getEnvBool } from '../envars';
 import { JsonlFileWriter } from '../util/exportToFile/writeToFile';
 import { getOutputFileFormat } from '../util/outputFormats';
 import { renderEnvOnlyInObject } from '../util/render';

@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import { MODEL_GRADED_ASSERTION_TYPES } from '../../assertions/index';
 import logger from '../../logger';
 

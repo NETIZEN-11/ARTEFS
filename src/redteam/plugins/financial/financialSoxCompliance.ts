@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { RedteamGraderBase } from '../base';
 
 export class FinancialSoxCompliancePluginGrader extends RedteamGraderBase {

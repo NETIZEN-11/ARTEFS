@@ -1,4 +1,4 @@
-﻿import { VERSION } from '../../constants';
+import { VERSION } from '../../constants';
 import { renderPrompt } from '../../evaluatorHelpers';
 import { getUserEmail } from '../../globalConfig/accounts';
 import logger from '../../logger';

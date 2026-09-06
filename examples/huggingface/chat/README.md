@@ -1,4 +1,4 @@
-﻿# huggingface/chat (HuggingFace Chat Completions)
+# huggingface/chat (HuggingFace Chat Completions)
 
 This example demonstrates how to use HuggingFace's OpenAI-compatible chat completions API with artef.
 

@@ -1,4 +1,4 @@
-﻿import input from '@inquirer/input';
+import input from '@inquirer/input';
 import chalk from 'chalk';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { getEnvString, isCI } from '../../src/envars';

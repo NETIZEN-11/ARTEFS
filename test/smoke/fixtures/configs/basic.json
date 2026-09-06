@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://artef.dev/config-schema.json",
   "description": "Smoke test - JSON config format",
   "providers": ["echo"],

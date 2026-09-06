@@ -1,4 +1,4 @@
-﻿import { sql } from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
 import { getDb } from '../database/index';
 import { evalResultsTable, evalsTable } from '../database/tables';
 import { isLoggedIntoCloud } from '../globalConfig/accounts';

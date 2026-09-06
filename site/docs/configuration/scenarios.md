@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 13
 sidebar_label: Scenarios
 title: Scenario Configuration - Grouping Tests and Data

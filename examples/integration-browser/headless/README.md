@@ -1,4 +1,4 @@
-﻿# integration-browser/headless (Headless Browser Automation)
+# integration-browser/headless (Headless Browser Automation)
 
 A browser automation example demonstrating how to test web applications using Playwright.
 
@@ -173,7 +173,7 @@ steps:
 | Elements not found      | Use browser DevTools to verify selectors        |
 | Timing issues           | Increase wait times or use `waitForNewChildren` |
 | Want to see the browser | Set `headless: false` in the configuration      |
-| Need detailed logs      | Run with `npx artef@latest eval --verbose`  |
+| Need detailed logs      | Run with `npx artef@latest eval --verbose`      |
 
 ## Additional Resources
 

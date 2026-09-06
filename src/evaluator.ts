@@ -1,4 +1,4 @@
-﻿import readline from 'readline';
+import readline from 'readline';
 import { isDeepStrictEqual } from 'util';
 
 import async from 'async';

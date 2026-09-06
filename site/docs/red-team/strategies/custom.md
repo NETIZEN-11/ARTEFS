@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Custom Strategy Scripts
 title: Custom Strategy Scripts
 description: Build custom red team strategies using JavaScript to programmatically generate, mutate, and chain sophisticated attack patterns

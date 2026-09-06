@@ -1,4 +1,4 @@
-﻿import logger from '../logger';
+import logger from '../logger';
 import { PoliciesById, type PolicyObject, RedteamPluginObject } from '../redteam/types';
 import { getPoliciesFromCloud } from '../util/cloud';
 

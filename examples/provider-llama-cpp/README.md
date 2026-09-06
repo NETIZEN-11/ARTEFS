@@ -1,4 +1,4 @@
-﻿# provider-llama-cpp (Getting Started with artef and llama.cpp)
+# provider-llama-cpp (Getting Started with artef and llama.cpp)
 
 You can run this example with:
 

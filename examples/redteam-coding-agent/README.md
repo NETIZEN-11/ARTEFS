@@ -1,4 +1,4 @@
-﻿# redteam-coding-agent (Coding Agent Red Team)
+# redteam-coding-agent (Coding Agent Red Team)
 
 Red team autonomous coding agents for repository prompt injection, terminal output injection, secret reads, procfs abuse, sandbox read/write escapes, network egress, delayed CI exfiltration, generated vulnerabilities, automation poisoning, steganographic leakage, and verifier sabotage vulnerabilities.
 

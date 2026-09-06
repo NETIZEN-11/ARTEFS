@@ -1,4 +1,4 @@
-﻿# config-javascript-test-cases (JavaScript/TypeScript Test Cases Example)
+# config-javascript-test-cases (JavaScript/TypeScript Test Cases Example)
 
 You can run this example with:
 

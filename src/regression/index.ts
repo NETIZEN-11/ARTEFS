@@ -1,9 +1,9 @@
-import { and, desc, eq } from 'drizzle-orm';
+import { desc, eq } from 'drizzle-orm';
 import { getDb } from '../database';
 import { evalResultsTable, evalsTable } from '../database/tables';
 
 import type Eval from '../models/eval';
-import type { BaselineComparisonResult, EvaluateSummaryV2 } from '../types/index';
+import type { BaselineComparisonResult } from '../types/index';
 
 export interface RegressionDetectionOptions {
   scoreThreshold?: number;
@@ -69,7 +69,9 @@ export class RegressionDetector {
 
     for (const evalRecord of evals) {
       const evalConfig = evalRecord.config as Record<string, unknown> | undefined;
-      if (!evalConfig) continue;
+      if (!evalConfig) {
+        continue;
+      }
 
       let matches = true;
 
@@ -107,7 +109,9 @@ export class RegressionDetector {
     const db = await getDb();
     const evals = await db.select().from(evalsTable).where(eq(evalsTable.id, evalId)).limit(1);
 
-    if (evals.length === 0) return null;
+    if (evals.length === 0) {
+      return null;
+    }
 
     // Import Eval model dynamically
     const { default: EvalModel } = await import('../models/eval');
@@ -192,7 +196,9 @@ export class RegressionDetector {
       const key = `${current.promptIdx}-${current.testIdx}`;
       const baseline = baselineMap.get(key);
 
-      if (!baseline) continue;
+      if (!baseline) {
+        continue;
+      }
 
       const wasPassing = baseline.success;
       const isPassing = current.success;

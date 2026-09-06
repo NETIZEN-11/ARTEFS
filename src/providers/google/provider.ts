@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Unified Google Provider for Gemini models.
  *
  * This provider handles both Google AI Studio and Vertex AI modes

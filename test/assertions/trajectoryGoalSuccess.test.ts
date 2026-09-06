@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { handleTrajectoryGoalSuccess } from '../../src/assertions/trajectory';
 import { matchesTrajectoryGoalSuccess } from '../../src/matchers/llmGrading';
 import { createMockProvider, createProviderResponse } from '../factories/provider';

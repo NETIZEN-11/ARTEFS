@@ -1,4 +1,4 @@
-﻿# simple-cli (Simple Cli)
+# simple-cli (Simple Cli)
 
 You can run this example with:
 

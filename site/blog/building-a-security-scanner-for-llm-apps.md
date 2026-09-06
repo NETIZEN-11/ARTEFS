@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Building a Security Scanner for LLM Apps'
 description: 'We built a GitHub Action that scans pull requests for LLM-specific vulnerabilities. Learn why traditional security tools miss these issues and how we trace data flows to find prompt injection risks.'
 image: /img/blog/building-a-security-scanner-for-llm-apps/call-graph-io-flows.png

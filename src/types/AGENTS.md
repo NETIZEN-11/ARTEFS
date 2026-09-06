@@ -1,4 +1,4 @@
-﻿# Types and Schemas
+# Types and Schemas
 
 Public configuration types, provider types, and server/API Zod schemas. `src/types/env.ts` only re-exports `src/contracts/env.ts`; the published `artef/contracts` subpath is the real public boundary, so edit env/contract schemas in `src/contracts/` and let `src/types/` re-export them.
 

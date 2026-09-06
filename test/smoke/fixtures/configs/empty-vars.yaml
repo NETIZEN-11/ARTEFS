@@ -1,3 +1,4 @@
+
 description: 'Test empty vars handling'
 providers:
   - echo

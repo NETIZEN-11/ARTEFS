@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Real-Time Fact Checking for LLM Outputs'
 description: 'artef now supports web search in assertions, so you can verify time-sensitive information like stock prices, weather, and case citations during testing.'
 image: /img/blog/search-rubric-assertions/title.jpg

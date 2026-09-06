@@ -1,4 +1,4 @@
-﻿import { randomUUID } from 'crypto';
+import { randomUUID } from 'crypto';
 import * as fsPromises from 'fs/promises';
 import * as os from 'os';
 import * as path from 'path';

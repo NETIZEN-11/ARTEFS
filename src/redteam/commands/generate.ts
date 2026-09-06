@@ -1,4 +1,4 @@
-﻿import { createHash, randomUUID } from 'crypto';
+import { createHash, randomUUID } from 'crypto';
 import fs from 'fs/promises';
 import path from 'path';
 

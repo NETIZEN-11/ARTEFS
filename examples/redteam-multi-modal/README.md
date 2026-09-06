@@ -1,4 +1,4 @@
-﻿# redteam-multi-modal (Multi-Modal Red Team Testing)
+# redteam-multi-modal (Multi-Modal Red Team Testing)
 
 This example demonstrates how to use artef's red teaming capabilities with multi-modal models, showing three different approaches to testing model safety and robustness against adversarial inputs involving images.
 

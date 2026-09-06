@@ -1,4 +1,4 @@
-﻿import { AlwaysOffSampler, NodeTracerProvider } from '@opentelemetry/sdk-trace-node';
+import { AlwaysOffSampler, NodeTracerProvider } from '@opentelemetry/sdk-trace-node';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import cliState from '../../src/cliState';
 import logger from '../../src/logger';

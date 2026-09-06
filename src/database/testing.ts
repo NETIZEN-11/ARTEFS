@@ -1,4 +1,4 @@
-﻿type TestDatabaseClient = Pick<import('@libsql/client/node').Client, 'close' | 'execute'>;
+type TestDatabaseClient = Pick<import('@libsql/client/node').Client, 'close' | 'execute'>;
 
 const TEST_DATABASE_CLIENTS_KEY = '__artefTestDatabaseClients';
 const TEST_DATABASE_OPERATION_QUEUE_KEY = '__artefTestDatabaseOperationQueue';

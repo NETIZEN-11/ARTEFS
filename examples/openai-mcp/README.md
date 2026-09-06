@@ -1,4 +1,4 @@
-﻿# openai-mcp (OpenAI MCP Integration)
+# openai-mcp (OpenAI MCP Integration)
 
 This example demonstrates how to use OpenAI's Model Context Protocol (MCP) integration with the Responses API in artef.
 

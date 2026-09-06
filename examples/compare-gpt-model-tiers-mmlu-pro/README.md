@@ -1,4 +1,4 @@
-﻿# compare-gpt-model-tiers-mmlu-pro (GPT Model Tiers MMLU-Pro Comparison)
+# compare-gpt-model-tiers-mmlu-pro (GPT Model Tiers MMLU-Pro Comparison)
 
 You can run this example with:
 

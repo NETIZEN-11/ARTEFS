@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Real Estate Plugins
 title: Real Estate Red-Teaming Plugins - Fair Housing Act Compliance Testing
 description: Test AI systems for Fair Housing Act compliance, steering prevention, lending discrimination, and housing discrimination vulnerabilities with 8 specialized plugins.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Testing Humanity's Last Exam with artef
 description: Run evaluations against Humanity's Last Exam using artef - the most challenging AI benchmark with expert-crafted questions across 100+ subjects.
 sidebar_label: HLE Benchmark

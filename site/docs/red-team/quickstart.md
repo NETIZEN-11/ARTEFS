@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 2
 sidebar_label: Getting started
 description: Start red teaming LLMs in minutes by scanning 50+ vulnerabilities including jailbreaks, prompt injection, and data exfiltration

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Tests for cliState.maxConcurrency propagation to Python worker pool.
  * This is a focused test file to avoid the complex mocking issues in pythonCompletion.test.ts.
  */

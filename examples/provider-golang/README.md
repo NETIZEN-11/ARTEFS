@@ -1,4 +1,4 @@
-﻿# provider-golang (Golang Provider Example)
+# provider-golang (Golang Provider Example)
 
 You can run this example with:
 

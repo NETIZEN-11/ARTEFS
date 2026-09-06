@@ -795,7 +795,7 @@ describe('Eval', () => {
       ...baseMockTableStore,
       evalId: 'doomed-eval',
     });
-    // /api/results is unavailable, but the socket told us the pinned eval was deleted — the user
+    // /api/results is unavailable, but the socket told us the pinned eval was deleted Â— the user
     // must not be stranded on the now-gone /eval/:id.
     vi.mocked(callApi).mockResolvedValue({ ok: false } as Response);
 
@@ -857,13 +857,13 @@ describe('Eval', () => {
       void handler?.({ evalId: 'eval-Y' }); // reloads the current eval; blocked on the gate
       const second = handler?.({ evalId: 'eval-Z' }); // queued behind the first
       await vi.advanceTimersByTimeAsync(0);
-      // The second reload has NOT started — it is serialized behind the first.
+      // The second reload has NOT started Â— it is serialized behind the first.
       expect(fetchStarts).toEqual(['eval-Y']);
       releaseFirst();
       await second;
     });
 
-    // Once the first completes, the second runs — eval-Z (the latest) is fetched last and wins.
+    // Once the first completes, the second runs Â— eval-Z (the latest) is fetched last and wins.
     expect(fetchStarts).toEqual(['eval-Y', 'eval-Z']);
   });
 

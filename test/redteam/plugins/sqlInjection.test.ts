@@ -1,4 +1,4 @@
-﻿import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { matchesLlmRubric } from '../../../src/matchers/llmGrading';
 import { SqlInjectionGrader, SqlInjectionPlugin } from '../../../src/redteam/plugins/sqlInjection';
 import { createMockProvider } from '../../factories/provider';

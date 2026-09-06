@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Architecture
 sidebar_position: 10
 description: Red team AI systems by analyzing architecture components and attack surfaces to protect LLM applications through systematic vulnerability assessment and threat modeling

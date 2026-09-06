@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'OWASP Top 10 LLM Security Risks (2025) – 5-Minute TLDR'
 description: 'Master OWASP Top 10 LLM security vulnerabilities with practical mitigation strategies in this comprehensive 2025 guide'
 image: /img/blog/owasp-top10/red_panda_list.jpg
@@ -110,32 +110,32 @@ Similar to denial of service (DoS) attacks, unbounded consumption is broader in 
 
 Please imagine me having written two additional paragraphs per issue above and then deleting them in favor of the following (non-comprehensive) table summarizing the security measures instead. Thank you.
 
-| **Action**                                                                                                                       | **Applies to (Issues #)** |
-| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| Restrict model behavior with system instructions                                                                                 | 1, 6, 7                   |
-| Enforce privilege control and least privilege access                                                                             | 1, 2, 6, 7                |
+| **Action**                                                                                                                   | **Applies to (Issues #)** |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| Restrict model behavior with system instructions                                                                             | 1, 6, 7                   |
+| Enforce privilege control and least privilege access                                                                         | 1, 2, 6, 7                |
 | [Validate and sanitize inputs and outputs](https://www.artef.dev/docs/configuration/expected-outputs/)                       | 1, 2, 5, 6                |
-| Limit LLM permissions and capabilities                                                                                           | 1, 6, 7                   |
-| Use external systems to enforce logic or perform actions                                                                         | 1, 6, 7                   |
-| Require human-in-the-loop or approvals                                                                                           | 1, 6                      |
-| Segregate/isolate untrusted or external content                                                                                  | 1                         |
-| Track and monitor usage and behavior                                                                                             | 5, 6                      |
+| Limit LLM permissions and capabilities                                                                                       | 1, 6, 7                   |
+| Use external systems to enforce logic or perform actions                                                                     | 1, 6, 7                   |
+| Require human-in-the-loop or approvals                                                                                       | 1, 6                      |
+| Segregate/isolate untrusted or external content                                                                              | 1                         |
+| Track and monitor usage and behavior                                                                                         | 5, 6                      |
 | [Conduct adversarial testing and simulations](https://www.artef.dev/docs/red-team/)                                          | 1                         |
-| Educate users and developers                                                                                                     | 2, 9                      |
-| Limit input/output/data sizes and resource usage                                                                                 | 10                        |
+| Educate users and developers                                                                                                 | 2, 9                      |
+| Limit input/output/data sizes and resource usage                                                                             | 10                        |
 | [Use content security policies or output constraints](https://www.artef.dev/docs/configuration/expected-outputs/moderation/) | 5                         |
-| Apply encryption or secure storage                                                                                               | 2, 8                      |
-| Utilize federated learning                                                                                                       | 2, 4                      |
-| Review, classify, and audit data and models                                                                                      | 3, 4, 8                   |
-| Vet suppliers, verify models, and maintain inventories                                                                           | 3                         |
+| Apply encryption or secure storage                                                                                           | 2, 8                      |
+| Utilize federated learning                                                                                                   | 2, 4                      |
+| Review, classify, and audit data and models                                                                                  | 3, 4, 8                   |
+| Vet suppliers, verify models, and maintain inventories                                                                       | 3                         |
 | [Rate-limit and throttle requests](https://www.artef.dev/docs/configuration/telemetry/)                                      | 10                        |
-| Fine-tune models / use RAG                                                                                                       | 9                         |
-| Label and clarify AI-generated content                                                                                           | 9                         |
-| Maintain data access controls and opt-out policies                                                                               | 2                         |
-| Hide or obfuscate system prompts                                                                                                 | 2, 7                      |
-| Modify outputs to prevent leakage or injection                                                                                   | 2, 5                      |
-| Restrict access to external sources and services                                                                                 | 2, 10                     |
-| Use sandboxing and resource constraints                                                                                          | 4, 10                     |
+| Fine-tune models / use RAG                                                                                                   | 9                         |
+| Label and clarify AI-generated content                                                                                       | 9                         |
+| Maintain data access controls and opt-out policies                                                                           | 2                         |
+| Hide or obfuscate system prompts                                                                                             | 2, 7                      |
+| Modify outputs to prevent leakage or injection                                                                               | 2, 5                      |
+| Restrict access to external sources and services                                                                             | 2, 10                     |
+| Use sandboxing and resource constraints                                                                                      | 4, 10                     |
 
 ## Further information
 

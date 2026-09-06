@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Moonshot (Kimi)
 description: Configure Moonshot AI's OpenAI-compatible API to evaluate Kimi K3 and K2 thinking, chat, and vision models with artef
 ---

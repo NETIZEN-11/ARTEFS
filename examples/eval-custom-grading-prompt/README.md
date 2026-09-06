@@ -1,4 +1,4 @@
-﻿# eval-custom-grading-prompt (Custom Grading Prompt)
+# eval-custom-grading-prompt (Custom Grading Prompt)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿# provider-custom (Custom Provider)
+# provider-custom (Custom Provider)
 
 Examples for writing custom artef providers in different JavaScript/TypeScript module formats.
 

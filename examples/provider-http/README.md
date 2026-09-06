@@ -1,4 +1,4 @@
-﻿# provider-http (HTTP Provider)
+# provider-http (HTTP Provider)
 
 Examples for using artef's generic HTTP provider to connect to any API endpoint.
 

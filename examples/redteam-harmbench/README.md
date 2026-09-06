@@ -1,4 +1,4 @@
-﻿# redteam-harmbench (HarmBench)
+# redteam-harmbench (HarmBench)
 
 You can run this example with:
 

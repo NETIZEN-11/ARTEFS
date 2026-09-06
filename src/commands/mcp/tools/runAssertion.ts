@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import { z } from 'zod';
 import { runAssertions } from '../../../assertions/index';
 import logger from '../../../logger';

@@ -1,4 +1,4 @@
-﻿import opener from 'opener';
+import opener from 'opener';
 import { beforeEach, describe, expect, it, type MockedFunction, vi } from 'vitest';
 import { getDefaultPort, VERSION } from '../../src/constants';
 import logger from '../../src/logger';

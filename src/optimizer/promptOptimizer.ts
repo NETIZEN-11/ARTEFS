@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import { evaluate } from '../evaluator';
 import logger from '../logger';
 import Eval from '../models/eval';

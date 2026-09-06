@@ -1,4 +1,4 @@
-﻿# integration-langfuse (Langfuse Prompt Management)
+# integration-langfuse (Langfuse Prompt Management)
 
 This example demonstrates how to use Langfuse prompt management with labels in artef.
 

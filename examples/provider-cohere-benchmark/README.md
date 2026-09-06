@@ -1,4 +1,4 @@
-﻿# provider-cohere-benchmark (Cohere Benchmark)
+# provider-cohere-benchmark (Cohere Benchmark)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { matchesClosedQa } from '../../src/matchers/llmGrading';
 import { DefaultGradingProvider } from '../../src/providers/openai/defaults';
 import { createMockProvider } from '../factories/provider';

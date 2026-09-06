@@ -1,4 +1,4 @@
-﻿# config-ts (TypeScript Configuration Example)
+# config-ts (TypeScript Configuration Example)
 
 You can run this example with:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Burp Suite
 description: Test LLM applications for jailbreak vulnerabilities by integrating artef's red teaming capabilities with Burp Suite Intruder for automated security scanning and testing
 ---

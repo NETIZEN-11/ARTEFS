@@ -1,4 +1,4 @@
-﻿import chalk from 'chalk';
+import chalk from 'chalk';
 import { afterEach, beforeEach, describe, expect, it, type Mock, vi } from 'vitest';
 import { generateEvalSummary } from '../../../src/util/eval/summary';
 import { accumulateTokenUsage, createEmptyTokenUsage } from '../../../src/util/tokenUsageUtils';

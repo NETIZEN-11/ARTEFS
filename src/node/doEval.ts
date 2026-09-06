@@ -1,4 +1,4 @@
-﻿import fs from 'fs/promises';
+import fs from 'fs/promises';
 import * as path from 'path';
 
 import chalk from 'chalk';
@@ -23,9 +23,12 @@ import logger, { getLogLevel } from '../logger';
 import { runDbMigrations } from '../migrate';
 import Eval from '../models/eval';
 import { loadApiProvider } from '../providers/index';
-import { evaluateQualityGates, QualityGateEngine } from '../qualityGate';
+import { evaluateQualityGates } from '../qualityGate';
 import { neverGenerateRemote } from '../redteam/remoteGeneration';
-import { createReleaseReadinessCalculator, ReleaseReadinessCalculator } from '../releaseReadiness';
+import {
+  createReleaseReadinessCalculator,
+  ReleaseReadinessCalculator,
+} from '../releaseReadiness';
 import { createShareableUrl, isSharingEnabled } from '../share';
 import { generateTable } from '../table';
 import telemetry from '../telemetry';

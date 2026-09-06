@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using MCP (Model Context Protocol) in artef
 description: Enable Model Context Protocol (MCP) integration for enhanced tool use, persistent memory, and agentic workflows across providers
 sidebar_label: Model Context Protocol (MCP)

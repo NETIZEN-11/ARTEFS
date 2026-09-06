@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Web Browser
 description: 'Execute LLM evaluations directly in browsers using WebGPU acceleration and local models for privacy-preserving testing'
 ---

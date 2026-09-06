@@ -1,4 +1,4 @@
-﻿import { execFile } from 'child_process';
+import { execFile } from 'child_process';
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
@@ -131,7 +131,9 @@ export class GolangProvider implements ApiProvider {
         const scriptDir = path.dirname(path.join(tempDir, relativeScriptPath));
         await fs.mkdir(scriptDir, { recursive: true });
 
-        const executablePath = path.join(tempDir, 'golang_wrapper');
+        const executableName =
+          process.platform === 'win32' ? 'golang_wrapper.exe' : 'golang_wrapper';
+        const executablePath = path.join(tempDir, executableName);
         const tempScriptPath = path.join(tempDir, relativeScriptPath);
         const goExecutable = this.config.goExecutable || 'go';
         const { stdout: packageJson } = await execFileAsync(goExecutable, ['list', '-json', '.'], {

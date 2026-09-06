@@ -1,4 +1,4 @@
-﻿# claude-agent-sdk (Claude Agent SDK Examples)
+# claude-agent-sdk (Claude Agent SDK Examples)
 
 The Claude Agent SDK provider (aka Claude Code provider) enables you to run agentic evals with configurable tools, permissions, and environments.
 

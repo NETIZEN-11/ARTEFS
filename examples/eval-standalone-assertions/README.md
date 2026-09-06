@@ -1,4 +1,4 @@
-﻿# eval-standalone-assertions (Standalone Assertions)
+# eval-standalone-assertions (Standalone Assertions)
 
 You can run this example with:
 

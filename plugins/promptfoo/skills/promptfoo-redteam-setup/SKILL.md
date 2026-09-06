@@ -1,4 +1,4 @@
-﻿---
+---
 name: artef-redteam-setup
 description: >
   Create or refine artef redteam setup configs: purpose, targets, plugins,

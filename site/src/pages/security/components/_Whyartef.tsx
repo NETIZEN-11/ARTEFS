@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 import GroupIcon from '@mui/icons-material/Group';
 import SecurityIcon from '@mui/icons-material/Security';

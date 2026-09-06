@@ -1,4 +1,4 @@
-﻿const path = require('path');
+const path = require('path');
 const fs = require('fs').promises;
 const { default: satori } = require('satori');
 const matter = require('gray-matter');

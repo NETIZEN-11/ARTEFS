@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import {
   ATTACK_PROVIDER_IDS,
   getAttackProviderFullId,

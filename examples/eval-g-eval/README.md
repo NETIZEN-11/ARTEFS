@@ -1,4 +1,4 @@
-﻿# eval-g-eval (G Eval)
+# eval-g-eval (G Eval)
 
 You can run this example with:
 

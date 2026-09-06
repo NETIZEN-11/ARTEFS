@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Splunk
 sidebar_position: 78
 title: Integrate artef with Splunk

@@ -1,4 +1,4 @@
-﻿# eval-errors-vs-failures (Errors Vs Failures)
+# eval-errors-vs-failures (Errors Vs Failures)
 
 You can run this example with:
 

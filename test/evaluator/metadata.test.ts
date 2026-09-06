@@ -1,4 +1,4 @@
-﻿import './setup';
+import './setup';
 
 import { randomUUID } from 'crypto';
 import * as fs from 'fs';

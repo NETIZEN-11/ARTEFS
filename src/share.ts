@@ -1,4 +1,4 @@
-﻿import { URL } from 'url';
+import { URL } from 'url';
 
 import input from '@inquirer/input';
 import chalk from 'chalk';

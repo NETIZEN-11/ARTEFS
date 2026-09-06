@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Configuration Schema
  *
  * Zod schema for validating YAML configuration files.

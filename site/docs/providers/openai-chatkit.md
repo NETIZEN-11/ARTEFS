@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 42
 title: OpenAI ChatKit
 description: 'Evaluate ChatKit workflows built with Agent Builder using browser automation'
@@ -82,7 +82,7 @@ npx artef view
 | ------------------ | ----------------------------------------------- | ------------------------ |
 | `workflowId`       | ChatKit workflow ID from Agent Builder          | From provider ID         |
 | `version`          | Workflow version                                | Latest                   |
-| `userId`           | User ID sent to ChatKit session                 | `'artef-eval'`       |
+| `userId`           | User ID sent to ChatKit session                 | `'artef-eval'`           |
 | `timeout`          | Response timeout in milliseconds                | 120000 (2 min)           |
 | `headless`         | Run browser in headless mode                    | true                     |
 | `usePool`          | Enable browser pooling for concurrency          | true                     |
@@ -349,9 +349,9 @@ ChatKit workflows require browser automation because they don't expose a direct 
 
 ## Environment Variables
 
-| Variable                    | Description                            |
-| --------------------------- | -------------------------------------- |
-| `OPENAI_API_KEY`            | Required                               |
+| Variable                | Description                            |
+| ----------------------- | -------------------------------------- |
+| `OPENAI_API_KEY`        | Required                               |
 | `artef_MAX_CONCURRENCY` | Auto-sets `poolSize` if not configured |
 
 ## Security Testing

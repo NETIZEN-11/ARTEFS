@@ -1,4 +1,4 @@
-﻿# provider-abliteration (Abliteration)
+# provider-abliteration (Abliteration)
 
 You can run this example with:
 

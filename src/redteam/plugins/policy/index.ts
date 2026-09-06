@@ -1,4 +1,4 @@
-﻿import dedent from 'dedent';
+import dedent from 'dedent';
 import invariant from '../../../util/invariant';
 import { type PolicyObject } from '../../types';
 import { RedteamGraderBase, RedteamPluginBase } from '../base';

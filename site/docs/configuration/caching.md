@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 41
 sidebar_label: Caching
 title: Caching Configuration - Performance Optimization
@@ -86,12 +86,12 @@ artef_CACHE_PATH=...
 
 The cache is configurable through environment variables:
 
-| Environment Variable    | Description                               | Default Value                                      |
-| ----------------------- | ----------------------------------------- | -------------------------------------------------- |
-| artef_CACHE_ENABLED | Enable or disable the cache               | true                                               |
-| artef_CACHE_TYPE    | `disk` or `memory`                        | `memory` if `NODE_ENV` is `test`, otherwise `disk` |
-| artef_CACHE_PATH    | Path to the cache directory               | `~/.artef/cache`                               |
-| artef_CACHE_TTL     | Time to live for cache entries in seconds | 14 days                                            |
+| Environment Variable | Description                               | Default Value                                      |
+| -------------------- | ----------------------------------------- | -------------------------------------------------- |
+| artef_CACHE_ENABLED  | Enable or disable the cache               | true                                               |
+| artef_CACHE_TYPE     | `disk` or `memory`                        | `memory` if `NODE_ENV` is `test`, otherwise `disk` |
+| artef_CACHE_PATH     | Path to the cache directory               | `~/.artef/cache`                                   |
+| artef_CACHE_TTL      | Time to live for cache entries in seconds | 14 days                                            |
 
 #### Additional Cache Details
 

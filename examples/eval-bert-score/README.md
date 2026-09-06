@@ -1,4 +1,4 @@
-﻿# eval-bert-score (BERTScore Evaluation)
+# eval-bert-score (BERTScore Evaluation)
 
 Use BERTScore to measure semantic similarity between LLM outputs and reference text.
 

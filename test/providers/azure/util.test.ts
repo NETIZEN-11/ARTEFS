@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { AZURE_MODELS } from '../../../src/providers/azure/defaults';
 import { calculateAzureCost, throwConfigurationError } from '../../../src/providers/azure/util';
 

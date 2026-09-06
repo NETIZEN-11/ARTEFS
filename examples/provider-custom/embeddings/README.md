@@ -1,4 +1,4 @@
-﻿# provider-custom/embeddings (Custom Provider Embeddings)
+# provider-custom/embeddings (Custom Provider Embeddings)
 
 You can run this example with:
 

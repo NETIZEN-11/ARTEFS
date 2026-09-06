@@ -1,4 +1,4 @@
-﻿---
+---
 title: Multi-Modal Red Teaming
 description: Red team multimodal AI systems using adversarial text, images, audio, and video inputs to identify cross-modal vulnerabilities
 keywords:
@@ -567,10 +567,10 @@ Always set `injectVar` explicitly for multimodal prompts. It defaults to the **l
 
 Media strategies put raw base64 in `context.vars[redteam.injectVar]`, not a ready-to-send chat message:
 
-| Strategy | Value passed to custom providers                 | Gotchas                                                                                                                                                                                                                                      |
-| -------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `image`  | PNG base64 with no `data:` prefix                | Wrap as `data:image/png;base64,...` for APIs that expect data URLs. The original text is also available as `context.vars.image_text`.                                                                                                        |
-| `audio`  | MP3 base64 with no `data:` prefix                | Audio conversion uses remote generation. Forward it as your API's audio input type, usually with MIME type `audio/mpeg` or format `mp3`.                                                                                                     |
+| Strategy | Value passed to custom providers                 | Gotchas                                                                                                                                                                                                                              |
+| -------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `image`  | PNG base64 with no `data:` prefix                | Wrap as `data:image/png;base64,...` for APIs that expect data URLs. The original text is also available as `context.vars.image_text`.                                                                                                |
+| `audio`  | MP3 base64 with no `data:` prefix                | Audio conversion uses remote generation. Forward it as your API's audio input type, usually with MIME type `audio/mpeg` or format `mp3`.                                                                                             |
 | `video`  | MP4 base64 when local FFmpeg generation succeeds | For a real MP4 payload, install FFmpeg and set `artef_DISABLE_REMOTE_GENERATION=true` or `artef_DISABLE_REDTEAM_REMOTE_GENERATION=true`. If generation falls back, the value may decode to the original text instead of video bytes. |
 
 Static variables and dataset-driven media may already be `data:` URLs or use a different MIME type, so check the value before prepending a media prefix.

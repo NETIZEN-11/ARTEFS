@@ -1,4 +1,4 @@
-﻿# config-multiple-configs (Multiple Configs)
+# config-multiple-configs (Multiple Configs)
 
 You can run this example with:
 

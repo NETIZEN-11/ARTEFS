@@ -1,4 +1,4 @@
-﻿import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { getEnvBool } from '../envars';
 import logger from '../logger';
 import { sha256 } from '../util/createHash';

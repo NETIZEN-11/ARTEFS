@@ -1,4 +1,4 @@
-﻿import type { AssistantCreationOptions, FunctionDefinition } from '@azure/openai-assistants';
+import type { AssistantCreationOptions, FunctionDefinition } from '@azure/openai-assistants';
 
 import type { EnvOverrides } from '../../types/env';
 import type { MCPConfig } from '../mcp/types';

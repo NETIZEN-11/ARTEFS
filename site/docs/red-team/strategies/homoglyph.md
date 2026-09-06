@@ -1,4 +1,4 @@
-﻿---
+---
 title: Homoglyph Encoding Strategy
 sidebar_label: Homoglyph Encoding
 description: Learn how to use homoglyphs (visually similar Unicode characters) to test AI system defenses against content filter bypasses.

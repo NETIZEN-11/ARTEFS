@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Red Teaming a CrewAI Agent
 description: Evaluate CrewAI agent security and performance with automated red team testing. Compare agent responses across 100+ test cases to identify vulnerabilities.
 ---

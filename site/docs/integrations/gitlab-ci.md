@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: GitLab CI
 description: Automate LLM testing in GitLab CI pipelines with artef. Configure caching, API keys, and evaluation workflows to validate prompts and models in your CI/CD process.
 ---

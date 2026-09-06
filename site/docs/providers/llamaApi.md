@@ -1,4 +1,4 @@
-﻿---
+---
 title: Meta Llama API
 description: Use Meta's hosted Llama API service for text generation and multimodal tasks with artef
 ---

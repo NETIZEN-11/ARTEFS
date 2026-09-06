@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 import Link from '@docusaurus/Link';
 import AssessmentIcon from '@mui/icons-material/Assessment';

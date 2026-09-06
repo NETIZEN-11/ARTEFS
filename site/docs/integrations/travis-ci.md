@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Travis CI
 description: Set up automated LLM testing in Travis CI pipelines with artef. Configure environment variables, artifacts storage, and continuous evaluation of AI prompts and outputs.
 ---

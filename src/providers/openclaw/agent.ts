@@ -1,4 +1,4 @@
-﻿import crypto from 'crypto';
+import crypto from 'crypto';
 
 import WebSocket from 'ws';
 import { VERSION } from '../../constants';

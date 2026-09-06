@@ -1,4 +1,4 @@
-﻿import { Presets, SingleBar } from 'cli-progress';
+import { Presets, SingleBar } from 'cli-progress';
 import { getEnvString } from '../../envars';
 import logger from '../../logger';
 import { isMediaStorageEnabled, storeMedia } from '../../storage';

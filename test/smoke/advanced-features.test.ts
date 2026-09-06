@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Smoke tests for advanced CLI features.
  *
  * These tests verify advanced evaluation features including:

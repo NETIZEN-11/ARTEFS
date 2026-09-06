@@ -1,4 +1,4 @@
-﻿# integration-vercel/ai-gateway (Vercel AI Gateway Example)
+# integration-vercel/ai-gateway (Vercel AI Gateway Example)
 
 This example demonstrates how to use [Vercel AI Gateway](https://vercel.com/docs/ai-sdk/ai-gateway) to access multiple AI providers through a unified API.
 

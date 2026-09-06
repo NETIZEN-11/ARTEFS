@@ -1,4 +1,4 @@
-﻿# config-js (JavaScript Configuration)
+# config-js (JavaScript Configuration)
 
 You can run this example with:
 

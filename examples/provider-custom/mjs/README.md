@@ -1,4 +1,4 @@
-﻿# provider-custom/mjs (Custom Provider Mjs)
+# provider-custom/mjs (Custom Provider Mjs)
 
 You can run this example with:
 

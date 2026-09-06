@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 vi.mock('../../../src/util/fetch/index', async () => {
   const actual = await vi.importActual<typeof import('../../../src/util/fetch/index')>(

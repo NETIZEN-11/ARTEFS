@@ -1,4 +1,4 @@
-﻿# provider-novita (Novita Provider)
+# provider-novita (Novita Provider)
 
 This example shows how to use Novita through artef's OpenAI-compatible provider surface.
 

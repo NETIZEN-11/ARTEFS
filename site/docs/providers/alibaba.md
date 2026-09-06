@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alibaba Cloud (Qwen) Provider
 sidebar_label: Alibaba Cloud (Qwen)
 description: Deploy Alibaba Cloud's Qwen models including Qwen3, QwQ reasoning, and specialized coding/math/vision models for enterprise applications

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Evaluate OSWorld with Inspect
 description: Run OSWorld computer-use benchmark evals in artef with Inspect, GPT-5.5, Docker-backed desktop sandboxes, scorer output, eval logs, and local traces.
 sidebar_position: 66
@@ -416,8 +416,8 @@ artef_ENABLE_OTEL=true OTEL_EXPORTER_OTLP_ENDPOINT=http://127.0.0.1:4318 \
 | Scored failures after rerun     |                         8 / 21 |
 | Provider errors after rerun     |                         0 / 21 |
 | Mean OSWorld score              |                          0.665 |
-| artef trace records         |                             21 |
-| artef Python provider spans |                             21 |
+| artef trace records             |                             21 |
+| artef Python provider spans     |                             21 |
 | Total token counter after rerun |                      3,806,976 |
 
 The strongest app clusters in that run were `gimp` and `libreoffice_calc`

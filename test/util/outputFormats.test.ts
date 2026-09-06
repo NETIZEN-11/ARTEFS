@@ -1,4 +1,4 @@
-﻿import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vitest';
 import { getOutputFileFormat, SUPPORTED_OUTPUT_FILE_FORMATS } from '../../src/util/outputFormats';
 
 describe('outputFormats', () => {

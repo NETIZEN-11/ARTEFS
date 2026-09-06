@@ -1,4 +1,4 @@
-﻿import { createHmac, randomBytes } from 'node:crypto';
+import { createHmac, randomBytes } from 'node:crypto';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';

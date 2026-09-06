@@ -1,4 +1,4 @@
-﻿import type { Dispatcher } from 'undici';
+import type { Dispatcher } from 'undici';
 
 // undici's parseHeaders lowercases header names, but scan case-insensitively in
 // case a differently-cased record arrives from another interceptor.

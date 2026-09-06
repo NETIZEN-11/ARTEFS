@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 24
 description: Red team LLM applications using MITRE ATLAS adversarial ML tactics to protect AI systems from reconnaissance, exfiltration, and impact attacks
 ---
@@ -13,7 +13,7 @@ ATLAS organizes adversarial techniques into tactics that represent the adversary
 
 ATLAS currently organizes adversarial ML techniques into these tactics. artef's `mitre:atlas` preset accepts all current tactic aliases; tactics with no direct artef plugin stay in the preset as explicit coverage gaps.
 
-| ATLAS tactic                                                          | artef alias                    | Coverage                       |
+| ATLAS tactic                                                          | artef alias                        | Coverage                       |
 | --------------------------------------------------------------------- | ---------------------------------- | ------------------------------ |
 | Reconnaissance                                                        | `mitre:atlas:reconnaissance`       | Mapped checks                  |
 | Resource Development                                                  | `mitre:atlas:resource-development` | Mapped checks                  |

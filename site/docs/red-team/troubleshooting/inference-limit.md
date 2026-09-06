@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Configuring Inference
 description: Red team LLM inference security by monitoring usage limits and configuring remote generation.
 ---

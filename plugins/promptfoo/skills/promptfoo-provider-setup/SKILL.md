@@ -1,4 +1,4 @@
-﻿---
+---
 name: artef-provider-setup
 description: >
   Configure artef providers or redteam targets for hosted models, live HTTP

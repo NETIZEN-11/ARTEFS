@@ -1,4 +1,4 @@
-﻿import { spawn } from 'child_process';
+import { spawn } from 'child_process';
 import crypto from 'crypto';
 import { mkdtempSync, rmSync, unlinkSync } from 'fs';
 import fs from 'fs/promises';

@@ -1,4 +1,4 @@
-﻿# provider-amazon-sagemaker (Amazon SageMaker AI Provider)
+# provider-amazon-sagemaker (Amazon SageMaker AI Provider)
 
 This example demonstrates how to evaluate models deployed on Amazon SageMaker AI endpoints using artef.
 

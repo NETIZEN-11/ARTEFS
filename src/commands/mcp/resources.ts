@@ -1,4 +1,4 @@
-﻿import { loadDefaultConfig } from '../../util/config/default';
+import { loadDefaultConfig } from '../../util/config/default';
 import { initializeToolRegistry, toolRegistry } from './lib/toolRegistry';
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 

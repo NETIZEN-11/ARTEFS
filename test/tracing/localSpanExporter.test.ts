@@ -1,4 +1,4 @@
-﻿import { ExportResultCode } from '@opentelemetry/core';
+import { ExportResultCode } from '@opentelemetry/core';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { LocalSpanExporter } from '../../src/tracing/localSpanExporter';
 import type { ReadableSpan } from '@opentelemetry/sdk-trace-base';

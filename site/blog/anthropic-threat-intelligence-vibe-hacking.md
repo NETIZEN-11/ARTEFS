@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'When AI becomes the attacker: The rise of AI-orchestrated cyberattacks'
 description: "Google's November 2025 discovery of PROMPTFLUX and PROMPTSTEAL confirms Anthropic's August threat intelligence findings on AI-orchestrated attacks. Learn about vibe hacking, attack categories, and practical security measures."
 image: /img/blog/anthropic-threat-intelligence/header_redpanda_reading_report_artef.jpg

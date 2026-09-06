@@ -1,4 +1,4 @@
-﻿import { isDeepStrictEqual } from 'node:util';
+import { isDeepStrictEqual } from 'node:util';
 
 import { getEnvBool } from '../envars';
 import { isGradingResult } from '../types/index';

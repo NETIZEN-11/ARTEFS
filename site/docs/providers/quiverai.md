@@ -1,4 +1,4 @@
-﻿---
+---
 title: QuiverAI Provider
 sidebar_label: QuiverAI
 description: Generate and vectorize SVG vector graphics with QuiverAI's Arrow models in artef.

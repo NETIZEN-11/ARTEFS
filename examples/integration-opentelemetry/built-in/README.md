@@ -1,4 +1,4 @@
-﻿# integration-opentelemetry/built-in (OpenTelemetry Built-in Tracing)
+# integration-opentelemetry/built-in (OpenTelemetry Built-in Tracing)
 
 You can run this example with:
 
@@ -38,10 +38,10 @@ Navigate to the Traces tab to see detailed span information.
 
 Tracing is enabled by default. Configure via environment variables:
 
-| Variable                      | Default     | Description                            |
-| ----------------------------- | ----------- | -------------------------------------- |
-| `artef_DISABLE_TRACING`   | `false`     | Set to `true` to disable tracing       |
-| `OTEL_EXPORTER_OTLP_ENDPOINT` | -           | Export traces to external OTLP backend |
+| Variable                      | Default | Description                            |
+| ----------------------------- | ------- | -------------------------------------- |
+| `artef_DISABLE_TRACING`       | `false` | Set to `true` to disable tracing       |
+| `OTEL_EXPORTER_OTLP_ENDPOINT` | -       | Export traces to external OTLP backend |
 | `OTEL_SERVICE_NAME`           | `artef` | Service name in traces                 |
 
 ## Viewing Traces Externally

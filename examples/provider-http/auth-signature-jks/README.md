@@ -1,4 +1,4 @@
-﻿# provider-http/auth-signature-jks (HTTP provider with JKS certificate signature authentication)
+# provider-http/auth-signature-jks (HTTP provider with JKS certificate signature authentication)
 
 You can run this example with:
 

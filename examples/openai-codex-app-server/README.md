@@ -1,4 +1,4 @@
-﻿# openai-codex-app-server (OpenAI Codex App Server Examples)
+# openai-codex-app-server (OpenAI Codex App Server Examples)
 
 These examples evaluate Codex through the experimental `codex app-server` protocol.
 

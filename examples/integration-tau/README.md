@@ -1,4 +1,4 @@
-﻿# integration-tau (Tau Simulated User Example)
+# integration-tau (Tau Simulated User Example)
 
 You can run this example with:
 

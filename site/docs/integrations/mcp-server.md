@@ -1,4 +1,4 @@
-﻿---
+---
 title: artef MCP Server
 description: Deploy artef as Model Context Protocol server enabling external AI agents to access evaluation and red teaming capabilities
 sidebar_label: MCP Server

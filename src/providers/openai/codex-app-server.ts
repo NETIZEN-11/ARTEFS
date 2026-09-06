@@ -1,4 +1,4 @@
-﻿import { type ChildProcessWithoutNullStreams, spawn } from 'child_process';
+import { type ChildProcessWithoutNullStreams, spawn } from 'child_process';
 import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';

@@ -1,4 +1,4 @@
-﻿import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { MCPProvider } from '../../src/providers/mcp';
 import { maybeWrapMcpProviderForRedteam } from '../../src/redteam/mcpTargetProvider';
 import {

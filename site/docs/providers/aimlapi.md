@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: AI/ML API
 description: "Access 200+ open-source AI models via AIML API's unified interface with consistent pricing and simplified integration"
 ---

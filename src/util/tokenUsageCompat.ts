@@ -1,4 +1,4 @@
-﻿import { getTraceStore } from '../tracing/store';
+import { getTraceStore } from '../tracing/store';
 import { TokenUsageTracker } from './tokenUsage';
 import { accumulateTokenUsage, createEmptyTokenUsage } from './tokenUsageUtils';
 

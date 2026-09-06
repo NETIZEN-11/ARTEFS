@@ -1,4 +1,4 @@
-﻿---
+---
 description: 'Compare artef and Garak for LLM security testing. Learn how dynamic attack generation differs from curated exploits, and when to use each tool.'
 image: /img/blog/garak/artef-vs-garak.jpg
 date: 2025-06-26
@@ -16,7 +16,7 @@ Two open‑source tools have emerged as popular choices for LLM red teaming, eac
 
 ## Quick Comparison
 
-| Feature                | artef                                       | Garak                                      |
+| Feature                | artef                                           | Garak                                      |
 | ---------------------- | ----------------------------------------------- | ------------------------------------------ |
 | **Approach**           | Dynamic, application‑specific attack generation | Curated library of research‑backed attacks |
 | **Best For**           | Custom applications, RAG systems, agents        | Vulnerability scanning                     |

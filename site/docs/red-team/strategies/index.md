@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_label: Overview
 title: Red Team Strategies
 description: Comprehensive catalog of red team attack strategies for systematically identifying and exploiting LLM application vulnerabilities
