@@ -63,14 +63,14 @@ function shouldReloadPinnedEval(
   scopedEvalId: string | undefined,
   deletedEvalIds: string[] | undefined,
 ): boolean {
-  return fetchId && deletedEvalIds === undefined && scopedEvalId === fetchId;
+  return Boolean(fetchId && deletedEvalIds === undefined && scopedEvalId === fetchId);
 }
 
 function shouldNavigateToRoot(
   fetchId: string | null,
   deletedEvalIds: string[] | undefined,
   _displayedEvalId: string | null | undefined,
-  newRecentEvals: { evalId: string }[] | null,
+  newRecentEvals: { evalId: string }[] | null | undefined,
 ): boolean {
   if (!newRecentEvals || newRecentEvals.length === 0) {
     return true;
@@ -252,7 +252,7 @@ export default function Eval({ fetchId }: EvalOptions) {
     if (shouldReloadPinnedEval(fetchId, scopedEvalId, deletedEvalIds)) {
       const [recents] = await Promise.all([
         fetchRecentFileEvals({ reportFailure: false }),
-        reloadInBackground(fetchId),
+        reloadInBackground(fetchId!),
       ]);
       if (recents && recents.length > 0) {
         setDefaultEvalId(recents[0].evalId);

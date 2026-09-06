@@ -36,11 +36,11 @@ const OPERATOR_LABELS: Record<ResultsFilter['operator'], string> = {
   exists: 'exists',
   is_defined: 'is defined',
   eq: '=',
-  neq: '?',
+  neq: '!=',
   gt: '>',
-  gte: '=',
+  gte: '>=',
   lt: '<',
-  lte: '=',
+  lte: '<=',
 };
 
 function solelyHasEqualsOperator(type: ResultsFilter['type']): boolean {
@@ -81,9 +81,15 @@ function DebouncedInput({
   );
 }
 
-function buildTypeOptions(
-  filtersOptions: typeof filters.options,
-): { value: string; label: string }[] {
+interface FilterOptionsType {
+  metric: string[];
+  plugin?: string[];
+  strategy?: string[];
+  severity?: string[];
+  policy?: string[];
+}
+
+function buildTypeOptions(filtersOptions: FilterOptionsType): { value: string; label: string }[] {
   const opts: { value: string; label: string }[] = [];
   if (filtersOptions.metric.length > 0) {
     opts.push({ value: 'metric', label: TYPE_LABELS.metric });
@@ -123,10 +129,7 @@ function buildOperatorOptions(
       { value: 'not_equals', label: OPERATOR_LABELS.not_equals },
       { value: 'contains', label: OPERATOR_LABELS.contains },
       { value: 'not_contains', label: OPERATOR_LABELS.not_contains },
-      { value: 'starts_with', label: OPERATOR_LABELS.starts_with },
-      { value: 'ends_with', label: OPERATOR_LABELS.ends_with },
       { value: 'exists', label: OPERATOR_LABELS.exists },
-      { value: 'not_exists', label: OPERATOR_LABELS.not_exists },
     ];
   }
   if (filterType === 'plugin' || filterType === 'strategy') {

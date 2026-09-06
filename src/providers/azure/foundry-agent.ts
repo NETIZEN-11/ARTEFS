@@ -1,4 +1,4 @@
-﻿import { createHmac } from 'crypto';
+import { createHmac } from 'crypto';
 
 import { getCache, isCacheEnabled } from '../../cache';
 import logger from '../../logger';
@@ -59,7 +59,10 @@ type FoundryResponseCreateParams = Parameters<
 type CachedFoundryAgentResponse = ProviderResponse & {
   __artefFoundryAgent?: Pick<FoundryAgent, 'id' | 'name'>;
 };
-type FoundryResponse = OpenAIResponse;
+type FoundryResponse = Extract<
+  Awaited<ReturnType<ReturnType<AzureAIProjectClient['getOpenAIClient']>['responses']['create']>>,
+  { id: string }
+>;
 type ResponseFunctionCallItem = ResponseFunctionToolCall;
 type EffectiveFoundryConfig = AzureAssistantOptions & Record<string, any>;
 type FunctionToolCallbacks = AzureAssistantOptions['functionToolCallbacks'];
@@ -502,7 +505,11 @@ export class AzureFoundryAgentProvider extends AzureGenericProvider {
     response: FoundryResponse,
     effectiveConfig: EffectiveFoundryConfig,
   ): Promise<ProviderResponse> {
-    const result = await this.processor.processResponseOutput(response, effectiveConfig, false);
+    const result = await this.processor.processResponseOutput(
+      response as unknown as OpenAIResponse,
+      effectiveConfig,
+      false,
+    );
     const cachedInputTokens = response.usage?.input_tokens_details?.cached_tokens;
     if (result.tokenUsage && cachedInputTokens !== undefined) {
       result.tokenUsage.cached = cachedInputTokens;
