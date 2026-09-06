@@ -349,9 +349,7 @@ describe('Resume E2E Tests', () => {
       },
     );
 
-    it.skipIf(process.platform === 'win32')(
-      'second SIGINT force-exits the process',
-      async () => {
+    it.skipIf(process.platform === 'win32')('second SIGINT force-exits the process', async () => {
       const configPath = path.join(CONFIGS_DIR, 'resume-many-tests.yaml');
 
       const cli = spawnCli(['eval', '-c', configPath, '--no-cache', '--delay', '500']);
