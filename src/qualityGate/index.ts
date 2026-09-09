@@ -479,8 +479,10 @@ export class QualityGateEngine {
   }
 }
 
-export function createQualityGateEngineFromConfig(config: UnifiedConfig): QualityGateEngine {
-  const qualityGateConfig = config.qualityGate as QualityGateConfig | undefined;
+export function createQualityGateEngineFromConfig(
+  config: UnifiedConfig | undefined,
+): QualityGateEngine {
+  const qualityGateConfig = config?.qualityGate as QualityGateConfig | undefined;
   const thresholds = qualityGateConfig?.thresholds ?? {};
 
   return new QualityGateEngine(thresholds);
@@ -488,7 +490,7 @@ export function createQualityGateEngineFromConfig(config: UnifiedConfig): Qualit
 
 export async function evaluateQualityGates(
   evalRecord: Eval,
-  config: UnifiedConfig,
+  config: UnifiedConfig | undefined,
 ): Promise<QualityGateEvaluationResult> {
   const engine = createQualityGateEngineFromConfig(config);
   return engine.evaluate(evalRecord);

@@ -36,6 +36,10 @@ vi.mock('../../../src/models/eval', () => ({
   getEvalSummaries: vi.fn(),
 }));
 
+vi.mock('../../../src/releaseReadiness', () => ({
+  createReleaseReadinessCalculator: vi.fn(),
+}));
+
 vi.mock('../../../src/redteam/remoteGeneration', () => ({
   getRemoteHealthUrl: vi.fn(),
 }));
@@ -75,6 +79,7 @@ vi.mock('../../../src/util/database', () => ({
 import { cloudConfig } from '../../../src/globalConfig/cloud';
 import Eval, { getEvalSummaries } from '../../../src/models/eval';
 import { getRemoteHealthUrl } from '../../../src/redteam/remoteGeneration';
+import { createReleaseReadinessCalculator } from '../../../src/releaseReadiness';
 import { createShareableUrl, determineShareDomain } from '../../../src/share';
 import telemetry from '../../../src/telemetry';
 import { synthesizeFromTestSuite } from '../../../src/testCase/synthesis';
@@ -90,6 +95,7 @@ import {
 const mockedCloudConfig = vi.mocked(cloudConfig);
 const mockedEval = vi.mocked(Eval);
 const mockedGetEvalSummaries = vi.mocked(getEvalSummaries);
+const mockedCreateReleaseReadinessCalculator = vi.mocked(createReleaseReadinessCalculator);
 const mockedGetRemoteHealthUrl = vi.mocked(getRemoteHealthUrl);
 const mockedCreateShareableUrl = vi.mocked(createShareableUrl);
 const mockedDetermineShareDomain = vi.mocked(determineShareDomain);
@@ -466,6 +472,39 @@ describe('inline server API DTO validation', () => {
     expect(response.body).toHaveProperty('status', 'OK');
     expect(typeof response.body.version).toBe('string');
     expect(response.body.version.length).toBeGreaterThan(0);
+  });
+
+  it('returns release-readiness data from the domain calculator', async () => {
+    const readiness = {
+      status: 'ready',
+      qualityGateResult: {
+        overall: 'passed',
+        checks: [],
+        summary: { total: 0, passed: 0, failed: 0, warnings: 0 },
+      },
+      criticalFindingsCount: 0,
+      humanReviewPending: false,
+      timestamp: new Date().toISOString(),
+    } as const;
+    const calculate = vi.fn().mockResolvedValue(readiness);
+    mockedEval.findById.mockResolvedValue({ id: 'eval-1' } as never);
+    mockedCreateReleaseReadinessCalculator.mockReturnValue({ calculate } as never);
+
+    const response = await api.get('/api/eval/eval-1/release-readiness');
+
+    expect(response.status).toBe(200);
+    expect(response.body.data).toEqual(readiness);
+    expect(calculate).toHaveBeenCalledWith({ id: 'eval-1' });
+  });
+
+  it('returns 404 without calculating readiness for a missing eval', async () => {
+    mockedEval.findById.mockResolvedValue(null as never);
+
+    const response = await api.get('/api/eval/missing-eval/release-readiness');
+
+    expect(response.status).toBe(404);
+    expect(response.body).toEqual({ error: 'Eval not found' });
+    expect(mockedCreateReleaseReadinessCalculator).not.toHaveBeenCalled();
   });
 
   it('coerces includeProviders only for "true"/true; everything else resolves to false', async () => {

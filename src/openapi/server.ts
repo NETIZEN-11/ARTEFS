@@ -84,7 +84,7 @@ const OpenApiEvalTableJsonResponseSchema = z.union([
   EvalSchemas.Table.JsonExportResponse,
 ]);
 
-export const SERVER_OPENAPI_ROUTE_COUNT = 67;
+export const SERVER_OPENAPI_ROUTE_COUNT = 68;
 
 type OpenApiSchema = NonNullable<ZodMediaTypeObject['schema']>;
 type OpenApiResponse = ResponseConfig & { description: string };
@@ -535,6 +535,23 @@ export function createServerOpenApiRegistry() {
       404: notFound('Evaluation not found'),
       500: serverError(),
       413: errorResponse('Evaluation table is too large'),
+    },
+  });
+
+  register({
+    method: 'get',
+    path: '/api/eval/{id}/release-readiness',
+    operationId: 'getEvalReleaseReadiness',
+    tags: ['Eval'],
+    summary: 'Calculate release readiness for an evaluation',
+    request: {
+      params: params('ReleaseReadinessParams', EvalSchemas.ReleaseReadiness.Params),
+    },
+    responses: {
+      200: jsonResponse('ReleaseReadinessResponse', EvalSchemas.ReleaseReadiness.Response),
+      400: validationError(),
+      404: notFound('Evaluation not found'),
+      500: serverError(),
     },
   });
 

@@ -1,5 +1,10 @@
 import { z } from 'zod';
-import { EvalResultsFilterMode, EvaluateOptionsSchema, TestSuiteConfigSchema } from '../index';
+import {
+  EvalResultsFilterMode,
+  EvaluateOptionsSchema,
+  ReleaseReadinessStatusSchema,
+  TestSuiteConfigSchema,
+} from '../index';
 import { EmailSchema, MessageResponseSchema } from './common';
 
 /** Eval ID parameter schema. */
@@ -134,6 +139,24 @@ export const EvalTableResponseSchema = z
 
 export const EvalTableJsonExportResponseSchema = z.lazy(() => EvaluateTableSchema);
 export type EvalTableResponse = z.infer<typeof EvalTableResponseSchema>;
+
+// GET /api/eval/:id/release-readiness
+export const ReleaseReadinessParamsSchema = EvalIdParamSchema;
+
+export const ReleaseReadinessResponseSchema = z.object({
+  data: z
+    .object({
+      status: ReleaseReadinessStatusSchema,
+      qualityGateResult: z.record(z.string(), z.unknown()),
+      baselineComparison: z.record(z.string(), z.unknown()).optional(),
+      criticalFindingsCount: z.number().int().nonnegative(),
+      humanReviewPending: z.boolean(),
+      timestamp: z.string(),
+    })
+    .passthrough(),
+});
+
+export type ReleaseReadinessResponse = z.infer<typeof ReleaseReadinessResponseSchema>;
 
 // POST /api/eval/job
 
@@ -371,6 +394,10 @@ export const EvalSchemas = {
     Query: EvalTableQuerySchema,
     Response: EvalTableResponseSchema,
     JsonExportResponse: EvalTableJsonExportResponseSchema,
+  },
+  ReleaseReadiness: {
+    Params: ReleaseReadinessParamsSchema,
+    Response: ReleaseReadinessResponseSchema,
   },
   AddResults: {
     Params: AddResultsParamsSchema,

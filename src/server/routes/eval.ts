@@ -6,6 +6,7 @@ import logger from '../../logger';
 import Eval, { EvalQueries } from '../../models/eval';
 import EvalResult from '../../models/evalResult';
 import { evaluateWithSource } from '../../node';
+import { createReleaseReadinessCalculator } from '../../releaseReadiness';
 import { EvalSchemas } from '../../types/api/eval';
 import { deleteEval, deleteEvals, updateResult, writeResultsToDatabase } from '../../util/database';
 import {
@@ -40,6 +41,27 @@ import type {
 } from '../../types/index';
 
 export const evalRouter = Router();
+
+evalRouter.get('/:id/release-readiness', async (req: Request, res: Response): Promise<void> => {
+  const paramsResult = EvalSchemas.ReleaseReadiness.Params.safeParse(req.params);
+  if (!paramsResult.success) {
+    replyValidationError(res, paramsResult.error);
+    return;
+  }
+
+  try {
+    const evalRecord = await Eval.findById(paramsResult.data.id);
+    if (!evalRecord) {
+      res.status(404).json({ error: 'Eval not found' });
+      return;
+    }
+
+    const readiness = await createReleaseReadinessCalculator().calculate(evalRecord);
+    res.json(EvalSchemas.ReleaseReadiness.Response.parse({ data: readiness }));
+  } catch (error) {
+    sendError(res, 500, 'Failed to calculate release readiness', error);
+  }
+});
 
 function sendEvalTableResponse(res: Response, evalId: string, responsePayload: EvalTableDTO): void {
   let parsedPayload: EvalTableDTO;

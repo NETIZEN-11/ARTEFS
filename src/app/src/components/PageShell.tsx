@@ -6,7 +6,7 @@ import { PostHogPageViewTracker } from './PostHogPageViewTracker';
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-secondary/20 to-background">
+    <div className="dashboard-shell min-h-screen bg-gradient-to-br from-background via-secondary/20 to-background">
       {children}
     </div>
   );
@@ -18,7 +18,7 @@ export default function PageShell() {
       <Layout>
         <Navigation />
         <UpdateBanner />
-        <main>
+        <main className="dashboard-main">
           <Outlet />
         </main>
         <PostHogPageViewTracker />

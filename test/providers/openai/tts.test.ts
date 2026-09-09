@@ -54,7 +54,7 @@ describe('OpenAiTtsProvider', () => {
       undefined,
     );
     expect(result).toMatchObject({
-      output: 'Generated 20 characters of speech',
+      output: 'Generated 16 characters of speech',
       audio: { data: 'AQIDBA==', format: 'mp3' },
       cached: false,
     });

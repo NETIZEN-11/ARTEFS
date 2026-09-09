@@ -352,6 +352,111 @@ body {
   overscroll-behavior: none;
 }
 
+/* Quiet dashboard motion: one entrance reveal, responsive controls, and a
+   reduced-motion fallback so the interface stays calm and usable. */
+.dashboard-main {
+  animation: dashboard-page-enter 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.dashboard-nav-link,
+.dashboard-nav-trigger {
+  position: relative;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.dashboard-nav-link:hover,
+.dashboard-nav-trigger:hover {
+  transform: translateY(-1px);
+}
+
+.dashboard-nav-link::after,
+.dashboard-nav-trigger::after {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.25rem;
+  left: 0.75rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  content: '';
+  opacity: 0;
+  transform: scaleX(0.25);
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.dashboard-nav-link:hover::after,
+.dashboard-nav-link:focus-visible::after,
+.dashboard-nav-trigger[data-state='open']::after,
+.dashboard-nav-trigger:hover::after {
+  opacity: 0.7;
+  transform: scaleX(1);
+}
+
+.dashboard-nav-trigger--new {
+  color: hsl(174 52% 34%);
+}
+
+.dashboard-nav-trigger--view-results {
+  color: hsl(35 62% 38%);
+}
+
+.dashboard-nav-trigger--browse {
+  color: hsl(152 42% 35%);
+}
+
+.dashboard-results-surface > * {
+  animation: dashboard-section-enter 460ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.dashboard-results-surface > *:nth-child(2) {
+  animation-delay: 70ms;
+}
+
+.dashboard-results-surface > *:nth-child(3) {
+  animation-delay: 140ms;
+}
+
+@keyframes dashboard-page-enter {
+  from {
+    opacity: 0.72;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes dashboard-section-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dashboard-main,
+  .dashboard-results-surface > *,
+  .dashboard-nav-link,
+  .dashboard-nav-trigger {
+    animation: none;
+    transition: none;
+  }
+
+  .dashboard-nav-link:hover,
+  .dashboard-nav-trigger:hover {
+    transform: none;
+  }
+}
+
 /* Only apply link color to plain anchors without Tailwind text classes */
 a:where(:not([class*='text-']):not(.no-underline)) {
   color: var(--link-color);

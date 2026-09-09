@@ -585,12 +585,12 @@ function multipartPart(document, name, schema) {
     return {
       kind: 'file',
       name,
-      filename: `promptfoo-${varName(name)}.pdf`,
+      filename: `artef-${varName(name)}.pdf`,
       source: {
         type: 'generated',
         generator: 'basic-document',
         format: 'pdf',
-        text: `Promptfoo generated document for ${value}.`,
+        text: `artef generated document for ${value}.`,
       },
     };
   }
@@ -1023,7 +1023,7 @@ const config = {
   redteam,
 };
 
-const output = `# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json\n${yaml.dump(config, { lineWidth: 100, noRefs: true })}`;
+const output = `# yaml-language-server: $schema=https://artef.dev/config-schema.json\n${yaml.dump(config, { lineWidth: 100, noRefs: true })}`;
 if (args.output) {
   fs.writeFileSync(args.output, output);
 } else {

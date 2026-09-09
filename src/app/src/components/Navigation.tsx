@@ -50,7 +50,7 @@ function NavLink({ href, label }: NavLinkProps) {
     <Link
       to={href}
       className={cn(
-        'inline-flex h-11 items-center justify-center rounded-md px-3 text-sm font-medium transition-colors sm:h-8',
+        'dashboard-nav-link inline-flex h-11 items-center justify-center rounded-md px-3 text-sm font-medium transition-colors sm:h-8',
         'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
         isActive
           ? 'bg-primary/10 text-foreground hover:bg-primary/15 focus-visible:bg-primary/15'
@@ -85,7 +85,8 @@ function NavDropdown({ label, compactLabel, items, isActiveCheck, className }: N
       <NavigationMenuTrigger
         aria-label={label}
         className={cn(
-          'h-11 bg-transparent px-3 text-sm font-medium sm:h-8',
+          'dashboard-nav-trigger h-11 bg-transparent px-3 text-sm font-medium sm:h-8',
+          `dashboard-nav-trigger--${label.toLowerCase().replace(/ /g, '-')}`,
           'data-[state=open]:bg-accent',
           'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
           isActive

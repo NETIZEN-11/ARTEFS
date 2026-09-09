@@ -1,0 +1,21 @@
+{
+  "name": "artef",
+  "owner": {
+    "name": "artef"
+  },
+  "metadata": {
+    "description": "Agent skills for connecting, evaluating, and red teaming LLM applications with artef"
+  },
+  "plugins": [
+    {
+      "name": "artef",
+      "source": "./plugins/artef",
+      "description": "Connect providers and targets, write eval suites, and set up or run red team scans with artef",
+      "homepage": "https://www.artef.dev/docs/integrations/agent-skill",
+      "repository": "https://github.com/artef/artef",
+      "license": "MIT",
+      "keywords": ["eval", "redteam", "provider", "testing", "llm", "artef"],
+      "category": "productivity"
+    }
+  ]
+}

@@ -126,18 +126,25 @@ export default function ModelAuditResultLatestPage() {
   // Empty state - no scans yet
   if (!latestScan) {
     return (
-      <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 py-16">
+      <div className="min-h-screen bg-zinc-50 bg-[radial-gradient(circle_at_top_right,rgba(236,72,153,0.14),transparent_34%),radial-gradient(circle_at_bottom_left,rgba(168,85,247,0.1),transparent_38%)] py-16 dark:bg-zinc-950">
         <div className="container max-w-2xl mx-auto px-4">
-          <Card className="text-center bg-white dark:bg-zinc-900">
-            <CardContent className="py-12">
-              <SecurityIcon className="size-16 text-primary mx-auto mb-6" />
-              <h1 className="text-2xl font-bold mb-2">No Model Scans Yet</h1>
-              <p className="text-muted-foreground mb-4">
-                Run your first security scan to detect vulnerabilities in ML models.
+          <Card className="group relative overflow-hidden border-pink-200/70 bg-white/90 text-center shadow-xl shadow-pink-950/10 backdrop-blur-sm dark:border-pink-400/20 dark:bg-zinc-900/90 dark:shadow-pink-950/20">
+            <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-pink-400 via-fuchsia-500 to-violet-500" />
+            <CardContent className="relative py-14 sm:py-16">
+              <div className="mx-auto mb-7 flex size-20 items-center justify-center rounded-3xl border border-pink-200 bg-pink-50 text-pink-500 shadow-lg shadow-pink-500/15 transition-transform duration-300 group-hover:-translate-y-1 dark:border-pink-400/20 dark:bg-pink-950/30 dark:text-pink-300">
+                <SecurityIcon className="size-10" />
+              </div>
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-pink-500 dark:text-pink-300">
+                Model security workspace
               </p>
-              <p className="text-sm text-muted-foreground mb-8">
-                Model Audit scans models for security issues like pickle exploits, unsafe
-                deserialization, and malicious code injection.{' '}
+              <h1 className="text-2xl font-bold mb-2">No Model Scans Yet</h1>
+              <p className="mx-auto mb-4 max-w-md text-base leading-7 text-muted-foreground">
+                Start with a model scan to turn hidden artifact risks into clear, actionable
+                findings.
+              </p>
+              <p className="mx-auto mb-8 max-w-lg text-sm leading-6 text-muted-foreground">
+                ARTEF checks for pickle exploits, unsafe deserialization, and malicious code
+                injection before a model reaches production.{' '}
                 <a
                   href="https://github.com/NETIZEN-11/ARTF/blob/main/README.md"
                   target="_blank"
@@ -147,7 +154,11 @@ export default function ModelAuditResultLatestPage() {
                   Learn more
                 </a>
               </p>
-              <Button size="lg" asChild>
+              <Button
+                className="bg-pink-500 text-white shadow-lg shadow-pink-500/25 hover:bg-pink-600 dark:bg-pink-500 dark:hover:bg-pink-400"
+                size="lg"
+                asChild
+              >
                 <RouterLink to={MODEL_AUDIT_ROUTES.SETUP} onClick={startNewScan}>
                   <AddIcon className="size-4 mr-2" />
                   Run Your First Scan

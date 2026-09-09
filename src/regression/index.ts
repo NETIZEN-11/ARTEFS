@@ -265,6 +265,13 @@ export class RegressionDetector {
     let targetBaselineId: string | null = baselineEvalId ?? null;
 
     if (!targetBaselineId) {
+      if (!currentEval.config) {
+        return {
+          hasRegression: false,
+          comparison: null,
+          details: {},
+        };
+      }
       targetBaselineId = await this.findBaseline({
         model: (currentEval.config as any)?.model as string | undefined,
         provider: (currentEval.config as any)?.provider as string | undefined,

@@ -130,7 +130,7 @@ def get_callable(module, method_name):
             "",
             f"Available functions in your module: {', '.join(available_funcs) if available_funcs else '(none)'}",
             "",
-            "Expected function names for promptfoo:",
+            "Expected function names for artef:",
             "  • call_api(prompt, options, context) - for chat/completions",
             "  • call_embedding_api(prompt, options) - for embeddings",
             "  • call_classification_api(prompt, options) - for classification",
@@ -164,7 +164,7 @@ def get_callable(module, method_name):
                     break
 
         error_lines.append(
-            "\nSee https://www.promptfoo.dev/docs/providers/python/ for details."
+            "\nSee https://www.artef.dev/docs/providers/python/ for details."
         )
 
         raise AttributeError("\n".join(error_lines)) from e

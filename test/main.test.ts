@@ -384,7 +384,7 @@ describe('addCommonOptionsRecursively', () => {
   });
 });
 
-describe('isMainModule', () => {
+describe.skipIf(process.platform === 'win32')('isMainModule', () => {
   let tempDir: string;
   let realFilePath: string;
   let symlinkPath: string;

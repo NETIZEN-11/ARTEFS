@@ -159,22 +159,22 @@ export default function ModelAuditSetupPage() {
   );
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
+    <div className="min-h-screen bg-zinc-50 bg-[radial-gradient(circle_at_top_right,rgba(236,72,153,0.12),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(168,85,247,0.08),transparent_36%)] dark:bg-zinc-950">
       {/* Page Header */}
-      <div className="border-b border-border bg-white/80 dark:bg-zinc-900/80 backdrop-blur-sm">
+      <div className="border-b border-pink-200/60 bg-white/80 backdrop-blur-sm dark:border-pink-400/10 dark:bg-zinc-900/80">
         <div className="container max-w-6xl mx-auto px-4 py-10">
           <div
             data-testid="model-audit-header"
             className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between"
           >
             <div className="flex min-w-0 items-start gap-4">
-              <div className="shrink-0 size-14 rounded-2xl bg-primary/10 flex items-center justify-center">
-                <SettingsIcon className="size-7 text-primary" />
+              <div className="shrink-0 size-14 rounded-2xl border border-pink-200 bg-pink-50 flex items-center justify-center shadow-sm shadow-pink-500/10 dark:border-pink-400/20 dark:bg-pink-950/30">
+                <SettingsIcon className="size-7 text-pink-500 dark:text-pink-300" />
               </div>
               <div className="min-w-0 flex-1">
                 <h1 className="text-2xl font-bold tracking-tight">Model Audit Setup</h1>
                 <p className="text-sm text-muted-foreground mt-1.5">
-                  Configure and run a security scan on ML models.{' '}
+                  Inspect model artifacts for supply-chain risks before they reach production.{' '}
                   <a
                     href="https://github.com/NETIZEN-11/ARTF/blob/main/README.md"
                     target="_blank"
@@ -237,7 +237,7 @@ export default function ModelAuditSetupPage() {
 
       {/* Main Content */}
       <div className="container max-w-6xl mx-auto px-4 py-8">
-        <Card className="bg-white dark:bg-zinc-900">
+        <Card className="border-pink-200/60 bg-white/90 shadow-xl shadow-pink-950/5 backdrop-blur-sm dark:border-pink-400/15 dark:bg-zinc-900/90">
           <CardContent className="pt-6">
             {error && (
               <Alert variant="destructive" className="mb-6">

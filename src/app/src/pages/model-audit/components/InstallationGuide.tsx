@@ -49,7 +49,7 @@ export default function InstallationGuide({
   };
 
   return (
-    <Card className="border-amber-400/50 bg-amber-50/50 dark:bg-amber-950/20">
+    <Card className="border-pink-300/60 bg-pink-50/70 shadow-sm shadow-pink-950/5 dark:border-pink-400/20 dark:bg-pink-950/20">
       <CardContent className="p-6">
         <Alert variant="warning" className="mb-6 flex-col items-start sm:flex-row sm:items-center">
           <WarningIcon className="size-4" />
@@ -62,7 +62,10 @@ export default function InstallationGuide({
           </AlertContent>
         </Alert>
 
-        <h3 className="text-lg font-semibold mb-4">Quick Installation</h3>
+        <h3 className="mb-1 text-lg font-semibold">Quick Installation</h3>
+        <p className="mb-4 text-sm text-muted-foreground">
+          Install the scanner once, then return here to run your first audit.
+        </p>
 
         <div
           className="flex items-center justify-between p-4 rounded-lg bg-muted font-mono text-sm mb-4"

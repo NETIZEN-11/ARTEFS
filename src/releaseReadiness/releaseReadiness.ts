@@ -9,6 +9,7 @@ import type {
   QualityGateEvaluationResult,
   ReleaseReadinessInfo,
   ReleaseReadinessStatus,
+  UnifiedConfig,
 } from '../types/index';
 
 export interface ReleaseReadinessOptions {
@@ -39,20 +40,48 @@ export class ReleaseReadinessCalculator {
   }
 
   async calculate(evalRecord: Eval): Promise<ReleaseReadinessInfo> {
-    const qualityGateResult = await evaluateQualityGates(evalRecord, evalRecord.config as any);
+    const qualityGateResult = await evaluateQualityGates(
+      evalRecord,
+      evalRecord.config as UnifiedConfig | undefined,
+    );
 
     const regressionDetector = createRegressionDetector(this.options.regressionConfig);
-    const regressionResult = await regressionDetector.detectRegressions(evalRecord);
+    let regressionResult: Awaited<ReturnType<typeof regressionDetector.detectRegressions>> = {
+      hasRegression: false,
+      comparison: null,
+      details: {},
+    };
+    let regressionUnavailable = false;
+    try {
+      regressionResult = await regressionDetector.detectRegressions(evalRecord);
+    } catch {
+      regressionUnavailable = true;
+    }
 
     const humanReviewQueue = createHumanReviewQueue(this.options.humanReviewConfig);
-    const pendingReviews = await humanReviewQueue.getPendingReviews(evalRecord.id);
+    let pendingReviews: HumanReviewItem[] = [];
+    let humanReviewUnavailable = false;
+    try {
+      pendingReviews = await humanReviewQueue.getPendingReviews(evalRecord.id);
+    } catch {
+      humanReviewUnavailable = true;
+    }
 
-    const criticalFindingsCount = await this.countCriticalFindings(evalRecord);
+    let criticalFindingsCount = 0;
+    let findingsUnavailable = false;
+    try {
+      criticalFindingsCount = await this.countCriticalFindings(evalRecord);
+    } catch {
+      findingsUnavailable = true;
+    }
 
     const status = this.determineStatus(
       qualityGateResult,
       regressionResult,
       pendingReviews,
+      humanReviewUnavailable,
+      regressionUnavailable,
+      findingsUnavailable,
       criticalFindingsCount,
     );
 
@@ -61,12 +90,15 @@ export class ReleaseReadinessCalculator {
       qualityGateResult,
       baselineComparison: regressionResult.comparison || undefined,
       criticalFindingsCount,
-      humanReviewPending: pendingReviews.length > 0,
+      humanReviewPending: pendingReviews.length > 0 || humanReviewUnavailable,
       timestamp: new Date().toISOString(),
     };
   }
 
   private async countCriticalFindings(evalRecord: Eval): Promise<number> {
+    if (typeof evalRecord.getResults !== 'function') {
+      return 0;
+    }
     const results = await evalRecord.getResults();
     let count = 0;
 
@@ -84,13 +116,22 @@ export class ReleaseReadinessCalculator {
     qualityGateResult: QualityGateEvaluationResult,
     regressionResult: { hasRegression: boolean; comparison: BaselineComparisonResult | null },
     pendingReviews: HumanReviewItem[],
+    humanReviewUnavailable: boolean,
+    regressionUnavailable: boolean,
+    findingsUnavailable: boolean,
     criticalFindingsCount: number,
   ): ReleaseReadinessStatus {
     if (qualityGateResult.overall === 'failed' || criticalFindingsCount > 0) {
       return 'blocked';
     }
 
-    if (pendingReviews.length > 0 || regressionResult.hasRegression) {
+    if (
+      pendingReviews.length > 0 ||
+      humanReviewUnavailable ||
+      regressionUnavailable ||
+      findingsUnavailable ||
+      regressionResult.hasRegression
+    ) {
       return 'needs-review';
     }
 

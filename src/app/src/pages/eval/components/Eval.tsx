@@ -586,11 +586,13 @@ export default function Eval({ fetchId }: EvalOptions) {
   return (
     <ShiftKeyProvider>
       {isRedteam && evalId && <EnterpriseBanner evalId={evalId} className="mb-4 mt-4 mx-4" />}
-      <ResultsView
-        defaultEvalId={defaultEvalId}
-        recentEvals={recentEvals}
-        onRecentEvalSelected={handleRecentEvalSelection}
-      />
+      <div className="dashboard-results-surface">
+        <ResultsView
+          defaultEvalId={defaultEvalId}
+          recentEvals={recentEvals}
+          onRecentEvalSelected={handleRecentEvalSelection}
+        />
+      </div>
     </ShiftKeyProvider>
   );
 }

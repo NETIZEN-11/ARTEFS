@@ -25,10 +25,7 @@ import Eval from '../models/eval';
 import { loadApiProvider } from '../providers/index';
 import { evaluateQualityGates } from '../qualityGate';
 import { neverGenerateRemote } from '../redteam/remoteGeneration';
-import {
-  createReleaseReadinessCalculator,
-  ReleaseReadinessCalculator,
-} from '../releaseReadiness';
+import { createReleaseReadinessCalculator, ReleaseReadinessCalculator } from '../releaseReadiness';
 import { createShareableUrl, isSharingEnabled } from '../share';
 import { generateTable } from '../table';
 import telemetry from '../telemetry';
@@ -1336,7 +1333,7 @@ export async function doEval(
     }
 
     // Calculate release readiness
-    if (!cmdObj.watch && cmdObj.write !== false) {
+    if (!cmdObj.watch && cmdObj.write !== false && ret) {
       const releaseReadinessCalculator = createReleaseReadinessCalculator();
       const releaseReadiness = await releaseReadinessCalculator.calculate(ret);
 

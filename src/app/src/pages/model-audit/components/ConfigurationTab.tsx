@@ -94,7 +94,12 @@ export default function ConfigurationTab({
       )}
 
       <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <h2 className="text-2xl font-semibold tracking-tight">Select Models</h2>
+        <div>
+          <p className="mb-1 text-xs font-semibold uppercase tracking-[0.2em] text-pink-500 dark:text-pink-300">
+            Audit target
+          </p>
+          <h2 className="text-2xl font-semibold tracking-tight">Select Models</h2>
+        </div>
         <Button variant="outline" onClick={onShowOptions}>
           <SettingsIcon className="size-4 mr-2" />
           Advanced Options
@@ -115,8 +120,10 @@ export default function ConfigurationTab({
               <Button
                 size="lg"
                 className={cn(
-                  'w-full py-6 text-lg font-semibold',
-                  isNotInstalled && 'bg-destructive hover:bg-destructive/90',
+                  'w-full rounded-xl py-6 text-lg font-semibold shadow-lg shadow-pink-500/20 transition-transform hover:-translate-y-0.5',
+                  isNotInstalled
+                    ? 'bg-destructive shadow-none hover:bg-destructive/90'
+                    : 'bg-pink-500 hover:bg-pink-600 dark:bg-pink-500 dark:hover:bg-pink-400',
                 )}
                 onClick={onScan}
                 disabled={scanButtonDisabled}

@@ -135,6 +135,25 @@ const allowedSkippedTests: AllowedSkip[] = [
     reason: 'Python extension-hook smoke coverage requires an available Python interpreter',
   },
   {
+    file: 'smoke/resume.test.ts',
+    kind: 'skipIf',
+    linePattern: /^it\.skipIf\(process\.platform === 'win32'\)\($/,
+    reason: 'SIGINT resume coverage depends on Unix signal semantics',
+  },
+  {
+    file: 'smoke/resume.test.ts',
+    kind: 'skipIf',
+    linePattern:
+      /^it\.skipIf\(process\.platform === 'win32'\)\('second SIGINT force-exits the process'/,
+    reason: 'SIGINT resume coverage depends on Unix signal semantics',
+  },
+  {
+    file: 'main.test.ts',
+    kind: 'skipIf',
+    linePattern: /^describe\.skipIf\(process\.platform === 'win32'\)\('isMainModule'/,
+    reason: 'Symlink resolution coverage requires Windows symlink privileges',
+  },
+  {
     file: 'redteam/plugins/codingAgent.test.ts',
     kind: 'skipIf',
     linePattern: /^it\.skipIf\(process\.platform === 'win32'\)\($/,
