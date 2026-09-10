@@ -135,8 +135,28 @@ export function resolvePackageEntryPoint(packageName: string, baseDir: string): 
     try: true,
   });
 
-  // Normalize the path to use platform-specific separators (forward slashes on Unix, backslashes on Windows)
-  return resolved ? path.normalize(resolved) : null;
+  if (resolved) {
+    // Normalize the path to use platform-specific separators.
+    return path.normalize(resolved);
+  }
+
+  // Some packages expose an ESM entry point through the legacy `module` field,
+  // which is not part of Node's exports resolution algorithm.
+  try {
+    const packageDirectory = path.join(baseDir, 'node_modules', packageName);
+    const packageJson = JSON.parse(
+      fs.readFileSync(path.join(packageDirectory, 'package.json'), 'utf8'),
+    ) as { module?: string; main?: string };
+    const entryPoint = packageJson.module ?? packageJson.main;
+    if (!entryPoint) {
+      return null;
+    }
+
+    const entryPath = path.resolve(packageDirectory, entryPoint);
+    return fs.existsSync(entryPath) ? entryPath : null;
+  } catch {
+    return null;
+  }
 }
 
 // Global variable defined by tsup at build time

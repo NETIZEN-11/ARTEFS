@@ -60,7 +60,7 @@ describe('config management', () => {
   beforeEach(() => {
     vi.resetAllMocks();
     vi.mocked(os.homedir).mockReturnValue('/home/user');
-    restoreEnv = mockProcessEnv({ artef_CONFIG_DIR: undefined });
+    restoreEnv = mockProcessEnv({ ARTEF_CONFIG_DIR: undefined });
     refreshConfigDirectoryPathFromEnv();
     setConfigDirectoryPath(undefined);
   });

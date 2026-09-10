@@ -6,7 +6,7 @@ import * as path from 'path';
 // value once after loading an argv-provided --env-file, before opening global state. Later eval
 // config/env loading must not move process-global persistence mid-run.
 let configDirectoryPath: string | undefined;
-let environmentConfigDirectoryPath = process.env.artef_CONFIG_DIR;
+let environmentConfigDirectoryPath = process.env.artef_CONFIG_DIR ?? process.env.ARTEF_CONFIG_DIR;
 
 // Check if we're in a Node.js environment
 const isNodeEnvironment =
@@ -30,7 +30,7 @@ export function getConfigDirectoryPath(createIfNotExists: boolean = false): stri
 }
 
 export function refreshConfigDirectoryPathFromEnv(): void {
-  environmentConfigDirectoryPath = process.env.artef_CONFIG_DIR;
+  environmentConfigDirectoryPath = process.env.artef_CONFIG_DIR ?? process.env.ARTEF_CONFIG_DIR;
 }
 
 export function setConfigDirectoryPath(newPath: string | undefined): void {

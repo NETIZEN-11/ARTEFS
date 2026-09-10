@@ -9,6 +9,11 @@ scratch
 *.log
 .DS_Store
 node_modules
+!test/__fixtures__/mock-packages/node_modules/
+!test/__fixtures__/mock-packages/node_modules/@test/
+!test/__fixtures__/mock-packages/node_modules/@test/*/
+!test/__fixtures__/mock-packages/node_modules/@test/*/*/
+!test/__fixtures__/mock-packages/node_modules/@test/*/*/*/
 dist
 .aider*
 .vite

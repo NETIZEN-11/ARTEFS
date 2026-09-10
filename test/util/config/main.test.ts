@@ -68,7 +68,7 @@ describe('config', () => {
     vi.resetAllMocks();
     vi.mocked(os.homedir).mockReturnValue(mockHomedir);
     mockFs.existsSync.mockReturnValue(false);
-    restoreEnv = mockProcessEnv({ artef_CONFIG_DIR: undefined });
+    restoreEnv = mockProcessEnv({ ARTEF_CONFIG_DIR: undefined });
     refreshConfigDirectoryPathFromEnv();
     setConfigDirectoryPath(undefined);
   });
@@ -85,7 +85,7 @@ describe('config', () => {
     });
 
     it('reads a config directory refreshed after early env-file loading', () => {
-      const restoreConfigDir = mockProcessEnv({ artef_CONFIG_DIR: '/env-file/config' });
+      const restoreConfigDir = mockProcessEnv({ ARTEF_CONFIG_DIR: '/env-file/config' });
       try {
         refreshConfigDirectoryPathFromEnv();
         expect(getConfigDirectoryPath()).toBe('/env-file/config');
@@ -106,7 +106,7 @@ describe('config', () => {
     });
 
     it('does not move after later process environment changes', () => {
-      const restoreConfigDir = mockProcessEnv({ artef_CONFIG_DIR: '/late/config' });
+      const restoreConfigDir = mockProcessEnv({ ARTEF_CONFIG_DIR: '/late/config' });
       try {
         expect(getConfigDirectoryPath()).toBe(defaultConfigPath);
       } finally {
@@ -144,7 +144,7 @@ describe('config', () => {
     it('overrides the environment variable', () => {
       const envPath = '/env/path';
       const newPath = '/new/path';
-      const restoreConfigDir = mockProcessEnv({ artef_CONFIG_DIR: envPath });
+      const restoreConfigDir = mockProcessEnv({ ARTEF_CONFIG_DIR: envPath });
       try {
         setConfigDirectoryPath(newPath);
         expect(getConfigDirectoryPath()).toBe(newPath);
