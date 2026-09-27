@@ -204,7 +204,7 @@ export default function Navigation() {
 
   return (
     <>
-      <header className="sticky top-0 z-(--z-appbar) w-full border-b border-border bg-card shadow-sm">
+      <header className="sticky top-0 z-(--z-appbar) w-full border-b border-border/70 bg-card/85 backdrop-blur-md shadow-xs transition-colors duration-200">
         <div className="flex h-14 min-w-0 items-center justify-between gap-2 px-3 sm:px-4">
           {/* Left section: Logo and Navigation */}
           <div className="flex min-w-0 items-center gap-2 sm:gap-6">

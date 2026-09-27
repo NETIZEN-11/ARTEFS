@@ -7,16 +7,21 @@ export default function Logo() {
   return (
     <Link
       to="/"
-      className="hidden shrink-0 items-center px-0 py-1 no-underline perspective-[2000px] min-[360px]:inline-flex sm:px-2"
+      className="group hidden shrink-0 items-center px-0 py-1 no-underline perspective-[2000px] min-[360px]:inline-flex sm:px-2"
     >
       <img
         src={logoPanda}
         alt="artef Logo"
-        className="logo-icon w-[25px] h-auto transition-all duration-1000 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)]"
+        className="logo-icon w-[26px] h-auto transition-transform duration-300 group-hover:scale-105"
       />
-      <span className="logo-text ml-2 hidden font-['Inter',sans-serif] text-base font-semibold text-foreground tracking-[0.02em] transition-all duration-300 sm:inline">
-        artef
-      </span>
+      <div className="ml-2 hidden sm:flex items-center gap-2">
+        <span className="logo-text font-['Inter',sans-serif] text-base font-bold bg-gradient-to-r from-primary via-indigo-500 to-cyan-500 bg-clip-text text-transparent tracking-tight">
+          ARTEF
+        </span>
+        <span className="text-[10px] uppercase font-semibold px-1.5 py-0.5 rounded bg-primary/10 text-primary border border-primary/20 tracking-wider">
+          Enterprise
+        </span>
+      </div>
     </Link>
   );
 }

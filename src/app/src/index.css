@@ -227,34 +227,34 @@
   /* Layout dimensions */
   --nav-height: 3.5rem; /* Navigation bar height (h-14 = 56px) */
 
-  /* Design tokens - Light mode (Modern Colorful & Eye-Friendly) */
-  --background: 220 30% 97%; /* Soft blue-gray #F5F7FA */
-  --foreground: 220 15% 15%; /* Softer black #1F2937 */
-  --card: 0 0% 100%; /* Pure white cards */
-  --card-foreground: 220 15% 15%;
-  --popover: 0 0% 100%; /* #ffffff */
-  --popover-foreground: 220 15% 15%;
-  --primary: 262 83% 58%; /* Vibrant purple #8B5CF6 */
-  --primary-foreground: 0 0% 100%; /* #ffffff */
-  --secondary: 200 95% 92%; /* Light cyan #E0F7FA */
-  --secondary-foreground: 220 15% 15%;
-  --muted: 220 15% 94%; /* Lighter gray #F3F4F6 */
-  --muted-foreground: 220 10% 45%; /* Muted text #6B7280 */
-  --accent: 340 82% 60%; /* Pink accent #F472B6 */
+  /* Design tokens - Light mode (Modern High-Contrast Enterprise Assurance) */
+  --background: 220 25% 98%; /* Clean titanium #F8FAFC */
+  --foreground: 222 47% 11%; /* Slate #0F172A */
+  --card: 0 0% 100%; /* Pure white */
+  --card-foreground: 222 47% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --primary: 250 84% 56%; /* Electric Indigo #5648F5 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 199 89% 48%; /* Cyber Cyan #0EA5E9 */
+  --secondary-foreground: 222 47% 11%;
+  --muted: 220 20% 95%; /* Clean gray #EDF2F7 */
+  --muted-foreground: 220 15% 46%; /* Slate text #64748B */
+  --accent: 262 83% 58%; /* Radiant Violet #8B5CF6 */
   --accent-foreground: 0 0% 100%;
-  --destructive: 0 84% 60%; /* Bright red #EF4444 */
+  --destructive: 0 84% 60%; /* Red #EF4444 */
   --destructive-foreground: 0 0% 100%;
-  --border: 220 20% 88%; /* Subtle border #E5E7EB */
-  --input: 220 20% 88%;
-  --ring: 262 83% 58%; /* Purple ring */
+  --border: 220 18% 89%; /* Border #E2E8F0 */
+  --input: 220 18% 89%;
+  --ring: 250 84% 56%; /* Electric Indigo ring */
   --radius: 0.75rem;
 
-  /* Severity colors - Eye-friendly colorful */
-  --severity-critical: 0 75% 58%; /* Bright red #F87171 */
-  --severity-high: 15 90% 60%; /* Orange #FB923C */
-  --severity-medium: 45 95% 55%; /* Yellow #FBBF24 */
-  --severity-low: 142 70% 45%; /* Green #34D399 */
-  --severity-informational: 217 85% 60%; /* Blue #60A5FA */
+  /* Severity colors - Modern vivid */
+  --severity-critical: 0 84% 60%; /* Critical Red #EF4444 */
+  --severity-high: 25 95% 53%; /* High Orange #F97316 */
+  --severity-medium: 45 93% 47%; /* Medium Amber #EAB308 */
+  --severity-low: 158 64% 45%; /* Low Emerald #10B981 */
+  --severity-informational: 217 91% 60%; /* Info Blue #3B82F6 */
   font-style: normal;
   font-weight-normal: 400;
   font-weight-bold: 700;
@@ -265,78 +265,82 @@
   -webkit-text-size-adjust: 100%;
 
   /* Light mode colors */
-  --background-color: #f5f5f5;
-  --text-color: #404040;
-  --link-color: #2e6585;
-  --border-color: lightgray;
-  --table-border-color: lightgray;
-  --pass-color: green;
-  --fail-color: #ad0000;
-  --success-background-color: #d1ffd7;
-  --fail-background-color: #ffd1d1;
-  --neutral-background-color: #eee;
-  --variable-background-color: #f7f7f7;
-  --header-background-color: #fffdf7;
-  --insert-highlight-color: #d4fcbc;
-  --delete-highlight-color: #fbb6c2;
-  --prompt-highlight-color: linen;
+  --background-color: #f8fafc;
+  --text-color: #0f172a;
+  --link-color: #5648f5;
+  --border-color: #e2e8f0;
+  --table-border-color: #e2e8f0;
+  --pass-color: #10b981;
+  --fail-color: #ef4444;
+  --success-background-color: #ecfdf5;
+  --fail-background-color: #fef2f2;
+  --neutral-background-color: #f1f5f9;
+  --variable-background-color: #f8fafc;
+  --header-background-color: #f8fafc;
+  --insert-highlight-color: #d1fae5;
+  --delete-highlight-color: #fee2e2;
+  --prompt-highlight-color: #f5f3ff;
   --textarea-background-color: #ffffff;
-  --textarea-color: #404040;
-  --search-highlight-color: #ffff00;
+  --textarea-color: #0f172a;
+  --search-highlight-color: #fef08a;
   --search-text-color: inherit;
-  --cell-highlight-color: #ffffeb;
+  --cell-highlight-color: #eff6ff;
   --cell-highlight-text-color: inherit;
 }
 
 /* Dark mode colors - also target html/root for portaled content */
 :root[data-theme='dark'],
 [data-theme='dark'] {
-  /* Design tokens - Dark mode (Modern Colorful & Eye-Friendly) */
-  --background: 240 20% 8%; /* Deep blue-black #0F1419 */
-  --foreground: 210 40% 96%; /* Soft white #F3F4F6 */
-  --card: 240 18% 12%; /* Elevated card #1A1F2E */
-  --card-foreground: 210 40% 96%;
-  --popover: 240 18% 12%;
-  --popover-foreground: 210 40% 96%;
-  --primary: 262 80% 65%; /* Lighter purple #A78BFA */
-  --primary-foreground: 0 0% 100%;
-  --secondary: 200 30% 18%; /* Dark cyan #1E3A47 */
-  --secondary-foreground: 200 95% 85%; /* Light cyan text */
-  --muted: 240 15% 16%; /* Muted gray #25293A */
-  --muted-foreground: 220 15% 60%; /* Lighter muted #9CA3AF */
-  --accent: 340 75% 55%; /* Darker pink #EC4899 */
+  /* Design tokens - Dark mode (Deep Tech Obsidian & Luminescent Indigo) */
+  --background: 228 35% 7%; /* Deep obsidian #0B0F19 */
+  --foreground: 210 38% 97%; /* Crisp white #F1F5F9 */
+  --card: 228 26% 11%; /* Elevated surface #131927 */
+  --card-foreground: 210 38% 97%;
+  --popover: 228 26% 11%;
+  --popover-foreground: 210 38% 97%;
+  --primary: 250 88% 68%; /* Luminescent Indigo #8577FD */
+  --primary-foreground: 228 35% 7%;
+  --secondary: 188 85% 42%; /* Cyber Cyan #10B4CF */
+  --secondary-foreground: 210 38% 97%;
+  --muted: 228 20% 16%; /* Muted #1D2436 */
+  --muted-foreground: 217 19% 68%; /* Slate text #94A3B8 */
+  --accent: 262 80% 65%; /* Soft violet #A78BFA */
   --accent-foreground: 0 0% 100%;
-  --destructive: 0 72% 55%; /* Softer red #F87171 */
+  --destructive: 0 75% 62%; /* Vivid red #F87171 */
   --destructive-foreground: 0 0% 100%;
-  --border: 240 15% 20%; /* Subtle dark border #2D3748 */
-  --input: 240 15% 20%;
-  --ring: 262 80% 65%; /* Purple ring */
+  --border: 228 20% 18%; /* Subtle cyber border #232C40 */
+  --input: 228 20% 18%;
+  --ring: 250 88% 68%; /* Luminescent ring */
 
-  /* Severity colors - Dark mode eye-friendly */
-  --severity-informational: 217 80% 65%; /* Lighter blue #7DD3FC */
+  /* Severity colors - Dark mode luminescent */
+  --severity-critical: 0 84% 65%;
+  --severity-high: 25 95% 58%;
+  --severity-medium: 45 93% 52%;
+  --severity-low: 158 64% 50%;
+  --severity-informational: 199 89% 60%;
 
-  /* Keep synced with prefers-color-scheme above */
-  --background-color: #1a1a1a;
-  --text-color: #f0f0f0;
-  --link-color: #6fcaff;
-  --border-color: #444444;
-  --table-border-color: #444444;
-  --pass-color: #b1e9b3;
-  --fail-color: #ee726a;
-  --success-background-color: #216d2b;
-  --fail-background-color: #6d2121;
-  --neutral-background-color: #424242;
-  --variable-background-color: #333;
-  --header-background-color: #333;
-  --insert-highlight-color: #4f8a34;
-  --delete-highlight-color: #8a3434;
-  --prompt-highlight-color: #67605a;
-  --textarea-background-color: #2d2d2d;
-  --textarea-color: #fff;
-  --search-highlight-color: #ffff00;
-  --search-text-color: #404040;
-  --cell-highlight-color: #2c4a6b;
-  --cell-highlight-text-color: #e8f4fd;
+  /* Table & UI color variables */
+  --background-color: #0b0f19;
+  --text-color: #f1f5f9;
+  --link-color: #8577fd;
+  --border-color: #232c40;
+  --table-border-color: #232c40;
+  --pass-color: #34d399;
+  --fail-color: #f87171;
+  --success-background-color: #064e3b;
+  --fail-background-color: #7f1d1d;
+  --neutral-background-color: #1e293b;
+  --variable-background-color: #131927;
+  --header-background-color: #131927;
+  --insert-highlight-color: #065f46;
+  --delete-highlight-color: #881337;
+  --prompt-highlight-color: #2e1065;
+  --textarea-background-color: #131927;
+  --textarea-color: #f1f5f9;
+  --search-highlight-color: #854d0e;
+  --search-text-color: #fef08a;
+  --cell-highlight-color: #1e1b4b;
+  --cell-highlight-text-color: #e0e7ff;
 }
 
 html {
