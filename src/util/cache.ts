@@ -19,9 +19,7 @@ export async function warmCache(evalIds: string[]): Promise<number> {
         .from(evalResultsTable)
         .where(eq(evalResultsTable.evalId, evalId));
 
-      // Pre-load results into memory/cache
       for (const result of results) {
-        // Access properties to trigger any lazy loading
         void result.response;
         void result.gradingResult;
       }

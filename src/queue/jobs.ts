@@ -21,17 +21,10 @@ import type {
 } from './index';
 
 async function processEvaluationJob(job: Job<EvaluationJobData>): Promise<EvaluationJobResult> {
-  const { runId, config, options, traceContext } = job.data;
+  const { runId, config, options } = job.data;
   const startTime = Date.now();
 
-  logger.info(`Starting evaluation run ${runId}`);
-
   try {
-    if (traceContext) {
-      // Note: generateTraceContextIfNeeded requires test case context which isn't available in queue jobs
-      // Tracing is handled within the evaluation itself
-    }
-
     const activeTraceparent = getActiveTraceparent();
     if (activeTraceparent) {
       await job.updateProgress({ traceparent: activeTraceparent });
@@ -43,10 +36,6 @@ async function processEvaluationJob(job: Job<EvaluationJobData>): Promise<Evalua
     );
 
     await job.updateProgress(50);
-
-    // Results are persisted by evaluateWithSource when config.writeLatestResults is true
-    // No need to call writeResultsToDatabase separately
-
     await job.updateProgress(80);
 
     await invalidateEvaluationCache(runId);

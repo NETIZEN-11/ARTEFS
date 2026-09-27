@@ -28,7 +28,6 @@ export async function aggregateMetrics(
     `Aggregating metrics from ${new Date(start * 1000).toISOString()} to ${new Date(end * 1000).toISOString()}`,
   );
 
-  // Get runs in date range
   const runs = await db
     .select({
       id: evalsTable.id,
@@ -38,7 +37,6 @@ export async function aggregateMetrics(
     .from(evalsTable)
     .where(sql`${evalsTable.createdAt} >= ${start} AND ${evalsTable.createdAt} <= ${end}`);
 
-  // Group by day
   const dailyMetrics = new Map<string, MetricsSnapshot>();
 
   for (const run of runs) {

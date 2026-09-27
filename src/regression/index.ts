@@ -64,7 +64,6 @@ export class RegressionDetector {
   ): Promise<string | null> {
     const db = await getDb();
 
-    // Query all evals and filter in memory since config is JSON
     const evals = await db.select().from(evalsTable).orderBy(desc(evalsTable.createdAt)).limit(100);
 
     for (const evalRecord of evals) {
@@ -113,7 +112,6 @@ export class RegressionDetector {
       return null;
     }
 
-    // Import Eval model dynamically
     const { default: EvalModel } = await import('../models/eval');
     const evalRecord = await EvalModel.findById(evalId);
     return evalRecord ?? null;
