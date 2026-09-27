@@ -650,7 +650,7 @@ async function main(): Promise<void> {
     }
     assertInstalledWebApp(installedPackageDir);
 
-    for (const binName of ['artef', 'pf']) {
+    for (const binName of ['artef', 'atf']) {
       assert.equal(
         runInstalledBinVersion(consumerDir, configDir, binName).trim(),
         packResult.version,

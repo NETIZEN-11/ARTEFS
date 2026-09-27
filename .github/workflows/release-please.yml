@@ -157,7 +157,6 @@ jobs:
           NODE_AUTH_TOKEN: ''
           PROMPTFOO_POSTHOG_KEY: ${{ secrets.PROMPTFOO_POSTHOG_KEY }}
 
-
   publish-code-scan-action:
     if: >-
       ${{
