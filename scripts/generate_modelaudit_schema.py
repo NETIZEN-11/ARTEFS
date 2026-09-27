@@ -45,7 +45,7 @@ def build_schema(result_model: Any) -> dict[str, Any]:
     schema.pop("$id", None)
     return {
         "$schema": SCHEMA_DRAFT_URI,
-        "$id": f"https://www.promptfoo.dev/schemas/modelaudit/{SCHEMA_FILENAME}",
+        "$id": f"https://www.artef.dev/schemas/modelaudit/{SCHEMA_FILENAME}",
         **schema,
     }
 

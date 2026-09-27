@@ -3,6 +3,17 @@
 require 'json'
 
 ##
+# Invokes a class method by name ("ClassName.method_name" format).
+# @param [String] qualified_name - Name in "ClassName.method_name" format.
+# @param [Array<Object>] args - Arguments to pass to the invoked method.
+# @return [Object] The value returned by the invoked method.
+def invoke_class_method(qualified_name, *args)
+  class_name, method_name_part = qualified_name.split('.', 2)
+  klass = Object.const_get(class_name)
+  klass.public_send(method_name_part, *args)
+end
+
+##
 # Loads the Ruby script at the given path and invokes the named method from that script.
 # If `method_name` contains a dot (`ClassName.method`), the class constant is resolved and the
 # class method is invoked; otherwise a top-level method is invoked.
@@ -13,23 +24,13 @@ require 'json'
 def call_method(script_path, method_name, *args)
   script_dir = File.dirname(File.absolute_path(script_path))
   $LOAD_PATH.unshift(script_dir) unless $LOAD_PATH.include?(script_dir)
-
   puts "Loading script #{script_path} ..."
-
-  # Load the script
   load script_path
-
-  # Call the method
   if method_name.include?('.')
-    class_name, method_name_part = method_name.split('.', 2)
-    klass = Object.const_get(class_name)
-    result = klass.public_send(method_name_part, *args)
+    invoke_class_method(method_name, *args)
   else
-    # Call the method using send on self, which has access to top-level methods
-    result = send(method_name, *args)
+    send(method_name, *args)
   end
-
-  result
 end
 
 if __FILE__ == $PROGRAM_NAME
