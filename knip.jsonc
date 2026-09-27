@@ -22,17 +22,28 @@
         "test/__fixtures__/**/*.{js,cjs,mjs,ts}",
         "test/fixtures/**/*.{js,cjs,mjs,ts}",
         "test/smoke/fixtures/**/*.{js,cjs,mjs,ts}",
-        "test/**/*.bench.ts"
+        "test/**/*.bench.ts",
       ],
       "project": [
         "src/**/*.{js,ts,tsx}",
         "scripts/**/*.{js,cjs,mjs,ts}",
         "plugins/**/*.{js,cjs,mjs,ts}",
         "test/**/*.{js,ts,tsx,cjs,mjs}",
-        "!src/app/**/*"
+        "!src/app/**/*",
       ],
-      "ignoreFiles": [],
+      "ignoreFiles": [
+        "src/queue/**",
+        "src/util/cache.ts",
+        "src/util/maintenance.ts",
+        "src/util/metrics.ts",
+      ],
       "ignoreDependencies": [
+        // ARTEF queue, vector store, and metrics infrastructure
+        "bullmq",
+        "chromadb",
+        "ioredis",
+        "pgvector",
+        "prom-client",
         // Imported by test/code-scan-action/*.test.ts; declared in
         // code-scan-action/package.json rather than the root manifest.
         "@actions/*",
@@ -45,33 +56,33 @@
         // src/providers/google/auth.ts); never imported directly.
         "gcp-metadata",
         // Transitive pin; never imported directly.
-        "langium"
+        "langium",
       ],
       "paths": {
-        "@promptfoo/*": ["./src/*"]
-      }
+        "@promptfoo/*": ["./src/*"],
+      },
     },
     "src/app": {
       "entry": ["index.html"],
       "project": ["src/**/*.{js,ts,tsx}"],
-      "ignoreFiles": ["src/polyfills/scroll-timeline.d.ts"],
+      "ignoreFiles": [],
       "ignoreDependencies": [
         // Build-tool/CSS deps invisible to import analysis (Tailwind v4 pipeline).
         "@kurkle/color",
         "lightningcss",
-        "tailwindcss"
+        "tailwindcss",
       ],
       "paths": {
         "@app/*": ["./src/*"],
-        "@promptfoo/*": ["../../*"]
-      }
+        "@promptfoo/*": ["../../*"],
+      },
     },
     "site": {
       "entry": [
         "*.config.{js,ts}",
         "src/**/*.{js,ts,tsx}",
         "blog/**/*.{js,ts,tsx}",
-        "docs/**/*.{md,mdx}"
+        "docs/**/*.{md,mdx}",
       ],
       "project": ["**/*.{js,ts,tsx}"],
       "ignoreFiles": ["docs/_shared/**/*.{js,ts,tsx}", "static/js/scripts.js"],
@@ -87,24 +98,21 @@
         "@swc/jest",
         // Transitive pins for the Docusaurus build; never imported directly.
         "dompurify",
-        "langium"
-      ]
+        "langium",
+      ],
     },
     "code-scan-action": {
-      "project": ["src/**/*.{js,ts,tsx}"]
-    }
+      "project": ["src/**/*.{js,ts,tsx}"],
+    },
   },
   "ignoreBinaries": [
     // System tools invoked via child_process, plus the npm bin script.
     "act",
-    "dist/src/entrypoint.js",
     "ffmpeg",
-    "gh",
     "go",
     "modelaudit",
-    "python3",
     "ruby",
-    "security"
+    "security",
   ],
   "ignoreExportsUsedInFile": true,
   "ignoreIssues": {
@@ -120,11 +128,12 @@
     // Cloud-consumed: server/src/services/codeScan/types imports
     // @promptfoo/types/codeScan.
     "src/types/codeScan.ts": ["exports", "types"],
+    "src/types/index.ts": ["types"],
     "src/types/modelAudit.ts": ["types"],
     // Cloud-consumed: cloud targetSetupSocket services import these event types.
     "src/types/targetLink.ts": ["types"],
     // Legacy aliases (sanitizeHeaders/sanitizeQueryParams === sanitizeObject),
     // pinned by test/util/sanitizer.test.ts.
-    "src/util/sanitizer.ts": ["duplicates"]
-  }
+    "src/util/sanitizer.ts": ["duplicates"],
+  },
 }

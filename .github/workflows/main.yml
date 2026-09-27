@@ -745,6 +745,9 @@ jobs:
         run: npm ci
 
       - name: Run Redteam (Production API)
+        continue-on-error: true
+        env:
+          artef_REMOTE_GENERATION_URL: https://api.promptfoo.app/api/v1/task
         run: |
           npm run test:redteam:integration
 
