@@ -136,9 +136,8 @@ describe('CustomIntentPluginSection', () => {
 
       render(<CustomIntentPluginSection />);
 
-      // Find delete buttons by the Trash2 icon (lucide-trash-2 class)
-      const deleteIcons = document.querySelectorAll('svg.lucide-trash-2');
-      const deleteButtons = Array.from(deleteIcons).map((icon) => icon.closest('button')!);
+      // Find delete buttons by aria-label
+      const deleteButtons = screen.getAllByRole('button', { name: /Remove intent/i });
       expect(deleteButtons).toHaveLength(3);
       expect(screen.getByRole('button', { name: 'Remove intent 1' })).toBeInTheDocument();
 

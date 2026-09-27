@@ -732,9 +732,9 @@ function getCommentTextToDisplay(comment?: string): string | undefined {
 }
 
 // Module-scoped to avoid Intl.NumberFormat construction on every per-cell render.
-const WHOLE_NUMBER_FORMATTER = new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 });
+const WHOLE_NUMBER_FORMATTER = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
 // Sub-millisecond precision for raw latency values (some providers report fractional ms).
-const LATENCY_PRECISION_FORMATTER = new Intl.NumberFormat(undefined, {
+const LATENCY_PRECISION_FORMATTER = new Intl.NumberFormat('en-US', {
   maximumFractionDigits: 3,
 });
 

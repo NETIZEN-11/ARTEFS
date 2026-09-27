@@ -46,7 +46,7 @@ describe('RecommendedOptions', () => {
     const user = userEvent.setup();
     render(<RecommendedOptions {...defaultProps} isMultiTurnEnabled={true} />);
 
-    const yesRadioButton = screen.getByLabelText(/Yes  artef should only send/);
+    const yesRadioButton = screen.getByRole('radio', { name: /Yes/i });
 
     await user.click(yesRadioButton);
 
@@ -65,7 +65,7 @@ describe('RecommendedOptions', () => {
       />,
     );
 
-    const noRadioButton = screen.getByLabelText(/No  artef should resend/);
+    const noRadioButton = screen.getByRole('radio', { name: /No/i });
 
     await user.click(noRadioButton);
 

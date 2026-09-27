@@ -88,7 +88,7 @@ async function parseCsvFile(text: string): Promise<TestCase[]> {
   return rows.map((row) => testCaseFromCsvRow(row) as TestCase);
 }
 
-async function parseYamlFile(text: string): Promise<TestCase[]> {
+async function parseYamlFile(text: string, onWarning?: (msg: string) => void): Promise<TestCase[]> {
   const { loadYaml } = await import('@artef/util/yamlLoad');
   const parsedYaml = loadYaml(text);
 
@@ -101,7 +101,7 @@ async function parseYamlFile(text: string): Promise<TestCase[]> {
       );
     }
     if (validTestCases.length < parsedYaml.length) {
-      throw new Error(
+      onWarning?.(
         `Warning: ${parsedYaml.length - validTestCases.length} invalid test cases were skipped.`,
       );
     }
@@ -127,12 +127,16 @@ function getFileType(fileName: string): 'csv' | 'yaml' | 'unsupported' {
   return 'unsupported';
 }
 
-async function parseFileContent(text: string, fileType: 'csv' | 'yaml'): Promise<TestCase[]> {
+async function parseFileContent(
+  text: string,
+  fileType: 'csv' | 'yaml',
+  onWarning?: (msg: string) => void,
+): Promise<TestCase[]> {
   if (fileType === 'csv') {
     return parseCsvFile(text);
   }
   if (fileType === 'yaml') {
-    return parseYamlFile(text);
+    return parseYamlFile(text, onWarning);
   }
   throw new Error('Unsupported file type. Please upload a CSV (.csv) or YAML (.yaml, .yml) file.');
 }
@@ -215,7 +219,9 @@ const TestCasesSection = ({ varsList, onOpenYamlEditor }: TestCasesSectionProps)
       }
 
       try {
-        const newTestCases = await parseFileContent(text, fileType);
+        const newTestCases = await parseFileContent(text, fileType, (msg) => {
+          showToast(msg, 'warning');
+        });
 
         if (newTestCases.length === 0) {
           showToast('No test cases found in the file.', 'warning');

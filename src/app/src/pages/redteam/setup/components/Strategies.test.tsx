@@ -87,7 +87,7 @@ describe('Strategies', () => {
 
       const links = screen.getAllByRole('link');
       const docLink = links.find((link) =>
-        link.getAttribute('href')?.includes('artef.dev/docs/red-team/strategies'),
+        link.getAttribute('href')?.includes('github.com/NETIZEN-11/ARTF'),
       );
 
       expect(docLink).toBeInTheDocument();

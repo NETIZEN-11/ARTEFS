@@ -29,17 +29,14 @@ describe('InfoModal', () => {
 
   it('displays the correct description', () => {
     renderWithProviders(<InfoModal open={true} onClose={mockOnClose} />);
-    expect(screen.getByText(/artef is a MIT licensed open-source tool/)).toBeInTheDocument();
+    expect(
+      screen.getByText(/is a MIT licensed open-source tool for evaluating and red-teaming LLMs/),
+    ).toBeInTheDocument();
   });
 
   it('renders all links correctly', () => {
     renderWithProviders(<InfoModal open={true} onClose={mockOnClose} />);
-    const links = [
-      'Documentation',
-      'GitHub Repository',
-      'File an Issue',
-      'Join Our Discord Community',
-    ];
+    const links = ['Documentation', 'GitHub Repository', 'Contact Developer', 'GitHub Profile'];
     links.forEach((link) => {
       expect(screen.getByText(link)).toBeInTheDocument();
     });
@@ -73,9 +70,9 @@ describe('InfoModal', () => {
     renderWithProviders(<InfoModal open={true} onClose={mockOnClose} />);
     const links = [
       { text: 'Documentation', href: 'https://github.com/NETIZEN-11/ARTF/blob/main/README.md' },
-      { text: 'GitHub Repository', href: 'https://github.com/artef/artef' },
-      { text: 'File an Issue', href: 'https://github.com/artef/artef/issues' },
-      { text: 'Join Our Discord Community', href: 'https://discord.gg/artef' },
+      { text: 'GitHub Repository', href: 'https://github.com/NETIZEN-11/ARTF' },
+      { text: 'Contact Developer', href: 'mailto:your-email@example.com' },
+      { text: 'GitHub Profile', href: 'https://github.com/NETIZEN-11' },
     ];
 
     links.forEach(({ text, href }) => {

@@ -72,13 +72,12 @@ function shouldNavigateToRoot(
   _displayedEvalId: string | null | undefined,
   newRecentEvals: { evalId: string }[] | null | undefined,
 ): boolean {
-  if (!newRecentEvals || newRecentEvals.length === 0) {
-    return true;
+  if (!newRecentEvals) {
+    return Boolean(
+      fetchId && deletedEvalIds !== undefined && displayedEvalWasDeleted(fetchId, deletedEvalIds),
+    );
   }
-  if (fetchId && deletedEvalIds !== undefined && displayedEvalWasDeleted(fetchId, deletedEvalIds)) {
-    return true;
-  }
-  return false;
+  return newRecentEvals.length === 0;
 }
 
 function shouldReloadForLatestEval(

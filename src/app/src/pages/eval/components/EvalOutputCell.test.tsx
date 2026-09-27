@@ -1253,7 +1253,7 @@ describe('EvalOutputCell', () => {
 
   it('falls back to raw ms when latency is non-finite or negative', () => {
     const cases: { latencyMs: number; expected: string }[] = [
-      { latencyMs: Number.POSITIVE_INFINITY, expected: '8 ms' },
+      { latencyMs: Number.POSITIVE_INFINITY, expected: '∞ ms' },
       { latencyMs: -1234, expected: '-1,234 ms' },
     ];
     for (const { latencyMs, expected } of cases) {

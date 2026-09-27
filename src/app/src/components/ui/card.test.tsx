@@ -12,7 +12,7 @@ describe('Card', () => {
   it('applies correct styles', () => {
     const { container } = render(<Card>Content</Card>);
     const card = container.firstChild;
-    expect(card).toHaveClass('rounded-lg', 'border', 'shadow-sm');
+    expect(card).toHaveClass('rounded-lg', 'border', 'shadow-lg');
   });
 
   it('applies custom className', () => {

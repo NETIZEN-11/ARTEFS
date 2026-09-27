@@ -29,7 +29,7 @@ export default function EstimatedProbesDisplay({
       className={cn('mb-6 flex items-center gap-2 rounded-lg border border-border p-4', className)}
     >
       <span className="text-muted-foreground">Estimated Probes:</span>
-      <span className="font-bold text-primary">{estimatedProbes.toLocaleString()}</span>
+      <span className="font-bold text-primary">{estimatedProbes.toLocaleString('en-US')}</span>
       <Tooltip>
         <TooltipTrigger asChild>
           <Info className="size-4 cursor-help text-muted-foreground" />
